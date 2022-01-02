@@ -1,0 +1,17 @@
+/*
+  Localizable.strings
+  UIKit-Storyboard
+
+  Created by Kamil Gomółka on 03/12/2021.
+  
+*/
+
+"mainMenuTitle" = "Menu";
+"mainMenuItemScrollView" = "Scroll view";
+
+"scrollViewMenuItemVertical" = "Vertical";
+"scrollViewMenuItemHorizontal" = "Horizontal";
+"scrollViewMenuItemTwoDirections" = "Two directions";
+"scrollViewMenuItemWithNoContentLayoutGuides" = "With no content layout guides";
+"scrollViewMenuItemWithKeyboard" = "With keyboard";
+
