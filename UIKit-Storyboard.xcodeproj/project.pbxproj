@@ -33,7 +33,6 @@
 		807FE377275E1D1D00E60A6D /* ScrollViewHorizontal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 807FE36E275E1D1D00E60A6D /* ScrollViewHorizontal.storyboard */; };
 		807FE378275E1D1D00E60A6D /* ScrollViewWithKeyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 807FE370275E1D1D00E60A6D /* ScrollViewWithKeyboard.storyboard */; };
 		807FE379275E1D1D00E60A6D /* ScrollViewWithKeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807FE371275E1D1D00E60A6D /* ScrollViewWithKeyboardViewController.swift */; };
-		807FE37C275E259000E60A6D /* ScrollViewMockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807FE37B275E259000E60A6D /* ScrollViewMockData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,7 +64,6 @@
 		807FE36E275E1D1D00E60A6D /* ScrollViewHorizontal.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ScrollViewHorizontal.storyboard; sourceTree = "<group>"; };
 		807FE370275E1D1D00E60A6D /* ScrollViewWithKeyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ScrollViewWithKeyboard.storyboard; sourceTree = "<group>"; };
 		807FE371275E1D1D00E60A6D /* ScrollViewWithKeyboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewWithKeyboardViewController.swift; sourceTree = "<group>"; };
-		807FE37B275E259000E60A6D /* ScrollViewMockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewMockData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,7 +182,6 @@
 		807FE359275E0A8D00E60A6D /* ScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				807FE37A275E258300E60A6D /* Data */,
 				807FE35A275E0A9400E60A6D /* Menu */,
 				807FE361275E0B6300E60A6D /* Vertical */,
 				807FE36C275E1D1D00E60A6D /* Horizontal */,
@@ -248,14 +245,6 @@
 				807FE370275E1D1D00E60A6D /* ScrollViewWithKeyboard.storyboard */,
 			);
 			path = WithKeyboard;
-			sourceTree = "<group>";
-		};
-		807FE37A275E258300E60A6D /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				807FE37B275E259000E60A6D /* ScrollViewMockData.swift */,
-			);
-			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,7 +327,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				807FE375275E1D1D00E60A6D /* ScrollViewWithNoContentLayoutGuidesViewController.swift in Sources */,
-				807FE37C275E259000E60A6D /* ScrollViewMockData.swift in Sources */,
 				8050A3D0275A329D00CE2BD4 /* AppDelegate.swift in Sources */,
 				807FE373275E1D1D00E60A6D /* ScrollViewTwoDirectionsViewController.swift in Sources */,
 				8050A3E9275A385C00CE2BD4 /* MainMenuViewController.swift in Sources */,

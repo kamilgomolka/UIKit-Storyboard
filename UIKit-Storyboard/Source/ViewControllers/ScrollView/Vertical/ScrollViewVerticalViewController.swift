@@ -16,6 +16,13 @@ class ScrollViewVerticalViewController: UIViewController {
         
         title = LocalizedString(.scrollViewMenuItemVertical)
         
-        label.text = ScrollViewMockData.longVerticalText
+        generateLabelText()
+    }
+    
+    func generateLabelText() {
+        let ints = 1...100
+        let strings = ints.map { "\($0)" }
+        let multiline = strings.joined(separator: "\n")
+        label.text = multiline
     }
 }
