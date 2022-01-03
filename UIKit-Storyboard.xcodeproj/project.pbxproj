@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		267400B727836A5C00BCA6D3 /* AllElements.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267400B627836A5C00BCA6D3 /* AllElements.storyboard */; };
+		267400B927836A7200BCA6D3 /* AllElementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267400B827836A7200BCA6D3 /* AllElementsViewController.swift */; };
 		8050A3D0275A329D00CE2BD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8050A3CF275A329D00CE2BD4 /* AppDelegate.swift */; };
 		8050A3D2275A329D00CE2BD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8050A3D1275A329D00CE2BD4 /* SceneDelegate.swift */; };
 		8050A3D9275A329E00CE2BD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8050A3D8275A329E00CE2BD4 /* Assets.xcassets */; };
@@ -36,6 +38,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		267400B627836A5C00BCA6D3 /* AllElements.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AllElements.storyboard; sourceTree = "<group>"; };
+		267400B827836A7200BCA6D3 /* AllElementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllElementsViewController.swift; sourceTree = "<group>"; };
 		8050A3CC275A329D00CE2BD4 /* UIKit-Storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit-Storyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8050A3CF275A329D00CE2BD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8050A3D1275A329D00CE2BD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		267400B527836A4A00BCA6D3 /* AllElements */ = {
+			isa = PBXGroup;
+			children = (
+				267400B627836A5C00BCA6D3 /* AllElements.storyboard */,
+				267400B827836A7200BCA6D3 /* AllElementsViewController.swift */,
+			);
+			path = AllElements;
+			sourceTree = "<group>";
+		};
 		8050A3C3275A329D00CE2BD4 = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +137,7 @@
 		8050A3E5275A36D100CE2BD4 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				267400B527836A4A00BCA6D3 /* AllElements */,
 				807FE359275E0A8D00E60A6D /* ScrollView */,
 				807FE352275E02C000E60A6D /* BaseMenu */,
 				8050A3E4275A36C100CE2BD4 /* Main Menu */,
@@ -316,6 +330,7 @@
 				807FE378275E1D1D00E60A6D /* ScrollViewWithKeyboard.storyboard in Resources */,
 				807FE377275E1D1D00E60A6D /* ScrollViewHorizontal.storyboard in Resources */,
 				8050A3D9275A329E00CE2BD4 /* Assets.xcassets in Resources */,
+				267400B727836A5C00BCA6D3 /* AllElements.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +356,7 @@
 				8050A3FC275A5AFB00CE2BD4 /* MainMenuItem.swift in Sources */,
 				807FE356275E062100E60A6D /* MenuItemProtocol.swift in Sources */,
 				807FE360275E0ADF00E60A6D /* ScrollViewMenuItem.swift in Sources */,
+				267400B927836A7200BCA6D3 /* AllElementsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
