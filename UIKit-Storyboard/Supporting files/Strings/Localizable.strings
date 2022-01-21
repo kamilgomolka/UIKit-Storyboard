@@ -7,8 +7,13 @@
 */
 
 "mainMenuTitle" = "Menu";
-"mainMenuItemScrollView" = "Scroll view";
 "mainMenuItemAllElements" = "All controls";
+"mainMenuItemLabel" = "Labels";
+"mainMenuItemScrollView" = "Scrollview";
+
+"labelMenuItemTextStyles" = "System text styles";
+"labelMenuItemFontSizes" = "Font sizes in pt";
+"labelMenuItemFontWeights" = "Font weights";
 
 "scrollViewMenuItemVertical" = "Vertical";
 "scrollViewMenuItemHorizontal" = "Horizontal";

@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		267400B727836A5C00BCA6D3 /* AllElements.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267400B627836A5C00BCA6D3 /* AllElements.storyboard */; };
 		267400B927836A7200BCA6D3 /* AllElementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267400B827836A7200BCA6D3 /* AllElementsViewController.swift */; };
+		2696CFED279B0183004521F0 /* TextStyles.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2696CFEC279B0183004521F0 /* TextStyles.storyboard */; };
+		2696CFF0279B030F004521F0 /* LabelMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696CFEF279B030F004521F0 /* LabelMenuViewController.swift */; };
+		2696CFF2279B0316004521F0 /* LabelMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696CFF1279B0316004521F0 /* LabelMenuItem.swift */; };
+		2696CFF4279B0324004521F0 /* LabelMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2696CFF3279B0324004521F0 /* LabelMenu.storyboard */; };
+		2696CFF9279B0598004521F0 /* FontSizes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2696CFF8279B0598004521F0 /* FontSizes.storyboard */; };
+		2696CFFB279B05A1004521F0 /* FontWeights.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2696CFFA279B05A1004521F0 /* FontWeights.storyboard */; };
+		2696CFFD279B0D02004521F0 /* FontWeightsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696CFFC279B0D02004521F0 /* FontWeightsViewController.swift */; };
+		2696CFFF279B0D0D004521F0 /* FontSizesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696CFFE279B0D0D004521F0 /* FontSizesViewController.swift */; };
+		2696D001279B0D15004521F0 /* TextStylesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696D000279B0D15004521F0 /* TextStylesViewController.swift */; };
 		8050A3D0275A329D00CE2BD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8050A3CF275A329D00CE2BD4 /* AppDelegate.swift */; };
 		8050A3D2275A329D00CE2BD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8050A3D1275A329D00CE2BD4 /* SceneDelegate.swift */; };
 		8050A3D9275A329E00CE2BD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8050A3D8275A329E00CE2BD4 /* Assets.xcassets */; };
@@ -40,6 +49,15 @@
 /* Begin PBXFileReference section */
 		267400B627836A5C00BCA6D3 /* AllElements.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AllElements.storyboard; sourceTree = "<group>"; };
 		267400B827836A7200BCA6D3 /* AllElementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllElementsViewController.swift; sourceTree = "<group>"; };
+		2696CFEC279B0183004521F0 /* TextStyles.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TextStyles.storyboard; sourceTree = "<group>"; };
+		2696CFEF279B030F004521F0 /* LabelMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelMenuViewController.swift; sourceTree = "<group>"; };
+		2696CFF1279B0316004521F0 /* LabelMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelMenuItem.swift; sourceTree = "<group>"; };
+		2696CFF3279B0324004521F0 /* LabelMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LabelMenu.storyboard; sourceTree = "<group>"; };
+		2696CFF8279B0598004521F0 /* FontSizes.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FontSizes.storyboard; sourceTree = "<group>"; };
+		2696CFFA279B05A1004521F0 /* FontWeights.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FontWeights.storyboard; sourceTree = "<group>"; };
+		2696CFFC279B0D02004521F0 /* FontWeightsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontWeightsViewController.swift; sourceTree = "<group>"; };
+		2696CFFE279B0D0D004521F0 /* FontSizesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSizesViewController.swift; sourceTree = "<group>"; };
+		2696D000279B0D15004521F0 /* TextStylesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStylesViewController.swift; sourceTree = "<group>"; };
 		8050A3CC275A329D00CE2BD4 /* UIKit-Storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit-Storyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8050A3CF275A329D00CE2BD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8050A3D1275A329D00CE2BD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +108,54 @@
 			path = AllElements;
 			sourceTree = "<group>";
 		};
+		2696CFEB279B0174004521F0 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				2696CFF7279B0580004521F0 /* FontWeights */,
+				2696CFF6279B0578004521F0 /* FontSizes */,
+				2696CFF5279B0536004521F0 /* TextStyles */,
+				2696CFEE279B02DF004521F0 /* Menu */,
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
+		2696CFEE279B02DF004521F0 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				2696CFF1279B0316004521F0 /* LabelMenuItem.swift */,
+				2696CFEF279B030F004521F0 /* LabelMenuViewController.swift */,
+				2696CFF3279B0324004521F0 /* LabelMenu.storyboard */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		2696CFF5279B0536004521F0 /* TextStyles */ = {
+			isa = PBXGroup;
+			children = (
+				2696CFEC279B0183004521F0 /* TextStyles.storyboard */,
+				2696D000279B0D15004521F0 /* TextStylesViewController.swift */,
+			);
+			path = TextStyles;
+			sourceTree = "<group>";
+		};
+		2696CFF6279B0578004521F0 /* FontSizes */ = {
+			isa = PBXGroup;
+			children = (
+				2696CFF8279B0598004521F0 /* FontSizes.storyboard */,
+				2696CFFE279B0D0D004521F0 /* FontSizesViewController.swift */,
+			);
+			path = FontSizes;
+			sourceTree = "<group>";
+		};
+		2696CFF7279B0580004521F0 /* FontWeights */ = {
+			isa = PBXGroup;
+			children = (
+				2696CFFA279B05A1004521F0 /* FontWeights.storyboard */,
+				2696CFFC279B0D02004521F0 /* FontWeightsViewController.swift */,
+			);
+			path = FontWeights;
+			sourceTree = "<group>";
+		};
 		8050A3C3275A329D00CE2BD4 = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +203,7 @@
 		8050A3E5275A36D100CE2BD4 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				2696CFEB279B0174004521F0 /* Label */,
 				267400B527836A4A00BCA6D3 /* AllElements */,
 				807FE359275E0A8D00E60A6D /* ScrollView */,
 				807FE352275E02C000E60A6D /* BaseMenu */,
@@ -326,11 +393,15 @@
 				807FE374275E1D1D00E60A6D /* ScrollViewWithNoContentLayoutGuides.storyboard in Resources */,
 				8050A3DC275A329E00CE2BD4 /* LaunchScreen.storyboard in Resources */,
 				807FE372275E1D1D00E60A6D /* ScrollViewTwoDirections.storyboard in Resources */,
+				2696CFF9279B0598004521F0 /* FontSizes.storyboard in Resources */,
 				807FE35E275E0AA900E60A6D /* ScrollViewMenu.storyboard in Resources */,
 				807FE378275E1D1D00E60A6D /* ScrollViewWithKeyboard.storyboard in Resources */,
 				807FE377275E1D1D00E60A6D /* ScrollViewHorizontal.storyboard in Resources */,
+				2696CFED279B0183004521F0 /* TextStyles.storyboard in Resources */,
 				8050A3D9275A329E00CE2BD4 /* Assets.xcassets in Resources */,
+				2696CFF4279B0324004521F0 /* LabelMenu.storyboard in Resources */,
 				267400B727836A5C00BCA6D3 /* AllElements.storyboard in Resources */,
+				2696CFFB279B05A1004521F0 /* FontWeights.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,19 +412,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2696CFFF279B0D0D004521F0 /* FontSizesViewController.swift in Sources */,
 				807FE375275E1D1D00E60A6D /* ScrollViewWithNoContentLayoutGuidesViewController.swift in Sources */,
 				8050A3D0275A329D00CE2BD4 /* AppDelegate.swift in Sources */,
 				807FE373275E1D1D00E60A6D /* ScrollViewTwoDirectionsViewController.swift in Sources */,
 				8050A3E9275A385C00CE2BD4 /* MainMenuViewController.swift in Sources */,
 				8050A3D2275A329D00CE2BD4 /* SceneDelegate.swift in Sources */,
 				807FE363275E0B7500E60A6D /* ScrollViewVerticalViewController.swift in Sources */,
+				2696CFFD279B0D02004521F0 /* FontWeightsViewController.swift in Sources */,
 				807FE376275E1D1D00E60A6D /* ScrollViewHorizontalViewController.swift in Sources */,
 				807FE379275E1D1D00E60A6D /* ScrollViewWithKeyboardViewController.swift in Sources */,
+				2696CFF0279B030F004521F0 /* LabelMenuViewController.swift in Sources */,
 				8050A3F0275A3E2800CE2BD4 /* LocalizableString.swift in Sources */,
+				2696D001279B0D15004521F0 /* TextStylesViewController.swift in Sources */,
 				8050A3FA275A5A0100CE2BD4 /* UIViewControllerExtensions.swift in Sources */,
 				807FE354275E02D700E60A6D /* MenuViewController.swift in Sources */,
 				807FE35C275E0AA100E60A6D /* ScrollViewMenuViewController.swift in Sources */,
 				8050A3FC275A5AFB00CE2BD4 /* MainMenuItem.swift in Sources */,
+				2696CFF2279B0316004521F0 /* LabelMenuItem.swift in Sources */,
 				807FE356275E062100E60A6D /* MenuItemProtocol.swift in Sources */,
 				807FE360275E0ADF00E60A6D /* ScrollViewMenuItem.swift in Sources */,
 				267400B927836A7200BCA6D3 /* AllElementsViewController.swift in Sources */,
