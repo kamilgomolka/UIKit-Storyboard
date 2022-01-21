@@ -10,6 +10,7 @@ import Foundation
 enum LocalizableString: String {
     case mainMenuTitle
     case mainMenuItemScrollView
+    case mainMenuItemAllElements
     
     case scrollViewMenuItemVertical
     case scrollViewMenuItemHorizontal
