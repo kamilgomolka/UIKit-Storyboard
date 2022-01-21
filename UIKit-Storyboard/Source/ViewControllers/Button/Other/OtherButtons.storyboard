@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eag-SW-odS">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Other Buttons View Controller-->
+        <scene sceneID="NFk-0r-PLg">
+            <objects>
+                <viewController id="eag-SW-odS" customClass="OtherButtonsViewController" customModule="UIKit_Storyboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e0X-Nn-qu5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1OT-gd-hei">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mqf-jj-3zn" userLabel="Content View">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="627.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="Dor-Ow-EhO">
+                                                <rect key="frame" x="20" y="20" width="374" height="587.5"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oBL-bU-dC2">
+                                                        <rect key="frame" x="0.0" y="0.0" width="201.5" height="31"/>
+                                                        <buttonConfiguration key="configuration" style="gray" title="Type = Detail Disclosure"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xdb-oF-ICC">
+                                                        <rect key="frame" x="0.0" y="43" width="174" height="31"/>
+                                                        <buttonConfiguration key="configuration" style="gray" title="Type = Add Contact"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="close" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dJl-4V-qmJ">
+                                                        <rect key="frame" x="0.0" y="86" width="125" height="32"/>
+                                                        <buttonConfiguration key="configuration" style="gray" title="Type = Close"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" role="primary" translatesAutoresizingMaskIntoConstraints="NO" id="5UH-3K-KqG">
+                                                        <rect key="frame" x="0.0" y="130" width="122.5" height="31"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="gray" title="Role = Primary"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7X2-ef-xL8">
+                                                        <rect key="frame" x="0.0" y="173" width="194" height="31"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="gray" title="Shows activity indicator" showsActivityIndicator="YES"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kfy-f5-9L9" userLabel="JustSubtitle">
+                                                        <rect key="frame" x="0.0" y="216" width="92" height="28.5"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" subtitle="JustSubtitle"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D6f-SA-M5e" userLabel="TitleSubtitle">
+                                                        <rect key="frame" x="0.0" y="256.5" width="68" height="46.5"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" title="Title" subtitle="Subtitle"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BOf-Oy-kZp" userLabel="Image">
+                                                        <rect key="frame" x="0.0" y="315" width="44.5" height="31"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" image="square.and.arrow.up" catalog="system"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OrW-hA-Na0">
+                                                        <rect key="frame" x="0.0" y="358" width="136.5" height="31"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" image="square.and.arrow.up" catalog="system" title="ImageAndText"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dA0-1J-NqM" userLabel="TitleSubtitleImage">
+                                                        <rect key="frame" x="0.0" y="401" width="88.5" height="46.5"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" image="square.and.arrow.up" catalog="system" title="Title" subtitle="Subtitle"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YHl-so-Frk">
+                                                        <rect key="frame" x="0.0" y="459.5" width="226.5" height="31"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" title="Custom background and stroke" cornerStyle="capsule">
+                                                            <backgroundConfiguration key="background">
+                                                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                                                <color key="strokeColor" systemColor="systemIndigoColor"/>
+                                                            </backgroundConfiguration>
+                                                        </buttonConfiguration>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fhV-x7-4wf">
+                                                        <rect key="frame" x="0.0" y="502.5" width="193" height="42"/>
+                                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                                        <inset key="contentEdgeInsets" minX="30" minY="10" maxX="30" maxY="10"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Custom button 1"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B0r-R9-M59">
+                                                        <rect key="frame" x="0.0" y="556.5" width="67" height="31"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="Dor-Ow-EhO" firstAttribute="leading" secondItem="Mqf-jj-3zn" secondAttribute="leading" constant="20" symbolic="YES" id="ea7-Mh-HNF"/>
+                                            <constraint firstAttribute="trailing" secondItem="Dor-Ow-EhO" secondAttribute="trailing" constant="20" symbolic="YES" id="j78-P0-gBs"/>
+                                            <constraint firstAttribute="bottom" secondItem="Dor-Ow-EhO" secondAttribute="bottom" constant="20" symbolic="YES" id="rqK-iG-dVM"/>
+                                            <constraint firstItem="Dor-Ow-EhO" firstAttribute="top" secondItem="Mqf-jj-3zn" secondAttribute="top" constant="20" symbolic="YES" id="z0F-yN-IwP"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Mqf-jj-3zn" firstAttribute="leading" secondItem="21r-jf-gpf" secondAttribute="leading" id="54Q-JN-bdk"/>
+                                    <constraint firstItem="Kjd-FK-F1m" firstAttribute="trailing" secondItem="Mqf-jj-3zn" secondAttribute="trailing" id="B47-ef-xBQ"/>
+                                    <constraint firstItem="Mqf-jj-3zn" firstAttribute="leading" secondItem="Kjd-FK-F1m" secondAttribute="leading" id="aWk-h9-0Q2"/>
+                                    <constraint firstItem="Mqf-jj-3zn" firstAttribute="top" secondItem="21r-jf-gpf" secondAttribute="top" id="mT5-uy-3cu"/>
+                                    <constraint firstItem="Mqf-jj-3zn" firstAttribute="trailing" secondItem="21r-jf-gpf" secondAttribute="trailing" id="mwy-3g-uP5"/>
+                                    <constraint firstItem="Mqf-jj-3zn" firstAttribute="bottom" secondItem="21r-jf-gpf" secondAttribute="bottom" id="z9Z-Q1-BCX"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="21r-jf-gpf"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="Kjd-FK-F1m"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bCn-2s-Gxi"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="1OT-gd-hei" secondAttribute="bottom" id="XyH-9R-t3J"/>
+                            <constraint firstItem="1OT-gd-hei" firstAttribute="top" secondItem="e0X-Nn-qu5" secondAttribute="top" id="cJE-gM-KP1"/>
+                            <constraint firstItem="1OT-gd-hei" firstAttribute="leading" secondItem="bCn-2s-Gxi" secondAttribute="leading" id="r03-wY-F2q"/>
+                            <constraint firstItem="bCn-2s-Gxi" firstAttribute="trailing" secondItem="1OT-gd-hei" secondAttribute="trailing" id="tlC-eP-TR3"/>
+                        </constraints>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vGq-k6-ieP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="725" y="117"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

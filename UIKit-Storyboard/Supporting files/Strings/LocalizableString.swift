@@ -9,9 +9,10 @@ import Foundation
 
 enum LocalizableString: String {
     case mainMenuTitle
-    case mainMenuItemLabel
-    case mainMenuItemScrollView
     case mainMenuItemAllElements
+    case mainMenuItemLabel
+    case mainMenuItemButton
+    case mainMenuItemScrollView    
     
     case labelMenuItemTextStyles
     case labelMenuItemFontSizes

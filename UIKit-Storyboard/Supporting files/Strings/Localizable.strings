@@ -6,9 +6,10 @@
   
 */
 
-"mainMenuTitle" = "Menu";
+"mainMenuTitle" = "UIKit-Storyboard";
 "mainMenuItemAllElements" = "All controls";
 "mainMenuItemLabel" = "Labels";
+"mainMenuItemButton" = "Buttons";
 "mainMenuItemScrollView" = "Scrollview";
 
 "labelMenuItemTextStyles" = "System text styles";

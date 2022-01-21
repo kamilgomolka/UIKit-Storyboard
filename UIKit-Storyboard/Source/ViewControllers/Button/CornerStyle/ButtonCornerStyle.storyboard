@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0TE-hC-5ST">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Button Corner Style View Controller-->
+        <scene sceneID="cRJ-mJ-xpF">
+            <objects>
+                <viewController id="0TE-hC-5ST" customClass="ButtonCornerStyleViewController" customModule="UIKit_Storyboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="F0v-gl-B84">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lbq-4p-Nl3">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iiq-8g-YJJ" userLabel="Content View">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="286"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="GPA-mQ-LND">
+                                                <rect key="frame" x="20" y="20" width="374" height="246"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="psv-3U-4jM">
+                                                        <rect key="frame" x="0.0" y="0.0" width="153.5" height="31"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" title="Corner style = Fixed" cornerStyle="fixed"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHl-jD-byb">
+                                                        <rect key="frame" x="0.0" y="43" width="175.5" height="31"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" title="Corner style = Dynamic" cornerStyle="dynamic"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jwf-dw-nzS">
+                                                        <rect key="frame" x="0.0" y="86" width="154.5" height="31"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" title="Corner style = Small" cornerStyle="small"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XRT-h7-DmI">
+                                                        <rect key="frame" x="0.0" y="129" width="171" height="31"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" title="Corner style = Medium" cornerStyle="medium"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9v5-xY-Y30">
+                                                        <rect key="frame" x="0.0" y="172" width="156" height="31"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" title="Corner style = Large" cornerStyle="large"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FIa-zz-4Gh">
+                                                        <rect key="frame" x="0.0" y="215" width="171.5" height="31"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" title="Corner style = Capsule" cornerStyle="capsule"/>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="GPA-mQ-LND" secondAttribute="bottom" constant="20" symbolic="YES" id="2ZP-3M-uNr"/>
+                                            <constraint firstItem="GPA-mQ-LND" firstAttribute="top" secondItem="Iiq-8g-YJJ" secondAttribute="top" constant="20" symbolic="YES" id="Hys-g2-LrQ"/>
+                                            <constraint firstItem="GPA-mQ-LND" firstAttribute="leading" secondItem="Iiq-8g-YJJ" secondAttribute="leading" constant="20" symbolic="YES" id="UBq-q3-rTx"/>
+                                            <constraint firstAttribute="trailing" secondItem="GPA-mQ-LND" secondAttribute="trailing" constant="20" symbolic="YES" id="cfy-ui-kqW"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="CO7-uK-1Jr" firstAttribute="trailing" secondItem="Iiq-8g-YJJ" secondAttribute="trailing" id="2m7-6e-UID"/>
+                                    <constraint firstItem="Iiq-8g-YJJ" firstAttribute="trailing" secondItem="7yM-AL-tmq" secondAttribute="trailing" id="5CJ-os-C5F"/>
+                                    <constraint firstItem="Iiq-8g-YJJ" firstAttribute="top" secondItem="7yM-AL-tmq" secondAttribute="top" id="6xJ-ky-3fa"/>
+                                    <constraint firstItem="Iiq-8g-YJJ" firstAttribute="leading" secondItem="CO7-uK-1Jr" secondAttribute="leading" id="CW3-jE-45j"/>
+                                    <constraint firstItem="Iiq-8g-YJJ" firstAttribute="bottom" secondItem="7yM-AL-tmq" secondAttribute="bottom" id="DdB-HV-1r7"/>
+                                    <constraint firstItem="Iiq-8g-YJJ" firstAttribute="leading" secondItem="7yM-AL-tmq" secondAttribute="leading" id="K6G-zA-Tr2"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="7yM-AL-tmq"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="CO7-uK-1Jr"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="huB-kw-fsk"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="lbq-4p-Nl3" secondAttribute="bottom" id="HoH-tO-ATU"/>
+                            <constraint firstItem="lbq-4p-Nl3" firstAttribute="top" secondItem="F0v-gl-B84" secondAttribute="top" id="l4f-gG-e4g"/>
+                            <constraint firstItem="lbq-4p-Nl3" firstAttribute="leading" secondItem="huB-kw-fsk" secondAttribute="leading" id="oQP-Xj-MRc"/>
+                            <constraint firstItem="huB-kw-fsk" firstAttribute="trailing" secondItem="lbq-4p-Nl3" secondAttribute="trailing" id="yPM-Ai-04S"/>
+                        </constraints>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B15-7T-LnK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="725" y="117"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

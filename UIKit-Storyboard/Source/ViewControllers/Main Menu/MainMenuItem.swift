@@ -10,6 +10,7 @@ import Foundation
 enum MainMenuItem: MenuItemProtocol {
     case allElements
     case label
+    case button
     case scrollView
     
     var name: String {
@@ -18,6 +19,8 @@ enum MainMenuItem: MenuItemProtocol {
             return LocalizedString(.mainMenuItemAllElements)
         case .label:
             return LocalizedString(.mainMenuItemLabel)
+        case .button:
+            return LocalizedString(.mainMenuItemButton)
         case .scrollView:
             return LocalizedString(.mainMenuItemScrollView)
         
@@ -30,6 +33,8 @@ enum MainMenuItem: MenuItemProtocol {
             return "AllElements"
         case .label:
             return "LabelMenu"
+        case .button:
+            return "Button"
         case .scrollView:
             return "ScrollViewMenu"
         }
