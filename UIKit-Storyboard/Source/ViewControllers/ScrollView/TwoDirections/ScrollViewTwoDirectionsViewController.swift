@@ -9,9 +9,4 @@ import UIKit
 
 class ScrollViewTwoDirectionsViewController: UIViewController {
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        title = LocalizedString(.scrollViewMenuItemTwoDirections)
-    }
 }

@@ -9,10 +9,5 @@ import UIKit
 
 class FontSizesViewController: UIViewController {
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        title = LocalizedString(.labelMenuItemFontSizes)
-    }
 }
 

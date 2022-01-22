@@ -9,9 +9,5 @@ import UIKit
 
 class TextFieldViewController: UIViewController {
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        title = LocalizedString(.mainMenuItemTextField)
-    }
+    
 }

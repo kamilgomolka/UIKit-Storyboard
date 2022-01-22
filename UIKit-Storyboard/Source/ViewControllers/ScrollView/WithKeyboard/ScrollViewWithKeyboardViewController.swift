@@ -31,8 +31,6 @@ class ScrollViewWithKeyboardViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = LocalizedString(.scrollViewMenuItemWithKeyboard)
-        
         setupTextFields()
         addKeyboardHideGesture()
     }

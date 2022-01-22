@@ -14,11 +14,5 @@ class LabelMenuViewController: MenuViewController<LabelMenuItem> {
     override var tableView: UITableView? {
         return tableViewOutlet
     }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        title = LocalizedString(.mainMenuItemLabel)
-    }
 }
 

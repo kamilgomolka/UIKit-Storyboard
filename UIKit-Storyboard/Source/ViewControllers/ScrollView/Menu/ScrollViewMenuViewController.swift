@@ -14,10 +14,4 @@ class ScrollViewMenuViewController: MenuViewController<ScrollViewMenuItem> {
     override var tableView: UITableView? {
         return tableViewOutlet
     }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        title = LocalizedString(.mainMenuItemScrollView)
-    }
 }

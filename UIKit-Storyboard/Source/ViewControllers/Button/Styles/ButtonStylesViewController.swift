@@ -9,9 +9,4 @@ import UIKit
 
 class ButtonStylesViewController: UIViewController {
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        title = LocalizedString(.buttonMenuItemStyles)
-    }
 }

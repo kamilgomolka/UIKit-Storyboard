@@ -49,6 +49,8 @@ class MenuViewController<MenuItemType: MenuItemProtocol>: UIViewController, UITa
             return
         }
         
+        viewController.title = menuItem.name
+        
         navigationController?.pushViewController(viewController, animated: true)
     }
 }

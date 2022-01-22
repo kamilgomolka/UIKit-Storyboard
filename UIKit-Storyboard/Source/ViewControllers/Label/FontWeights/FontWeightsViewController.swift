@@ -9,10 +9,5 @@ import UIKit
 
 class FontWeightsViewController: UIViewController {
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        title = LocalizedString(.labelMenuItemFontWeights)
-    }
 }
 

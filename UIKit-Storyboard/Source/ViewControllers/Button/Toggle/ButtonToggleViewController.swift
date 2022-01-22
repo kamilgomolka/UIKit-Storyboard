@@ -9,11 +9,6 @@ import UIKit
 
 class ButtonToggleViewController: UIViewController {
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        title = LocalizedString(.buttonMenuItemToggle)
-    }
 }
 
 

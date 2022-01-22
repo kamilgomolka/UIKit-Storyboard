@@ -14,8 +14,6 @@ class ScrollViewVerticalViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = LocalizedString(.scrollViewMenuItemVertical)
-        
         generateLabelText()
     }
     

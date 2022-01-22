@@ -9,10 +9,5 @@ import UIKit
 
 class OtherButtonsViewController: UIViewController {
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        title = LocalizedString(.buttonMenuItemOther)
-    }
 }
 

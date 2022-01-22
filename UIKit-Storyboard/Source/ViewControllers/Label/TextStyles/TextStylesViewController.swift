@@ -9,9 +9,4 @@ import UIKit
 
 class TextStylesViewController: UIViewController {
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        title = LocalizedString(.labelMenuItemTextStyles)
-    }
 }

@@ -9,10 +9,5 @@ import UIKit
 
 class ButtonImagePlacementViewController: UIViewController {
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        title = LocalizedString(.buttonMenuItemImagePlacement)
-    }
 }
 

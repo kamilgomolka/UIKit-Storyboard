@@ -14,8 +14,6 @@ class ScrollViewWithNoContentLayoutGuidesViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = LocalizedString(.scrollViewMenuItemWithNoContentLayoutGuides)
-        
         generateLabelText()
     }
     

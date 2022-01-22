@@ -9,10 +9,5 @@ import UIKit
 
 class ButtonSystemSizesViewController: UIViewController {
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        title = LocalizedString(.buttonMenuItemSystemSizes)
-    }
 }
 

@@ -9,10 +9,5 @@ import UIKit
 
 class ButtonCornerStyleViewController: UIViewController {
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        title = LocalizedString(.buttonMenuItemCornerStyle)
-    }
 }
 

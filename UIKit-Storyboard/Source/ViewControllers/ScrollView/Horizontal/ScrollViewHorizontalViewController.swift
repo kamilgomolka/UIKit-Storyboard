@@ -9,9 +9,4 @@ import UIKit
 
 class ScrollViewHorizontalViewController: UIViewController {
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        title = LocalizedString(.scrollViewMenuItemHorizontal)
-    }
 }
