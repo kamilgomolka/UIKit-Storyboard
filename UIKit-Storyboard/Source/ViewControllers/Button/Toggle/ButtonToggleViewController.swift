@@ -13,8 +13,6 @@ class ButtonToggleViewController: UIViewController {
         super.viewDidLoad()
         
         title = LocalizedString(.buttonMenuItemToggle)
-        
-        
     }
 }
 

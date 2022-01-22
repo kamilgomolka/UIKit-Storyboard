@@ -8,8 +8,9 @@
 
 "mainMenuTitle" = "UIKit-Storyboard";
 "mainMenuItemAllElements" = "All controls";
-"mainMenuItemLabel" = "Labels";
-"mainMenuItemButton" = "Buttons";
+"mainMenuItemLabel" = "Label";
+"mainMenuItemButton" = "Button";
+"mainMenuItemTextField" = "TextField";
 "mainMenuItemScrollView" = "Scrollview";
 
 "labelMenuItemTextStyles" = "System text styles";

@@ -13,8 +13,6 @@ class ButtonSystemSizesViewController: UIViewController {
         super.viewDidLoad()
         
         title = LocalizedString(.buttonMenuItemSystemSizes)
-        
-        
     }
 }
 

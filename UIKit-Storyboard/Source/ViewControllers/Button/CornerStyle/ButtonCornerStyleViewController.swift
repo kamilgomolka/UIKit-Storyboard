@@ -13,8 +13,6 @@ class ButtonCornerStyleViewController: UIViewController {
         super.viewDidLoad()
         
         title = LocalizedString(.buttonMenuItemCornerStyle)
-        
-        
     }
 }
 

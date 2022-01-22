@@ -13,8 +13,6 @@ class ButtonImagePlacementViewController: UIViewController {
         super.viewDidLoad()
         
         title = LocalizedString(.buttonMenuItemImagePlacement)
-        
-        
     }
 }
 

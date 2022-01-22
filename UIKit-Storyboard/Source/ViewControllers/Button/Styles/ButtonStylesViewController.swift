@@ -13,8 +13,5 @@ class ButtonStylesViewController: UIViewController {
         super.viewDidLoad()
         
         title = LocalizedString(.buttonMenuItemStyles)
-        
-        
     }
 }
-

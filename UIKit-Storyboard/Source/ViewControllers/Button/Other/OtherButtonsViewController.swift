@@ -13,8 +13,6 @@ class OtherButtonsViewController: UIViewController {
         super.viewDidLoad()
         
         title = LocalizedString(.buttonMenuItemOther)
-        
-        
     }
 }
 
