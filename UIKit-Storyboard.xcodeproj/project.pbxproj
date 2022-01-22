@@ -145,10 +145,8 @@
 		2696CFEB279B0174004521F0 /* Label */ = {
 			isa = PBXGroup;
 			children = (
-				2696CFF7279B0580004521F0 /* FontWeights */,
-				2696CFF6279B0578004521F0 /* FontSizes */,
-				2696CFF5279B0536004521F0 /* TextStyles */,
 				2696CFEE279B02DF004521F0 /* Menu */,
+				26D63209279C7B6D0029AE96 /* ViewControllers */,
 			);
 			path = Label;
 			sourceTree = "<group>";
@@ -194,12 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				26D631FC279C12AC0029AE96 /* Menu */,
-				2696D007279B2CF8004521F0 /* Styles */,
-				2696D008279B2CFE004521F0 /* SystemSizes */,
-				2696D011279B2D7F004521F0 /* Toggle */,
-				2696D016279B2EF7004521F0 /* CornerStyle */,
-				26D631F7279C08230029AE96 /* ImagePlacement */,
-				2696D01B279B2FE9004521F0 /* Other */,
+				26D63208279C7B5A0029AE96 /* ViewControllers */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -277,6 +270,53 @@
 			path = TextField;
 			sourceTree = "<group>";
 		};
+		26D63208279C7B5A0029AE96 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2696D016279B2EF7004521F0 /* CornerStyle */,
+				26D631F7279C08230029AE96 /* ImagePlacement */,
+				2696D01B279B2FE9004521F0 /* Other */,
+				2696D007279B2CF8004521F0 /* Styles */,
+				2696D008279B2CFE004521F0 /* SystemSizes */,
+				2696D011279B2D7F004521F0 /* Toggle */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		26D63209279C7B6D0029AE96 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2696CFF6279B0578004521F0 /* FontSizes */,
+				2696CFF7279B0580004521F0 /* FontWeights */,
+				2696CFF5279B0536004521F0 /* TextStyles */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		26D6320A279C7B810029AE96 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				807FE36C275E1D1D00E60A6D /* Horizontal */,
+				807FE366275E1D1D00E60A6D /* TwoDirections */,
+				807FE361275E0B6300E60A6D /* Vertical */,
+				807FE36F275E1D1D00E60A6D /* WithKeyboard */,
+				807FE369275E1D1D00E60A6D /* WithNoContentLayoutGudes */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		26D6320B279C7C220029AE96 /* Main Menu ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				26D63203279C72D40029AE96 /* TextField */,
+				2696D002279B20E0004521F0 /* Button */,
+				2696CFEB279B0174004521F0 /* Label */,
+				267400B527836A4A00BCA6D3 /* AllElements */,
+				807FE359275E0A8D00E60A6D /* ScrollView */,
+			);
+			path = "Main Menu ViewControllers";
+			sourceTree = "<group>";
+		};
 		8050A3C3275A329D00CE2BD4 = {
 			isa = PBXGroup;
 			children = (
@@ -324,13 +364,9 @@
 		8050A3E5275A36D100CE2BD4 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				26D63203279C72D40029AE96 /* TextField */,
-				2696D002279B20E0004521F0 /* Button */,
-				2696CFEB279B0174004521F0 /* Label */,
-				267400B527836A4A00BCA6D3 /* AllElements */,
-				807FE359275E0A8D00E60A6D /* ScrollView */,
-				807FE352275E02C000E60A6D /* BaseMenu */,
+				807FE352275E02C000E60A6D /* Base Menu */,
 				8050A3E4275A36C100CE2BD4 /* Main Menu */,
+				26D6320B279C7C220029AE96 /* Main Menu ViewControllers */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -373,25 +409,21 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		807FE352275E02C000E60A6D /* BaseMenu */ = {
+		807FE352275E02C000E60A6D /* Base Menu */ = {
 			isa = PBXGroup;
 			children = (
 				807FE355275E062100E60A6D /* MenuItemProtocol.swift */,
 				807FE353275E02D700E60A6D /* MenuViewController.swift */,
 				807FE357275E06B500E60A6D /* MenuCell.xib */,
 			);
-			path = BaseMenu;
+			path = "Base Menu";
 			sourceTree = "<group>";
 		};
 		807FE359275E0A8D00E60A6D /* ScrollView */ = {
 			isa = PBXGroup;
 			children = (
 				807FE35A275E0A9400E60A6D /* Menu */,
-				807FE361275E0B6300E60A6D /* Vertical */,
-				807FE36C275E1D1D00E60A6D /* Horizontal */,
-				807FE366275E1D1D00E60A6D /* TwoDirections */,
-				807FE369275E1D1D00E60A6D /* WithNoContentLayoutGudes */,
-				807FE36F275E1D1D00E60A6D /* WithKeyboard */,
+				26D6320A279C7B810029AE96 /* ViewControllers */,
 			);
 			path = ScrollView;
 			sourceTree = "<group>";

@@ -11,6 +11,7 @@ enum MainMenuItem: MenuItemProtocol {
     case allElements
     case label
     case button
+    case textField
     case scrollView
     
     var name: String {
@@ -21,9 +22,10 @@ enum MainMenuItem: MenuItemProtocol {
             return LocalizedString(.mainMenuItemLabel)
         case .button:
             return LocalizedString(.mainMenuItemButton)
+        case .textField:
+            return LocalizedString(.mainMenuItemTextField)
         case .scrollView:
             return LocalizedString(.mainMenuItemScrollView)
-        
         }
     }
     
@@ -35,6 +37,8 @@ enum MainMenuItem: MenuItemProtocol {
             return "LabelMenu"
         case .button:
             return "ButtonMenu"
+        case .textField:
+            return "TextFieldMenu"
         case .scrollView:
             return "ScrollViewMenu"
         }
