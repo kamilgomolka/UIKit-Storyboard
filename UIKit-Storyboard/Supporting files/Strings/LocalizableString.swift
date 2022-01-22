@@ -12,11 +12,18 @@ enum LocalizableString: String {
     case mainMenuItemAllElements
     case mainMenuItemLabel
     case mainMenuItemButton
-    case mainMenuItemScrollView    
+    case mainMenuItemScrollView
     
     case labelMenuItemTextStyles
     case labelMenuItemFontSizes
     case labelMenuItemFontWeights
+    
+    case buttonMenuItemStyles
+    case buttonMenuItemSystemSizes
+    case buttonMenuItemCornerStyle
+    case buttonMenuItemImagePlacement
+    case buttonMenuItemToggle
+    case buttonMenuItemOther
     
     case scrollViewMenuItemVertical
     case scrollViewMenuItemHorizontal

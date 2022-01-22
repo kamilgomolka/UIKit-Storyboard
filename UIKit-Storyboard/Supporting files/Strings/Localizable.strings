@@ -16,6 +16,13 @@
 "labelMenuItemFontSizes" = "Font sizes in pt";
 "labelMenuItemFontWeights" = "Font weights";
 
+"buttonMenuItemStyles" = "Button styles";
+"buttonMenuItemSystemSizes" = "System sizes";
+"buttonMenuItemCornerStyle" = "Corner style";
+"buttonMenuItemImagePlacement" = "Image placement";
+"buttonMenuItemToggle" = "Toggle button";
+"buttonMenuItemOther" = "Other";
+
 "scrollViewMenuItemVertical" = "Vertical";
 "scrollViewMenuItemHorizontal" = "Horizontal";
 "scrollViewMenuItemTwoDirections" = "Two directions";

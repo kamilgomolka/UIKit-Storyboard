@@ -34,7 +34,7 @@ enum MainMenuItem: MenuItemProtocol {
         case .label:
             return "LabelMenu"
         case .button:
-            return "Button"
+            return "ButtonMenu"
         case .scrollView:
             return "ScrollViewMenu"
         }

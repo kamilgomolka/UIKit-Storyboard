@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Button Corner Style View Controller-->
+        <!--Button Image Placement View Controller-->
         <scene sceneID="cRJ-mJ-xpF">
             <objects>
-                <viewController id="0TE-hC-5ST" customClass="ButtonCornerStyleViewController" customModule="UIKit_Storyboard" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="0TE-hC-5ST" customClass="ButtonImagePlacementViewController" customModule="UIKit_Storyboard" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="F0v-gl-B84">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -20,52 +20,30 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iiq-8g-YJJ" userLabel="Content View">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="375"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="234"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="GPA-mQ-LND">
-                                                <rect key="frame" x="20" y="20" width="374" height="335"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="GPA-mQ-LND">
+                                                <rect key="frame" x="20" y="20" width="374" height="194"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="psv-3U-4jM">
-                                                        <rect key="frame" x="0.0" y="0.0" width="248" height="59.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="98.5" height="31"/>
                                                         <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="Corner style = Fixed" subtitle="uses cornerRadius without modification" cornerStyle="fixed" buttonSize="medium">
-                                                            <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle1"/>
-                                                        </buttonConfiguration>
+                                                        <buttonConfiguration key="configuration" style="filled" image="star.fill" catalog="system" imagePlacement="leading" title="Leading"/>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHl-jD-byb">
-                                                        <rect key="frame" x="0.0" y="67.5" width="275.5" height="59.5"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SFu-pe-aXr">
+                                                        <rect key="frame" x="0.0" y="43" width="94" height="31"/>
                                                         <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="Corner style = Dynamic" subtitle="adjust cornerRadius depending on size" cornerStyle="dynamic" buttonSize="medium">
-                                                            <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle1"/>
-                                                        </buttonConfiguration>
+                                                        <buttonConfiguration key="configuration" style="filled" image="star.fill" catalog="system" imagePlacement="trailing" title="Trailing"/>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jwf-dw-nzS">
-                                                        <rect key="frame" x="0.0" y="135" width="240" height="44"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D0F-DK-60u">
+                                                        <rect key="frame" x="0.0" y="86" width="48" height="48"/>
                                                         <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="Corner style = Small" cornerStyle="small" buttonSize="medium">
-                                                            <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle1"/>
-                                                        </buttonConfiguration>
+                                                        <buttonConfiguration key="configuration" style="filled" image="star.fill" catalog="system" imagePlacement="top" title="Top"/>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XRT-h7-DmI">
-                                                        <rect key="frame" x="0.0" y="187" width="268.5" height="44"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yvt-aV-WmT">
+                                                        <rect key="frame" x="0.0" y="146" width="71.5" height="48"/>
                                                         <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="Corner style = Medium" cornerStyle="medium" buttonSize="medium">
-                                                            <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle1"/>
-                                                        </buttonConfiguration>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9v5-xY-Y30">
-                                                        <rect key="frame" x="0.0" y="239" width="242" height="44"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="Corner style = Large" cornerStyle="large" buttonSize="medium">
-                                                            <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle1"/>
-                                                        </buttonConfiguration>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FIa-zz-4Gh">
-                                                        <rect key="frame" x="0.0" y="291" width="269" height="44"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="Corner style = Capsule" cornerStyle="capsule" buttonSize="medium">
-                                                            <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle1"/>
-                                                        </buttonConfiguration>
+                                                        <buttonConfiguration key="configuration" style="filled" image="star.fill" catalog="system" imagePlacement="bottom" title="Bottom"/>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -108,6 +86,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="star.fill" catalog="system" width="128" height="116"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

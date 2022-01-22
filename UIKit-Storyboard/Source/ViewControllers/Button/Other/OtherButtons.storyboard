@@ -90,10 +90,10 @@
                                                         <state key="normal" title="Custom button 1"/>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B0r-R9-M59">
-                                                        <rect key="frame" x="0.0" y="556.5" width="67" height="31"/>
+                                                        <rect key="frame" x="0.0" y="556.5" width="80.5" height="31"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" title="Disabled"/>
                                                     </button>
                                                 </subviews>
                                             </stackView>

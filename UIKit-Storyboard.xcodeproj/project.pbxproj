@@ -18,8 +18,6 @@
 		2696CFFD279B0D02004521F0 /* FontWeightsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696CFFC279B0D02004521F0 /* FontWeightsViewController.swift */; };
 		2696CFFF279B0D0D004521F0 /* FontSizesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696CFFE279B0D0D004521F0 /* FontSizesViewController.swift */; };
 		2696D001279B0D15004521F0 /* TextStylesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696D000279B0D15004521F0 /* TextStylesViewController.swift */; };
-		2696D004279B217F004521F0 /* Button.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2696D003279B217F004521F0 /* Button.storyboard */; };
-		2696D006279B21AF004521F0 /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696D005279B21AF004521F0 /* ButtonViewController.swift */; };
 		2696D00A279B2D2A004521F0 /* ButtonStyles.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2696D009279B2D2A004521F0 /* ButtonStyles.storyboard */; };
 		2696D00C279B2D33004521F0 /* ButtonStylesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696D00B279B2D33004521F0 /* ButtonStylesViewController.swift */; };
 		2696D00E279B2D43004521F0 /* ButtonSystemSizesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696D00D279B2D43004521F0 /* ButtonSystemSizesViewController.swift */; };
@@ -28,10 +26,13 @@
 		2696D015279B2D94004521F0 /* ButtonToggleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696D014279B2D94004521F0 /* ButtonToggleViewController.swift */; };
 		2696D018279B2F0B004521F0 /* ButtonCornerStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696D017279B2F0B004521F0 /* ButtonCornerStyleViewController.swift */; };
 		2696D01A279B2F10004521F0 /* ButtonCornerStyle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2696D019279B2F10004521F0 /* ButtonCornerStyle.storyboard */; };
-		2696D01E279B3015004521F0 /* ButtonsWithDropdowns.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2696D01D279B3015004521F0 /* ButtonsWithDropdowns.storyboard */; };
-		2696D020279B3021004521F0 /* ButtonsWithDropdownsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696D01F279B3021004521F0 /* ButtonsWithDropdownsViewController.swift */; };
 		2696D022279B3031004521F0 /* OtherButtonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696D021279B3031004521F0 /* OtherButtonsViewController.swift */; };
 		2696D024279B3037004521F0 /* OtherButtons.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2696D023279B3037004521F0 /* OtherButtons.storyboard */; };
+		26D631FA279C08230029AE96 /* ButtonImagePlacementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D631F8279C08230029AE96 /* ButtonImagePlacementViewController.swift */; };
+		26D631FB279C08230029AE96 /* ButtonImagePlacement.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D631F9279C08230029AE96 /* ButtonImagePlacement.storyboard */; };
+		26D63200279C12AC0029AE96 /* ButtonMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D631FD279C12AC0029AE96 /* ButtonMenuViewController.swift */; };
+		26D63201279C12AC0029AE96 /* ButtonMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D631FE279C12AC0029AE96 /* ButtonMenu.storyboard */; };
+		26D63202279C12AC0029AE96 /* ButtonMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D631FF279C12AC0029AE96 /* ButtonMenuItem.swift */; };
 		8050A3D0275A329D00CE2BD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8050A3CF275A329D00CE2BD4 /* AppDelegate.swift */; };
 		8050A3D2275A329D00CE2BD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8050A3D1275A329D00CE2BD4 /* SceneDelegate.swift */; };
 		8050A3D9275A329E00CE2BD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8050A3D8275A329E00CE2BD4 /* Assets.xcassets */; };
@@ -72,8 +73,6 @@
 		2696CFFC279B0D02004521F0 /* FontWeightsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontWeightsViewController.swift; sourceTree = "<group>"; };
 		2696CFFE279B0D0D004521F0 /* FontSizesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSizesViewController.swift; sourceTree = "<group>"; };
 		2696D000279B0D15004521F0 /* TextStylesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStylesViewController.swift; sourceTree = "<group>"; };
-		2696D003279B217F004521F0 /* Button.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Button.storyboard; sourceTree = "<group>"; };
-		2696D005279B21AF004521F0 /* ButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
 		2696D009279B2D2A004521F0 /* ButtonStyles.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ButtonStyles.storyboard; sourceTree = "<group>"; };
 		2696D00B279B2D33004521F0 /* ButtonStylesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStylesViewController.swift; sourceTree = "<group>"; };
 		2696D00D279B2D43004521F0 /* ButtonSystemSizesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSystemSizesViewController.swift; sourceTree = "<group>"; };
@@ -82,10 +81,13 @@
 		2696D014279B2D94004521F0 /* ButtonToggleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonToggleViewController.swift; sourceTree = "<group>"; };
 		2696D017279B2F0B004521F0 /* ButtonCornerStyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCornerStyleViewController.swift; sourceTree = "<group>"; };
 		2696D019279B2F10004521F0 /* ButtonCornerStyle.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ButtonCornerStyle.storyboard; sourceTree = "<group>"; };
-		2696D01D279B3015004521F0 /* ButtonsWithDropdowns.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ButtonsWithDropdowns.storyboard; sourceTree = "<group>"; };
-		2696D01F279B3021004521F0 /* ButtonsWithDropdownsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsWithDropdownsViewController.swift; sourceTree = "<group>"; };
 		2696D021279B3031004521F0 /* OtherButtonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherButtonsViewController.swift; sourceTree = "<group>"; };
 		2696D023279B3037004521F0 /* OtherButtons.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OtherButtons.storyboard; sourceTree = "<group>"; };
+		26D631F8279C08230029AE96 /* ButtonImagePlacementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonImagePlacementViewController.swift; sourceTree = "<group>"; };
+		26D631F9279C08230029AE96 /* ButtonImagePlacement.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ButtonImagePlacement.storyboard; sourceTree = "<group>"; };
+		26D631FD279C12AC0029AE96 /* ButtonMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonMenuViewController.swift; sourceTree = "<group>"; };
+		26D631FE279C12AC0029AE96 /* ButtonMenu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ButtonMenu.storyboard; sourceTree = "<group>"; };
+		26D631FF279C12AC0029AE96 /* ButtonMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonMenuItem.swift; sourceTree = "<group>"; };
 		8050A3CC275A329D00CE2BD4 /* UIKit-Storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit-Storyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8050A3CF275A329D00CE2BD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8050A3D1275A329D00CE2BD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -187,14 +189,13 @@
 		2696D002279B20E0004521F0 /* Button */ = {
 			isa = PBXGroup;
 			children = (
+				26D631FC279C12AC0029AE96 /* Menu */,
 				2696D007279B2CF8004521F0 /* Styles */,
 				2696D008279B2CFE004521F0 /* SystemSizes */,
 				2696D011279B2D7F004521F0 /* Toggle */,
 				2696D016279B2EF7004521F0 /* CornerStyle */,
+				26D631F7279C08230029AE96 /* ImagePlacement */,
 				2696D01B279B2FE9004521F0 /* Other */,
-				2696D01C279B2FF7004521F0 /* Dropdowns */,
-				2696D003279B217F004521F0 /* Button.storyboard */,
-				2696D005279B21AF004521F0 /* ButtonViewController.swift */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -244,13 +245,23 @@
 			path = Other;
 			sourceTree = "<group>";
 		};
-		2696D01C279B2FF7004521F0 /* Dropdowns */ = {
+		26D631F7279C08230029AE96 /* ImagePlacement */ = {
 			isa = PBXGroup;
 			children = (
-				2696D01F279B3021004521F0 /* ButtonsWithDropdownsViewController.swift */,
-				2696D01D279B3015004521F0 /* ButtonsWithDropdowns.storyboard */,
+				26D631F8279C08230029AE96 /* ButtonImagePlacementViewController.swift */,
+				26D631F9279C08230029AE96 /* ButtonImagePlacement.storyboard */,
 			);
-			path = Dropdowns;
+			path = ImagePlacement;
+			sourceTree = "<group>";
+		};
+		26D631FC279C12AC0029AE96 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				26D631FD279C12AC0029AE96 /* ButtonMenuViewController.swift */,
+				26D631FF279C12AC0029AE96 /* ButtonMenuItem.swift */,
+				26D631FE279C12AC0029AE96 /* ButtonMenu.storyboard */,
+			);
+			path = Menu;
 			sourceTree = "<group>";
 		};
 		8050A3C3275A329D00CE2BD4 = {
@@ -488,9 +499,9 @@
 				807FE358275E06B500E60A6D /* MenuCell.xib in Resources */,
 				807FE365275E0B8800E60A6D /* ScrollViewVertical.storyboard in Resources */,
 				8050A3EB275A386500CE2BD4 /* MainMenu.storyboard in Resources */,
+				26D63201279C12AC0029AE96 /* ButtonMenu.storyboard in Resources */,
 				8050A3ED275A3DD100CE2BD4 /* Localizable.strings in Resources */,
 				2696D024279B3037004521F0 /* OtherButtons.storyboard in Resources */,
-				2696D01E279B3015004521F0 /* ButtonsWithDropdowns.storyboard in Resources */,
 				807FE374275E1D1D00E60A6D /* ScrollViewWithNoContentLayoutGuides.storyboard in Resources */,
 				8050A3DC275A329E00CE2BD4 /* LaunchScreen.storyboard in Resources */,
 				807FE372275E1D1D00E60A6D /* ScrollViewTwoDirections.storyboard in Resources */,
@@ -498,6 +509,7 @@
 				2696D010279B2D5E004521F0 /* ButtonSystemSizes.storyboard in Resources */,
 				807FE35E275E0AA900E60A6D /* ScrollViewMenu.storyboard in Resources */,
 				807FE378275E1D1D00E60A6D /* ScrollViewWithKeyboard.storyboard in Resources */,
+				26D631FB279C08230029AE96 /* ButtonImagePlacement.storyboard in Resources */,
 				807FE377275E1D1D00E60A6D /* ScrollViewHorizontal.storyboard in Resources */,
 				2696CFED279B0183004521F0 /* TextStyles.storyboard in Resources */,
 				2696D00A279B2D2A004521F0 /* ButtonStyles.storyboard in Resources */,
@@ -506,7 +518,6 @@
 				267400B727836A5C00BCA6D3 /* AllElements.storyboard in Resources */,
 				2696CFFB279B05A1004521F0 /* FontWeights.storyboard in Resources */,
 				2696D01A279B2F10004521F0 /* ButtonCornerStyle.storyboard in Resources */,
-				2696D004279B217F004521F0 /* Button.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,7 +528,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26D63202279C12AC0029AE96 /* ButtonMenuItem.swift in Sources */,
 				2696CFFF279B0D0D004521F0 /* FontSizesViewController.swift in Sources */,
+				26D63200279C12AC0029AE96 /* ButtonMenuViewController.swift in Sources */,
 				2696D00E279B2D43004521F0 /* ButtonSystemSizesViewController.swift in Sources */,
 				807FE375275E1D1D00E60A6D /* ScrollViewWithNoContentLayoutGuidesViewController.swift in Sources */,
 				8050A3D0275A329D00CE2BD4 /* AppDelegate.swift in Sources */,
@@ -532,9 +545,7 @@
 				2696D015279B2D94004521F0 /* ButtonToggleViewController.swift in Sources */,
 				807FE379275E1D1D00E60A6D /* ScrollViewWithKeyboardViewController.swift in Sources */,
 				2696D022279B3031004521F0 /* OtherButtonsViewController.swift in Sources */,
-				2696D006279B21AF004521F0 /* ButtonViewController.swift in Sources */,
 				2696CFF0279B030F004521F0 /* LabelMenuViewController.swift in Sources */,
-				2696D020279B3021004521F0 /* ButtonsWithDropdownsViewController.swift in Sources */,
 				8050A3F0275A3E2800CE2BD4 /* LocalizableString.swift in Sources */,
 				2696D001279B0D15004521F0 /* TextStylesViewController.swift in Sources */,
 				8050A3FA275A5A0100CE2BD4 /* UIViewControllerExtensions.swift in Sources */,
@@ -545,6 +556,7 @@
 				807FE356275E062100E60A6D /* MenuItemProtocol.swift in Sources */,
 				807FE360275E0ADF00E60A6D /* ScrollViewMenuItem.swift in Sources */,
 				267400B927836A7200BCA6D3 /* AllElementsViewController.swift in Sources */,
+				26D631FA279C08230029AE96 /* ButtonImagePlacementViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

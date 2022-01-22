@@ -12,7 +12,7 @@ class ButtonStylesViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = LocalizedString(.mainMenuItemButton)
+        title = LocalizedString(.buttonMenuItemStyles)
         
         
     }

@@ -12,7 +12,7 @@ class OtherButtonsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = LocalizedString(.mainMenuItemButton)
+        title = LocalizedString(.buttonMenuItemOther)
         
         
     }
