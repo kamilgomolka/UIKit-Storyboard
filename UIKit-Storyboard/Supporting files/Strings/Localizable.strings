@@ -24,6 +24,14 @@
 "buttonMenuItemToggle" = "Toggle button";
 "buttonMenuItemOther" = "Other";
 
+"textFieldMenuItemBorderStyle" = "Border style";
+"textFieldMenuItemClearButton" = "Clear button";
+"textFieldMenuItemDisabled" = "Disabled";
+"textFieldMenuItemTraits" = "Text input traits";
+"textFieldMenuItemKeyboardType" = "Keyboard type";
+"textFieldMenuItemReturnKeyType" = "Return key type";
+"textFieldMenuItemOther" = "Other";
+
 "scrollViewMenuItemVertical" = "Vertical";
 "scrollViewMenuItemHorizontal" = "Horizontal";
 "scrollViewMenuItemTwoDirections" = "Two directions";

@@ -26,6 +26,14 @@ enum LocalizableString: String {
     case buttonMenuItemToggle
     case buttonMenuItemOther
     
+    case textFieldMenuItemBorderStyle
+    case textFieldMenuItemClearButton
+    case textFieldMenuItemDisabled
+    case textFieldMenuItemTraits
+    case textFieldMenuItemKeyboardType
+    case textFieldMenuItemReturnKeyType
+    case textFieldMenuItemOther
+    
     case scrollViewMenuItemVertical
     case scrollViewMenuItemHorizontal
     case scrollViewMenuItemTwoDirections
