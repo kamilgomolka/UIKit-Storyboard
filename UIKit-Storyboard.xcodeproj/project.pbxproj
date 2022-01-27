@@ -340,11 +340,11 @@
 		26D6320B279C7C220029AE96 /* Main Menu ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				26D63203279C72D40029AE96 /* TextField */,
+				267400B527836A4A00BCA6D3 /* AllElements */,
 				2696D002279B20E0004521F0 /* Button */,
 				2696CFEB279B0174004521F0 /* Label */,
-				267400B527836A4A00BCA6D3 /* AllElements */,
 				807FE359275E0A8D00E60A6D /* ScrollView */,
+				26D63203279C72D40029AE96 /* TextField */,
 			);
 			path = "Main Menu ViewControllers";
 			sourceTree = "<group>";
