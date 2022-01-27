@@ -1,13 +1,13 @@
 //
-//  BaseTextFieldViewController.swift
+//  BaseViewController.swift
 //  UIKit-Storyboard
 //
-//  Created by Kamil Gomółka on 23/01/2022.
+//  Created by Kamil Gomółka on 27/01/2022.
 //
 
 import UIKit
 
-class BaseTextFieldViewController: UIViewController {
+class BaseViewController: UIViewController {
     
     var scrollViewToAdjst: UIScrollView? {
         return nil
@@ -78,8 +78,8 @@ class BaseTextFieldViewController: UIViewController {
     }
     
     func adjustScrollview(keyboardVisible: Bool, notification: NSNotification) {
-        let keyboardHeight = keyboardVisible ? keyboardHeight(notification: notification) : 0.0
-        let inset = UIEdgeInsets(top: 0.0, left: 0.0, bottom: keyboardHeight, right: 0.0)
+        let botttomInset = keyboardVisible ? keyboardHeight(notification: notification) : 0.0
+        let inset = UIEdgeInsets(top: 0.0, left: 0.0, bottom: botttomInset, right: 0.0)
         scrollViewToAdjst?.contentInset = inset
         scrollViewToAdjst?.scrollIndicatorInsets = inset
     }
@@ -94,7 +94,7 @@ class BaseTextFieldViewController: UIViewController {
     }
 }
 
-extension BaseTextFieldViewController: UIGestureRecognizerDelegate {
+extension BaseViewController: UIGestureRecognizerDelegate {
     
     func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldReceive touch: UITouch) -> Bool {
         if let view = touch.view, view is UIControl {

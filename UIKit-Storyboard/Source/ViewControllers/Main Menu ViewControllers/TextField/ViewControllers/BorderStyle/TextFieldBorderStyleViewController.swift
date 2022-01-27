@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TextFieldBorderStyleViewController: BaseTextFieldViewController {
+class TextFieldBorderStyleViewController: BaseViewController {
     
     @IBOutlet weak var scrollView: UIScrollView!
     

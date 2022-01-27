@@ -28,6 +28,18 @@
 		2696D01A279B2F10004521F0 /* ButtonCornerStyle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2696D019279B2F10004521F0 /* ButtonCornerStyle.storyboard */; };
 		2696D022279B3031004521F0 /* OtherButtonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696D021279B3031004521F0 /* OtherButtonsViewController.swift */; };
 		2696D024279B3037004521F0 /* OtherButtons.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2696D023279B3037004521F0 /* OtherButtons.storyboard */; };
+		26A3C64B27A310030029020F /* TextViewNonEditableNonSelectable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A3C63A27A310030029020F /* TextViewNonEditableNonSelectable.storyboard */; };
+		26A3C64C27A310030029020F /* TextViewNonEditableNonSelectableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A3C63B27A310030029020F /* TextViewNonEditableNonSelectableViewController.swift */; };
+		26A3C64D27A310030029020F /* TextViewEditable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A3C63D27A310030029020F /* TextViewEditable.storyboard */; };
+		26A3C64E27A310030029020F /* TextViewEditableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A3C63E27A310030029020F /* TextViewEditableViewController.swift */; };
+		26A3C64F27A310030029020F /* TextViewDataDetectorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A3C64027A310030029020F /* TextViewDataDetectorsViewController.swift */; };
+		26A3C65027A310030029020F /* TextViewDataDetectors.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A3C64127A310030029020F /* TextViewDataDetectors.storyboard */; };
+		26A3C65127A310030029020F /* TextViewNonEditable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A3C64327A310030029020F /* TextViewNonEditable.storyboard */; };
+		26A3C65227A310030029020F /* TextViewNonEditableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A3C64427A310030029020F /* TextViewNonEditableViewController.swift */; };
+		26A3C65427A310030029020F /* TextViewMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A3C64827A310030029020F /* TextViewMenuItem.swift */; };
+		26A3C65527A310030029020F /* TextViewMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A3C64927A310030029020F /* TextViewMenu.storyboard */; };
+		26A3C65627A310030029020F /* TextViewMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A3C64A27A310030029020F /* TextViewMenuViewController.swift */; };
+		26A3C65927A31B900029020F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A3C65827A31B900029020F /* BaseViewController.swift */; };
 		26D631FA279C08230029AE96 /* ButtonImagePlacementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D631F8279C08230029AE96 /* ButtonImagePlacementViewController.swift */; };
 		26D631FB279C08230029AE96 /* ButtonImagePlacement.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D631F9279C08230029AE96 /* ButtonImagePlacement.storyboard */; };
 		26D63200279C12AC0029AE96 /* ButtonMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D631FD279C12AC0029AE96 /* ButtonMenuViewController.swift */; };
@@ -50,7 +62,6 @@
 		26D63231279C7E170029AE96 /* TextFieldKeyboardType.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D63222279C7E170029AE96 /* TextFieldKeyboardType.storyboard */; };
 		26D63235279C81130029AE96 /* TextFieldOtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D63233279C81130029AE96 /* TextFieldOtherViewController.swift */; };
 		26D63236279C81130029AE96 /* TextFieldOther.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D63234279C81130029AE96 /* TextFieldOther.storyboard */; };
-		26D6323C279D70B60029AE96 /* BaseTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D6323B279D70B60029AE96 /* BaseTextFieldViewController.swift */; };
 		8050A3D0275A329D00CE2BD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8050A3CF275A329D00CE2BD4 /* AppDelegate.swift */; };
 		8050A3D2275A329D00CE2BD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8050A3D1275A329D00CE2BD4 /* SceneDelegate.swift */; };
 		8050A3D9275A329E00CE2BD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8050A3D8275A329E00CE2BD4 /* Assets.xcassets */; };
@@ -101,6 +112,18 @@
 		2696D019279B2F10004521F0 /* ButtonCornerStyle.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ButtonCornerStyle.storyboard; sourceTree = "<group>"; };
 		2696D021279B3031004521F0 /* OtherButtonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherButtonsViewController.swift; sourceTree = "<group>"; };
 		2696D023279B3037004521F0 /* OtherButtons.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OtherButtons.storyboard; sourceTree = "<group>"; };
+		26A3C63A27A310030029020F /* TextViewNonEditableNonSelectable.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TextViewNonEditableNonSelectable.storyboard; sourceTree = "<group>"; };
+		26A3C63B27A310030029020F /* TextViewNonEditableNonSelectableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewNonEditableNonSelectableViewController.swift; sourceTree = "<group>"; };
+		26A3C63D27A310030029020F /* TextViewEditable.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TextViewEditable.storyboard; sourceTree = "<group>"; };
+		26A3C63E27A310030029020F /* TextViewEditableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewEditableViewController.swift; sourceTree = "<group>"; };
+		26A3C64027A310030029020F /* TextViewDataDetectorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewDataDetectorsViewController.swift; sourceTree = "<group>"; };
+		26A3C64127A310030029020F /* TextViewDataDetectors.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TextViewDataDetectors.storyboard; sourceTree = "<group>"; };
+		26A3C64327A310030029020F /* TextViewNonEditable.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TextViewNonEditable.storyboard; sourceTree = "<group>"; };
+		26A3C64427A310030029020F /* TextViewNonEditableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewNonEditableViewController.swift; sourceTree = "<group>"; };
+		26A3C64827A310030029020F /* TextViewMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewMenuItem.swift; sourceTree = "<group>"; };
+		26A3C64927A310030029020F /* TextViewMenu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TextViewMenu.storyboard; sourceTree = "<group>"; };
+		26A3C64A27A310030029020F /* TextViewMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewMenuViewController.swift; sourceTree = "<group>"; };
+		26A3C65827A31B900029020F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		26D631F8279C08230029AE96 /* ButtonImagePlacementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonImagePlacementViewController.swift; sourceTree = "<group>"; };
 		26D631F9279C08230029AE96 /* ButtonImagePlacement.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ButtonImagePlacement.storyboard; sourceTree = "<group>"; };
 		26D631FD279C12AC0029AE96 /* ButtonMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonMenuViewController.swift; sourceTree = "<group>"; };
@@ -123,7 +146,6 @@
 		26D63222279C7E170029AE96 /* TextFieldKeyboardType.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TextFieldKeyboardType.storyboard; sourceTree = "<group>"; };
 		26D63233279C81130029AE96 /* TextFieldOtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldOtherViewController.swift; sourceTree = "<group>"; };
 		26D63234279C81130029AE96 /* TextFieldOther.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TextFieldOther.storyboard; sourceTree = "<group>"; };
-		26D6323B279D70B60029AE96 /* BaseTextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTextFieldViewController.swift; sourceTree = "<group>"; };
 		8050A3CC275A329D00CE2BD4 /* UIKit-Storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit-Storyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8050A3CF275A329D00CE2BD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8050A3D1275A329D00CE2BD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -274,6 +296,80 @@
 			path = Other;
 			sourceTree = "<group>";
 		};
+		26A3C63727A310030029020F /* TextView */ = {
+			isa = PBXGroup;
+			children = (
+				26A3C64727A310030029020F /* Menu */,
+				26A3C63827A310030029020F /* ViewControllers */,
+			);
+			path = TextView;
+			sourceTree = "<group>";
+		};
+		26A3C63827A310030029020F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				26A3C63F27A310030029020F /* DataDetectors */,
+				26A3C63C27A310030029020F /* Editable */,
+				26A3C64227A310030029020F /* NonEditable */,
+				26A3C63927A310030029020F /* NonEditableNonSelectable */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		26A3C63927A310030029020F /* NonEditableNonSelectable */ = {
+			isa = PBXGroup;
+			children = (
+				26A3C63B27A310030029020F /* TextViewNonEditableNonSelectableViewController.swift */,
+				26A3C63A27A310030029020F /* TextViewNonEditableNonSelectable.storyboard */,
+			);
+			path = NonEditableNonSelectable;
+			sourceTree = "<group>";
+		};
+		26A3C63C27A310030029020F /* Editable */ = {
+			isa = PBXGroup;
+			children = (
+				26A3C63E27A310030029020F /* TextViewEditableViewController.swift */,
+				26A3C63D27A310030029020F /* TextViewEditable.storyboard */,
+			);
+			path = Editable;
+			sourceTree = "<group>";
+		};
+		26A3C63F27A310030029020F /* DataDetectors */ = {
+			isa = PBXGroup;
+			children = (
+				26A3C64027A310030029020F /* TextViewDataDetectorsViewController.swift */,
+				26A3C64127A310030029020F /* TextViewDataDetectors.storyboard */,
+			);
+			path = DataDetectors;
+			sourceTree = "<group>";
+		};
+		26A3C64227A310030029020F /* NonEditable */ = {
+			isa = PBXGroup;
+			children = (
+				26A3C64427A310030029020F /* TextViewNonEditableViewController.swift */,
+				26A3C64327A310030029020F /* TextViewNonEditable.storyboard */,
+			);
+			path = NonEditable;
+			sourceTree = "<group>";
+		};
+		26A3C64727A310030029020F /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				26A3C64827A310030029020F /* TextViewMenuItem.swift */,
+				26A3C64A27A310030029020F /* TextViewMenuViewController.swift */,
+				26A3C64927A310030029020F /* TextViewMenu.storyboard */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		26A3C65727A31B830029020F /* Base ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				26A3C65827A31B900029020F /* BaseViewController.swift */,
+			);
+			path = "Base ViewController";
+			sourceTree = "<group>";
+		};
 		26D631F7279C08230029AE96 /* ImagePlacement */ = {
 			isa = PBXGroup;
 			children = (
@@ -345,6 +441,7 @@
 				2696CFEB279B0174004521F0 /* Label */,
 				807FE359275E0A8D00E60A6D /* ScrollView */,
 				26D63203279C72D40029AE96 /* TextField */,
+				26A3C63727A310030029020F /* TextView */,
 			);
 			path = "Main Menu ViewControllers";
 			sourceTree = "<group>";
@@ -362,7 +459,6 @@
 		26D63210279C7E170029AE96 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				26D6323A279D70AA0029AE96 /* Base */,
 				26D63217279C7E170029AE96 /* BorderStyle */,
 				26D6321A279C7E170029AE96 /* ClearButton */,
 				26D6321D279C7E170029AE96 /* Disabled */,
@@ -437,14 +533,6 @@
 			path = Other;
 			sourceTree = "<group>";
 		};
-		26D6323A279D70AA0029AE96 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				26D6323B279D70B60029AE96 /* BaseTextFieldViewController.swift */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
 		8050A3C3275A329D00CE2BD4 = {
 			isa = PBXGroup;
 			children = (
@@ -492,6 +580,7 @@
 		8050A3E5275A36D100CE2BD4 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				26A3C65727A31B830029020F /* Base ViewController */,
 				807FE352275E02C000E60A6D /* Base Menu */,
 				8050A3E4275A36C100CE2BD4 /* Main Menu */,
 				26D6320B279C7C220029AE96 /* Main Menu ViewControllers */,
@@ -675,9 +764,12 @@
 				8050A3EB275A386500CE2BD4 /* MainMenu.storyboard in Resources */,
 				26D63201279C12AC0029AE96 /* ButtonMenu.storyboard in Resources */,
 				26D6322E279C7E170029AE96 /* TextFieldDisabled.storyboard in Resources */,
+				26A3C65127A310030029020F /* TextViewNonEditable.storyboard in Resources */,
+				26A3C64B27A310030029020F /* TextViewNonEditableNonSelectable.storyboard in Resources */,
 				8050A3ED275A3DD100CE2BD4 /* Localizable.strings in Resources */,
 				2696D024279B3037004521F0 /* OtherButtons.storyboard in Resources */,
 				807FE374275E1D1D00E60A6D /* ScrollViewWithNoContentLayoutGuides.storyboard in Resources */,
+				26A3C65527A310030029020F /* TextViewMenu.storyboard in Resources */,
 				8050A3DC275A329E00CE2BD4 /* LaunchScreen.storyboard in Resources */,
 				26D6322B279C7E170029AE96 /* TextFieldBorderStyle.storyboard in Resources */,
 				26D63229279C7E170029AE96 /* TextFieldTraits.storyboard in Resources */,
@@ -686,10 +778,12 @@
 				2696D010279B2D5E004521F0 /* ButtonSystemSizes.storyboard in Resources */,
 				807FE35E275E0AA900E60A6D /* ScrollViewMenu.storyboard in Resources */,
 				807FE378275E1D1D00E60A6D /* ScrollViewWithKeyboard.storyboard in Resources */,
+				26A3C65027A310030029020F /* TextViewDataDetectors.storyboard in Resources */,
 				26D63227279C7E170029AE96 /* TextFieldReturnKeyType.storyboard in Resources */,
 				26D631FB279C08230029AE96 /* ButtonImagePlacement.storyboard in Resources */,
 				807FE377275E1D1D00E60A6D /* ScrollViewHorizontal.storyboard in Resources */,
 				2696CFED279B0183004521F0 /* TextStyles.storyboard in Resources */,
+				26A3C64D27A310030029020F /* TextViewEditable.storyboard in Resources */,
 				2696D00A279B2D2A004521F0 /* ButtonStyles.storyboard in Resources */,
 				8050A3D9275A329E00CE2BD4 /* Assets.xcassets in Resources */,
 				26D6322C279C7E170029AE96 /* TextFieldClearButton.storyboard in Resources */,
@@ -710,15 +804,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26A3C64F27A310030029020F /* TextViewDataDetectorsViewController.swift in Sources */,
 				26D63202279C12AC0029AE96 /* ButtonMenuItem.swift in Sources */,
 				26D63228279C7E170029AE96 /* TextFieldTraitsViewController.swift in Sources */,
+				26A3C65427A310030029020F /* TextViewMenuItem.swift in Sources */,
 				2696CFFF279B0D0D004521F0 /* FontSizesViewController.swift in Sources */,
 				26D63200279C12AC0029AE96 /* ButtonMenuViewController.swift in Sources */,
+				26A3C65627A310030029020F /* TextViewMenuViewController.swift in Sources */,
 				26D6322A279C7E170029AE96 /* TextFieldBorderStyleViewController.swift in Sources */,
 				26D63223279C7E170029AE96 /* TextFieldMenuViewController.swift in Sources */,
 				26D6322D279C7E170029AE96 /* TextFieldClearButtonViewController.swift in Sources */,
 				26D63235279C81130029AE96 /* TextFieldOtherViewController.swift in Sources */,
 				2696D00E279B2D43004521F0 /* ButtonSystemSizesViewController.swift in Sources */,
+				26A3C65927A31B900029020F /* BaseViewController.swift in Sources */,
 				26D63225279C7E170029AE96 /* TextFieldMenuItem.swift in Sources */,
 				807FE375275E1D1D00E60A6D /* ScrollViewWithNoContentLayoutGuidesViewController.swift in Sources */,
 				8050A3D0275A329D00CE2BD4 /* AppDelegate.swift in Sources */,
@@ -728,7 +826,9 @@
 				8050A3D2275A329D00CE2BD4 /* SceneDelegate.swift in Sources */,
 				807FE363275E0B7500E60A6D /* ScrollViewVerticalViewController.swift in Sources */,
 				26D6322F279C7E170029AE96 /* TextFieldDisabledViewController.swift in Sources */,
+				26A3C64C27A310030029020F /* TextViewNonEditableNonSelectableViewController.swift in Sources */,
 				2696CFFD279B0D02004521F0 /* FontWeightsViewController.swift in Sources */,
+				26A3C64E27A310030029020F /* TextViewEditableViewController.swift in Sources */,
 				2696D00C279B2D33004521F0 /* ButtonStylesViewController.swift in Sources */,
 				26D63230279C7E170029AE96 /* TextFieldKeyboardTypeViewController.swift in Sources */,
 				807FE376275E1D1D00E60A6D /* ScrollViewHorizontalViewController.swift in Sources */,
@@ -738,6 +838,7 @@
 				2696CFF0279B030F004521F0 /* LabelMenuViewController.swift in Sources */,
 				8050A3F0275A3E2800CE2BD4 /* LocalizableString.swift in Sources */,
 				2696D001279B0D15004521F0 /* TextStylesViewController.swift in Sources */,
+				26A3C65227A310030029020F /* TextViewNonEditableViewController.swift in Sources */,
 				8050A3FA275A5A0100CE2BD4 /* UIViewControllerExtensions.swift in Sources */,
 				807FE354275E02D700E60A6D /* MenuViewController.swift in Sources */,
 				26D63226279C7E170029AE96 /* TextFieldReturnKeyTypeViewController.swift in Sources */,
@@ -745,7 +846,6 @@
 				8050A3FC275A5AFB00CE2BD4 /* MainMenuItem.swift in Sources */,
 				2696CFF2279B0316004521F0 /* LabelMenuItem.swift in Sources */,
 				807FE356275E062100E60A6D /* MenuItemProtocol.swift in Sources */,
-				26D6323C279D70B60029AE96 /* BaseTextFieldViewController.swift in Sources */,
 				807FE360275E0ADF00E60A6D /* ScrollViewMenuItem.swift in Sources */,
 				267400B927836A7200BCA6D3 /* AllElementsViewController.swift in Sources */,
 				26D631FA279C08230029AE96 /* ButtonImagePlacementViewController.swift in Sources */,

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TextFieldClearButtonViewController: BaseTextFieldViewController {
+class TextFieldClearButtonViewController: BaseViewController {
     
     @IBOutlet weak var scrollView: UIScrollView!
     

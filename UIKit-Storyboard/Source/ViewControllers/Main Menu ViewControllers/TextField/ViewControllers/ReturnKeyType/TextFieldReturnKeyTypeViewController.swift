@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TextFieldReturnKeyTypeViewController: BaseTextFieldViewController {
+class TextFieldReturnKeyTypeViewController: BaseViewController {
     
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var stackView: UIStackView!

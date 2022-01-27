@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TextFieldOtherViewController: BaseTextFieldViewController {
+class TextFieldOtherViewController: BaseViewController {
     
     @IBOutlet weak var scrollView: UIScrollView!
     

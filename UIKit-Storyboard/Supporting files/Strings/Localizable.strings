@@ -11,6 +11,7 @@
 "mainMenuItemLabel" = "Label";
 "mainMenuItemButton" = "Button";
 "mainMenuItemTextField" = "TextField";
+"mainMenuItemTextView" = "TextView";
 "mainMenuItemScrollView" = "Scrollview";
 
 "labelMenuItemTextStyles" = "System text styles";
@@ -31,6 +32,11 @@
 "textFieldMenuItemKeyboardType" = "Keyboard type";
 "textFieldMenuItemReturnKeyType" = "Return key type";
 "textFieldMenuItemOther" = "Other";
+
+"textViewMenuEditable" = "Editable";
+"textViewMenuNonEditable" = "Non editable";
+"textViewMenuNonEditableNonSelectable" = "Non editable, non selectable";
+"textViewMenuDataDetectors" = "Data detectors";
 
 "scrollViewMenuItemVertical" = "Vertical";
 "scrollViewMenuItemHorizontal" = "Horizontal";

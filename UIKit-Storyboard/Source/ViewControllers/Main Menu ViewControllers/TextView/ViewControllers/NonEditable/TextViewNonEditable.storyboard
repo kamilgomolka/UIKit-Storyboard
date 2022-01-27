@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Z0I-Ge-27w">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Text View Non Editable View Controller-->
+        <scene sceneID="GHd-SM-PtJ">
+            <objects>
+                <viewController id="Z0I-Ge-27w" customClass="TextViewNonEditableViewController" customModule="UIKit_Storyboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4Td-uS-R8O">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="interactive" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Nh9-Bw-NhE">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultricies, lorem eu ornare faucibus, felis felis rutrum massa, venenatis volutpat sem erat ut massa. Proin mattis diam ac malesuada gravida. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus sodales neque turpis, sed pharetra nibh malesuada tincidunt. Morbi convallis, metus a egestas hendrerit, velit nisl auctor justo, a iaculis metus odio ullamcorper mauris. Integer efficitur, nulla at hendrerit iaculis, dolor dui volutpat erat, ac posuere lectus libero quis nisi. Fusce vitae porta nisi. Mauris id felis ipsum. Vivamus nec volutpat lectus.
+
+Nam in enim a ipsum maximus ultrices. Phasellus non vestibulum magna. Aenean ullamcorper hendrerit justo nec consequat. Nulla ut molestie sapien. Mauris faucibus elit a ligula luctus auctor. Cras eu rhoncus quam. Vestibulum maximus interdum lorem. Integer nec ex laoreet, cursus massa ac, convallis lectus. Suspendisse interdum aliquam orci convallis finibus.
+
+Ut sodales tempor tellus et condimentum. Integer quis maximus ante. Nunc a sapien eu ante pretium elementum. Vestibulum velit neque, auctor at ipsum eu, consequat consectetur purus. Nulla laoreet, metus eu interdum molestie, metus ipsum pulvinar nisi, vitae elementum tortor enim sed eros. Praesent elementum tellus quis felis sodales pretium. Quisque posuere scelerisque felis eu sodales. Proin nulla nibh, placerat quis ultrices quis, rutrum ut ipsum. Donec bibendum viverra nunc. Phasellus lacinia malesuada nunc, id bibendum felis venenatis convallis.
+
+Sed condimentum risus aliquam elit consectetur porta. Vestibulum ornare in orci sed porttitor. Cras nec diam leo. Duis sagittis neque malesuada dolor lacinia aliquam. Donec sed velit justo. Mauris venenatis volutpat cursus. Quisque dapibus, magna quis fringilla feugiat, est arcu cursus ex, nec maximus tellus quam sed risus. Pellentesque porta sapien eget venenatis dignissim. Praesent tempor ante odio, ut varius sem consectetur nec. Maecenas aliquam nulla congue mi dignissim, non congue dolor pharetra. Praesent non ex vehicula est placerat blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in ex fringilla, tincidunt tortor eget, fringilla leo.
+
+Pellentesque faucibus nisl ipsum. Nulla sed tellus malesuada, tempor velit id, sagittis nisl. Morbi ac posuere justo. Cras scelerisque orci sit amet posuere accumsan. Donec metus ipsum, tempor ac iaculis in, placerat a sapien. Maecenas blandit nec ante in mattis. Vivamus eu elit quis ante dignissim consequat sed nec risus. Pellentesque a augue hendrerit lectus hendrerit porttitor in quis eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In sit amet lectus tristique, consequat ante ut, volutpat orci. Nullam et arcu molestie, fermentum nunc eu, gravida nisi. Sed hendrerit, sem vitae pretium sagittis, mi tellus viverra diam, ultrices tincidunt nulla ipsum at tortor. In sed nunc ultrices ligula consequat rhoncus at non nisl. Sed nisl nibh, egestas imperdiet ullamcorper in, volutpat ac ligula.</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ktg-Rw-zZb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Ktg-Rw-zZb" firstAttribute="trailing" secondItem="Nh9-Bw-NhE" secondAttribute="trailing" id="70A-C3-Nfk"/>
+                            <constraint firstItem="Nh9-Bw-NhE" firstAttribute="leading" secondItem="Ktg-Rw-zZb" secondAttribute="leading" id="Ytk-0F-DcZ"/>
+                            <constraint firstAttribute="bottom" secondItem="Nh9-Bw-NhE" secondAttribute="bottom" id="cRc-wJ-1pD"/>
+                            <constraint firstItem="Nh9-Bw-NhE" firstAttribute="top" secondItem="4Td-uS-R8O" secondAttribute="top" id="pfV-sW-9PZ"/>
+                        </constraints>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="textView" destination="Nh9-Bw-NhE" id="HDd-2Q-cuu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Wk-Ns-LzW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="278" y="78"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
