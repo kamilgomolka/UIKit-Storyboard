@@ -9,7 +9,7 @@ import UIKit
 
 class ScrollViewMenuViewController: MenuViewController<ScrollViewMenuItem> {
     
-    @IBOutlet weak var tableViewOutlet: UITableView?
+    @IBOutlet weak var tableViewOutlet: UITableView!
     
     override var tableView: UITableView? {
         return tableViewOutlet
