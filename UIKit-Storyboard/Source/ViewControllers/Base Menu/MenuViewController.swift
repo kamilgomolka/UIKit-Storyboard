@@ -45,11 +45,9 @@ class MenuViewController<MenuItemType: MenuItemProtocol>: UIViewController, UITa
         let allCasesArray = Array(MenuItemType.allCases)
         let menuItem = allCasesArray[indexPath.row]
         
-        guard let viewController = UIViewController.newInstance(storyboardName: menuItem.storyboardName) else {
+        guard let viewController = menuItem.instantiateViewController() else {
             return
         }
-        
-        viewController.title = menuItem.name
         
         navigationController?.pushViewController(viewController, animated: true)
     }

@@ -13,6 +13,7 @@
 "mainMenuItemTextField" = "TextField";
 "mainMenuItemTextView" = "TextView";
 "mainMenuItemScrollView" = "Scrollview";
+"mainMenuItemTableView" = "TableView";
 
 "labelMenuItemTextStyles" = "System text styles";
 "labelMenuItemFontSizes" = "Font sizes in pt";
@@ -44,3 +45,25 @@
 "scrollViewMenuItemWithNoContentLayoutGuides" = "With no content layout guides";
 "scrollViewMenuItemWithKeyboard" = "With keyboard";
 
+"tableViewMenuItemTableViewStyle" = "TableView.Style";
+"tableViewMenuItemTableViewSeparatorStyle" = "TableView.SeparatorStyle";
+"tableViewMenuItemTableViewSelection" = "TableView.Selection";
+"tableViewMenuItemCellCellStyle" = "Cell.Style";
+"tableViewMenuItemCellSelectionStyle" = "Cell.SelectionStyle";
+"tableViewMenuItemCellAccessoryType" = "Cell.AccessoryType";
+"tableViewMenuItemCellSeparatorIsets" = "Cell.SeparatorIsets";
+"tableViewMenuItemHeadersAndFootters" = "Headers and Footters";
+"tableViewMenuItemSectionIndex" = "SectionIndex";
+"tableViewMenuItemEditing" = "Editing modes";
+
+"tableViewStyleMenuItemPlain" = "Plain";
+"tableViewStyleMenuItemGrouped" = "Grouped";
+"tableViewStyleMenuItemInsetGrouped" = "InsetGrouped";
+
+"tableViewSeparatorStyleMenuItemNone" = "None";
+"tableViewSeparatorStyleMenuItemLine" = "Single line";
+"tableViewSeparatorStyleMenuItemEtched" = "Single line etched";
+
+"tableViewSelectionMenuItemSingle" = "Single";
+"tableViewSelectionMenuItemDeselect" = "Single with deselect";
+"tableViewSelectionMenuItemMultiple" = "Multiple";
