@@ -8,30 +8,18 @@
 import Foundation
 
 enum TableViewSelectionMenuItem: MenuItemProtocol {
-    case borderStyle
-    case clearButton
-    case disabled
-    case traits
-    case keyboardType
-    case returnKeyType
-    case other
+    case tableViewSelectionMenuItemSingle
+    case tableViewSelectionMenuItemDeselect
+    case tableViewSelectionMenuItemMultiple
     
     var name: String {
         switch self {
-        case .borderStyle:
-            return LocalizedString(.textFieldMenuItemBorderStyle)
-        case .clearButton:
-            return LocalizedString(.textFieldMenuItemClearButton)
-        case .disabled:
-            return LocalizedString(.textFieldMenuItemDisabled)
-        case .traits:
-            return LocalizedString(.textFieldMenuItemTraits)
-        case .keyboardType:
-            return LocalizedString(.textFieldMenuItemKeyboardType)
-        case .returnKeyType:
-            return LocalizedString(.textFieldMenuItemReturnKeyType)
-        case .other:
-            return LocalizedString(.textFieldMenuItemOther)
+        case .tableViewSelectionMenuItemSingle:
+            return LocalizedString(.tableViewSelectionMenuItemSingle)
+        case .tableViewSelectionMenuItemDeselect:
+            return LocalizedString(.tableViewSelectionMenuItemDeselect)
+        case .tableViewSelectionMenuItemMultiple:
+            return LocalizedString(.tableViewSelectionMenuItemMultiple)
         }
     }
     
@@ -40,6 +28,13 @@ enum TableViewSelectionMenuItem: MenuItemProtocol {
     }
     
     var viewControllerIdentifier: String? {
-        return ""
+        switch self {
+        case .tableViewSelectionMenuItemSingle:
+            return "TableViewSelectionSingleViewController"
+        case .tableViewSelectionMenuItemDeselect:
+            return "TableViewSelectionWithDeselectViewController"
+        case .tableViewSelectionMenuItemMultiple:
+            return "TableViewSelectionMultipleViewController"
+        }
     }
 }

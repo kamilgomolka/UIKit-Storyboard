@@ -38,6 +38,96 @@
             </objects>
             <point key="canvasLocation" x="-620" y="-8"/>
         </scene>
+        <!--Table View Style Menu View Controller-->
+        <scene sceneID="ZPX-vf-vl2">
+            <objects>
+                <viewController storyboardIdentifier="TableViewStyleMenuViewController" id="K9q-k0-1p1" customClass="TableViewStyleMenuViewController" customModule="UIKit_Storyboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="viE-LP-Dng">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ugb-k3-Gu1">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="qGn-t0-o28"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ugb-k3-Gu1" firstAttribute="top" secondItem="viE-LP-Dng" secondAttribute="top" id="6ed-1F-vZA"/>
+                            <constraint firstItem="ugb-k3-Gu1" firstAttribute="leading" secondItem="qGn-t0-o28" secondAttribute="leading" id="O6V-uG-raE"/>
+                            <constraint firstItem="qGn-t0-o28" firstAttribute="trailing" secondItem="ugb-k3-Gu1" secondAttribute="trailing" id="e4b-FJ-bM7"/>
+                            <constraint firstAttribute="bottom" secondItem="ugb-k3-Gu1" secondAttribute="bottom" id="mfm-ho-gE9"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="y0a-Tn-EOd"/>
+                    <connections>
+                        <outlet property="tableViewOutlet" destination="ugb-k3-Gu1" id="Hnp-V7-RzJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hjp-7s-Wls" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-620" y="657"/>
+        </scene>
+        <!--Table View Separator Style Menu View Controller-->
+        <scene sceneID="PrA-xg-fww">
+            <objects>
+                <viewController storyboardIdentifier="TableViewSeparatorStyleMenuViewController" id="M56-Ya-HMc" customClass="TableViewSeparatorStyleMenuViewController" customModule="UIKit_Storyboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pgj-fE-esK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="YXs-9x-iqU">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="JsS-7T-dcu"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="JsS-7T-dcu" firstAttribute="trailing" secondItem="YXs-9x-iqU" secondAttribute="trailing" id="0Bc-pu-6gz"/>
+                            <constraint firstItem="YXs-9x-iqU" firstAttribute="leading" secondItem="JsS-7T-dcu" secondAttribute="leading" id="1Xg-pW-6Sz"/>
+                            <constraint firstAttribute="bottom" secondItem="YXs-9x-iqU" secondAttribute="bottom" id="Gg9-sV-Dcc"/>
+                            <constraint firstItem="YXs-9x-iqU" firstAttribute="top" secondItem="pgj-fE-esK" secondAttribute="top" id="hXX-Nr-aBK"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="w8c-CX-BbB"/>
+                    <connections>
+                        <outlet property="tableViewOutlet" destination="YXs-9x-iqU" id="bqn-fQ-Qbj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l1T-mi-dPt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-620" y="1322"/>
+        </scene>
+        <!--Table View Selection Menu View Controller-->
+        <scene sceneID="t2C-QE-rtF">
+            <objects>
+                <viewController storyboardIdentifier="TableViewSelectionMenuViewController" id="806-HB-klk" customClass="TableViewSelectionMenuViewController" customModule="UIKit_Storyboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LQU-jp-oOp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="qZj-Yx-tkD">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="InK-Ar-aoq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qZj-Yx-tkD" firstAttribute="top" secondItem="LQU-jp-oOp" secondAttribute="top" id="Cxb-Jm-G7o"/>
+                            <constraint firstAttribute="bottom" secondItem="qZj-Yx-tkD" secondAttribute="bottom" id="UyD-jS-6LH"/>
+                            <constraint firstItem="InK-Ar-aoq" firstAttribute="trailing" secondItem="qZj-Yx-tkD" secondAttribute="trailing" id="adb-Ds-ucF"/>
+                            <constraint firstItem="qZj-Yx-tkD" firstAttribute="leading" secondItem="InK-Ar-aoq" secondAttribute="leading" id="bTk-Sw-bZt"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="lor-a9-XVd"/>
+                    <connections>
+                        <outlet property="tableViewOutlet" destination="qZj-Yx-tkD" id="amS-TJ-8jZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6P8-rE-Rtw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-620" y="1989"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">

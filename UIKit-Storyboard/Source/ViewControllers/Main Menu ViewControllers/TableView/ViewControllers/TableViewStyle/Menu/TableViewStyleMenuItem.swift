@@ -8,30 +8,18 @@
 import Foundation
 
 enum TableViewStyleMenuItem: MenuItemProtocol {
-    case borderStyle
-    case clearButton
-    case disabled
-    case traits
-    case keyboardType
-    case returnKeyType
-    case other
+    case tableViewStyleMenuItemPlain
+    case tableViewStyleMenuItemGrouped
+    case tableViewStyleMenuItemInsetGrouped
     
     var name: String {
         switch self {
-        case .borderStyle:
-            return LocalizedString(.textFieldMenuItemBorderStyle)
-        case .clearButton:
-            return LocalizedString(.textFieldMenuItemClearButton)
-        case .disabled:
-            return LocalizedString(.textFieldMenuItemDisabled)
-        case .traits:
-            return LocalizedString(.textFieldMenuItemTraits)
-        case .keyboardType:
-            return LocalizedString(.textFieldMenuItemKeyboardType)
-        case .returnKeyType:
-            return LocalizedString(.textFieldMenuItemReturnKeyType)
-        case .other:
-            return LocalizedString(.textFieldMenuItemOther)
+        case .tableViewStyleMenuItemPlain:
+            return LocalizedString(.tableViewStyleMenuItemPlain)
+        case .tableViewStyleMenuItemGrouped:
+            return LocalizedString(.tableViewStyleMenuItemGrouped)
+        case .tableViewStyleMenuItemInsetGrouped:
+            return LocalizedString(.tableViewStyleMenuItemInsetGrouped)
         }
     }
     
@@ -40,6 +28,13 @@ enum TableViewStyleMenuItem: MenuItemProtocol {
     }
     
     var viewControllerIdentifier: String? {
-        return ""
+        switch self {
+        case .tableViewStyleMenuItemPlain:
+            return "TableViewStylePlainViewController"
+        case .tableViewStyleMenuItemGrouped:
+            return "TableViewStyleGroupedViewController"
+        case .tableViewStyleMenuItemInsetGrouped:
+            return "TableViewStyleInsetGroupedViewController"
+        }
     }
 }

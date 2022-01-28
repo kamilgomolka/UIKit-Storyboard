@@ -8,30 +8,18 @@
 import Foundation
 
 enum TableViewSeparatorStyleMenuItem: MenuItemProtocol {
-    case borderStyle
-    case clearButton
-    case disabled
-    case traits
-    case keyboardType
-    case returnKeyType
-    case other
+    case tableViewSeparatorStyleMenuItemNone
+    case tableViewSeparatorStyleMenuItemLine
+    case tableViewSeparatorStyleMenuItemEtched
     
     var name: String {
         switch self {
-        case .borderStyle:
-            return LocalizedString(.textFieldMenuItemBorderStyle)
-        case .clearButton:
-            return LocalizedString(.textFieldMenuItemClearButton)
-        case .disabled:
-            return LocalizedString(.textFieldMenuItemDisabled)
-        case .traits:
-            return LocalizedString(.textFieldMenuItemTraits)
-        case .keyboardType:
-            return LocalizedString(.textFieldMenuItemKeyboardType)
-        case .returnKeyType:
-            return LocalizedString(.textFieldMenuItemReturnKeyType)
-        case .other:
-            return LocalizedString(.textFieldMenuItemOther)
+        case .tableViewSeparatorStyleMenuItemNone:
+            return LocalizedString(.tableViewSeparatorStyleMenuItemNone)
+        case .tableViewSeparatorStyleMenuItemLine:
+            return LocalizedString(.tableViewSeparatorStyleMenuItemLine)
+        case .tableViewSeparatorStyleMenuItemEtched:
+            return LocalizedString(.tableViewSeparatorStyleMenuItemEtched)
         }
     }
     
@@ -40,6 +28,13 @@ enum TableViewSeparatorStyleMenuItem: MenuItemProtocol {
     }
     
     var viewControllerIdentifier: String? {
-        return ""
+        switch self {
+        case .tableViewSeparatorStyleMenuItemNone:
+            return "TableViewSeparatorStyleNoneViewController"
+        case .tableViewSeparatorStyleMenuItemLine:
+            return "TableViewSeparatorStyleLineViewController"
+        case .tableViewSeparatorStyleMenuItemEtched:
+            return "TableViewSeparatorStyleEtchedViewController"
+        }
     }
 }

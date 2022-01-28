@@ -66,7 +66,7 @@
 		26D816C127A4576A005F8135 /* TableViewMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D816C027A4576A005F8135 /* TableViewMenuViewController.swift */; };
 		26D816C327A45772005F8135 /* TableViewMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D816C227A45772005F8135 /* TableViewMenuItem.swift */; };
 		26D816EF27A459E5005F8135 /* TableViewSelectionSingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D816C927A459E5005F8135 /* TableViewSelectionSingleViewController.swift */; };
-		26D816F027A459E5005F8135 /* TableViewSelectionSingleWIthDeselectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D816CA27A459E5005F8135 /* TableViewSelectionSingleWIthDeselectViewController.swift */; };
+		26D816F027A459E5005F8135 /* TableViewSelectionWithDeselectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D816CA27A459E5005F8135 /* TableViewSelectionWithDeselectViewController.swift */; };
 		26D816F127A459E5005F8135 /* TableViewSelectionGroupedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D816CB27A459E5005F8135 /* TableViewSelectionGroupedViewController.swift */; };
 		26D816F227A459E5005F8135 /* TableViewSelectionMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D816CD27A459E5005F8135 /* TableViewSelectionMenuViewController.swift */; };
 		26D816F327A459E5005F8135 /* TableViewSelectionMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D816CE27A459E5005F8135 /* TableViewSelectionMenuItem.swift */; };
@@ -172,7 +172,7 @@
 		26D816C027A4576A005F8135 /* TableViewMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewMenuViewController.swift; sourceTree = "<group>"; };
 		26D816C227A45772005F8135 /* TableViewMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewMenuItem.swift; sourceTree = "<group>"; };
 		26D816C927A459E5005F8135 /* TableViewSelectionSingleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewSelectionSingleViewController.swift; sourceTree = "<group>"; };
-		26D816CA27A459E5005F8135 /* TableViewSelectionSingleWIthDeselectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewSelectionSingleWIthDeselectViewController.swift; sourceTree = "<group>"; };
+		26D816CA27A459E5005F8135 /* TableViewSelectionWithDeselectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewSelectionWithDeselectViewController.swift; sourceTree = "<group>"; };
 		26D816CB27A459E5005F8135 /* TableViewSelectionGroupedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewSelectionGroupedViewController.swift; sourceTree = "<group>"; };
 		26D816CD27A459E5005F8135 /* TableViewSelectionMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewSelectionMenuViewController.swift; sourceTree = "<group>"; };
 		26D816CE27A459E5005F8135 /* TableViewSelectionMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewSelectionMenuItem.swift; sourceTree = "<group>"; };
@@ -624,7 +624,7 @@
 			isa = PBXGroup;
 			children = (
 				26D816C927A459E5005F8135 /* TableViewSelectionSingleViewController.swift */,
-				26D816CA27A459E5005F8135 /* TableViewSelectionSingleWIthDeselectViewController.swift */,
+				26D816CA27A459E5005F8135 /* TableViewSelectionWithDeselectViewController.swift */,
 				26D816CB27A459E5005F8135 /* TableViewSelectionGroupedViewController.swift */,
 			);
 			path = ViewControllers;
@@ -633,8 +633,8 @@
 		26D816CC27A459E5005F8135 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
-				26D816CD27A459E5005F8135 /* TableViewSelectionMenuViewController.swift */,
 				26D816CE27A459E5005F8135 /* TableViewSelectionMenuItem.swift */,
+				26D816CD27A459E5005F8135 /* TableViewSelectionMenuViewController.swift */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -1012,7 +1012,7 @@
 				26A3C65627A310030029020F /* TextViewMenuViewController.swift in Sources */,
 				26D6322A279C7E170029AE96 /* TextFieldBorderStyleViewController.swift in Sources */,
 				26D816FF27A459E5005F8135 /* TableViewStyleMenuItem.swift in Sources */,
-				26D816F027A459E5005F8135 /* TableViewSelectionSingleWIthDeselectViewController.swift in Sources */,
+				26D816F027A459E5005F8135 /* TableViewSelectionWithDeselectViewController.swift in Sources */,
 				26D63223279C7E170029AE96 /* TextFieldMenuViewController.swift in Sources */,
 				26D6322D279C7E170029AE96 /* TextFieldClearButtonViewController.swift in Sources */,
 				26D63235279C81130029AE96 /* TextFieldOtherViewController.swift in Sources */,

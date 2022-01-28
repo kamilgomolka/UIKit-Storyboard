@@ -1,5 +1,5 @@
 //
-//  TableViewSelectionSingleWIthDeselectViewController.swift
+//  TableViewSelectionWithDeselectViewController.swift
 //  UIKit-Storyboard
 //
 //  Created by Kamil Gomółka on 28/01/2022.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TableViewSelectionSingleWIthDeselectViewController: MenuViewController<TextFieldMenuItem> {
+class TableViewSelectionWithDeselectViewController: MenuViewController<TextFieldMenuItem> {
     
     @IBOutlet weak var tableViewOutlet: UITableView?
     

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TableViewSeparatorStyleMenuViewController: MenuViewController<TextFieldMenuItem> {
+class TableViewSeparatorStyleMenuViewController: MenuViewController<TableViewSeparatorStyleMenuItem> {
     
     @IBOutlet weak var tableViewOutlet: UITableView?
     

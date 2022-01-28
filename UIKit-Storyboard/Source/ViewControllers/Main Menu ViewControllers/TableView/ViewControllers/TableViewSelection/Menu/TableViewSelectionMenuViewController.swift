@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TableViewSelectionMenuViewController: MenuViewController<TextFieldMenuItem> {
+class TableViewSelectionMenuViewController: MenuViewController<TableViewSelectionMenuItem> {
     
     @IBOutlet weak var tableViewOutlet: UITableView?
     
