@@ -1,15 +1,15 @@
 //
-//  MenuViewController.swift
+//  SimpleTableViewController.swift
 //  UIKit-Storyboard
 //
-//  Created by Kamil Gomółka on 06/12/2021.
+//  Created by Kamil Gomółka on 31/01/2022.
 //
 
 import UIKit
 
-class MenuViewController<MenuItemType: MenuItemProtocol>: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class SimpleTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    let cellNibName = "MenuCell"
+    let cellNibName = "SimpleTableViewCell"
     
     var tableView: UITableView {
         fatalError("Please override 'var tableView' in subclass!")
@@ -25,16 +25,18 @@ class MenuViewController<MenuItemType: MenuItemProtocol>: UIViewController, UITa
     
     // MARK: - UITableViewDataSource
     
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return MenuItemType.allCases.count
+        return 10
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellNibName, for: indexPath)
-        let allCasesArray = Array(MenuItemType.allCases)
-        let menuItem = allCasesArray[indexPath.row]
         
-        cell.textLabel?.text = menuItem.name
+        cell.textLabel?.text = "Cell number \(indexPath.row)"
         
         return cell
     }
@@ -43,14 +45,5 @@ class MenuViewController<MenuItemType: MenuItemProtocol>: UIViewController, UITa
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-        
-        let allCasesArray = Array(MenuItemType.allCases)
-        let menuItem = allCasesArray[indexPath.row]
-        
-        guard let viewController = menuItem.instantiateViewController() else {
-            return
-        }
-        
-        navigationController?.pushViewController(viewController, animated: true)
     }
 }

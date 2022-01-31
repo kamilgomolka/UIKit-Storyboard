@@ -11,7 +11,7 @@ class ButtonMenuViewController: MenuViewController<ButtonMenuItem> {
     
     @IBOutlet weak var tableViewOutlet: UITableView!
     
-    override var tableView: UITableView? {
+    override var tableView: UITableView {
         return tableViewOutlet
     }
 }

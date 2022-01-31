@@ -7,11 +7,11 @@
 
 import UIKit
 
-class TableViewSeparatorStyleNoneViewController: MenuViewController<TextFieldMenuItem> {
+class TableViewSeparatorStyleNoneViewController: SimpleTableViewController {
     
     @IBOutlet weak var tableViewOutlet: UITableView!
     
-    override var tableView: UITableView? {
+    override var tableView: UITableView {
         return tableViewOutlet
     }
 }

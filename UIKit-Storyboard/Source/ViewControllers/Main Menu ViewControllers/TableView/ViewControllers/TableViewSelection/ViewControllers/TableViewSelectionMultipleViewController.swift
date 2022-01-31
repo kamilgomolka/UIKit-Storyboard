@@ -1,5 +1,5 @@
 //
-//  TableViewSelectionSingleViewController.swift
+//  TableViewSelectionMultipleViewController.swift
 //  UIKit-Storyboard
 //
 //  Created by Kamil Gomółka on 28/01/2022.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TableViewSelectionSingleViewController: SimpleTableViewController {
+class TableViewSelectionMultipleViewController: SimpleTableViewController {
     
     @IBOutlet weak var tableViewOutlet: UITableView!
     
