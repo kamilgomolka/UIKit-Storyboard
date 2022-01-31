@@ -1,5 +1,5 @@
 //
-//  CellSelectionStyleViewController.swift
+//  CellSeparatorInsetsViewController.swift
 //  UIKit-Storyboard
 //
 //  Created by Kamil Gomółka on 28/01/2022.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CellSelectionStyleViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class CellSeparatorInsetsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -21,11 +21,17 @@ class CellSelectionStyleViewController: UIViewController, UITableViewDataSource,
     // MARK: - UITableViewDataSource
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return CellSelectionStyleItem.allCases.count
+        return CellSeparatorInsetsItem.allCases.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cellType = CellSelectionStyleItem.allCases[indexPath.row]
+        let cellType = CellSeparatorInsetsItem.allCases[indexPath.row]
         return tableView.dequeueReusableCell(withIdentifier: cellType.cellIdentifier, for: indexPath)
+    }
+    
+    // MARK: - UITableViewDelegate
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
     }
 }

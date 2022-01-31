@@ -14,7 +14,7 @@ enum TableViewMenuItem: MenuItemProtocol {
     case cellCellStyle
     case cellSelectionStyle
     case cellAccessoryType
-    case cellSeparatorIsets
+    case cellSeparatorInsets
     case headersAndFootters
     case sectionIndex
     case editing
@@ -33,8 +33,8 @@ enum TableViewMenuItem: MenuItemProtocol {
             return LocalizedString(.tableViewMenuItemCellSelectionStyle)
         case .cellAccessoryType:
             return LocalizedString(.tableViewMenuItemCellAccessoryType)
-        case .cellSeparatorIsets:
-            return LocalizedString(.tableViewMenuItemCellSeparatorIsets)
+        case .cellSeparatorInsets:
+            return LocalizedString(.tableViewMenuItemCellSeparatorInsets)
         case .headersAndFootters:
             return LocalizedString(.tableViewMenuItemHeadersAndFootters)
         case .sectionIndex:
@@ -62,8 +62,8 @@ enum TableViewMenuItem: MenuItemProtocol {
             return "CellSelectionStyleViewController"
         case .cellAccessoryType:
             return "CellAccessoryTypeViewController"
-        case .cellSeparatorIsets:
-            return "CellSeparatorIsetsViewController"
+        case .cellSeparatorInsets:
+            return "CellSeparatorInsetsViewController"
         case .headersAndFootters:
             return ""
         case .sectionIndex:

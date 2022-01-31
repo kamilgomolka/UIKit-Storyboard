@@ -54,7 +54,7 @@ enum LocalizableString: String {
     case tableViewMenuItemCellCellStyle
     case tableViewMenuItemCellSelectionStyle
     case tableViewMenuItemCellAccessoryType
-    case tableViewMenuItemCellSeparatorIsets
+    case tableViewMenuItemCellSeparatorInsets
     case tableViewMenuItemHeadersAndFootters
     case tableViewMenuItemSectionIndex
     case tableViewMenuItemEditing

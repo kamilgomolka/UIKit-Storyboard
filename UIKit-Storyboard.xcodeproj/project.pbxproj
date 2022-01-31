@@ -75,7 +75,7 @@
 		26D816F627A459E5005F8135 /* TableViewSeparatorStyleLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D816D327A459E5005F8135 /* TableViewSeparatorStyleLineViewController.swift */; };
 		26D816F727A459E5005F8135 /* TableViewSeparatorStyleMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D816D527A459E5005F8135 /* TableViewSeparatorStyleMenuItem.swift */; };
 		26D816F827A459E5005F8135 /* TableViewSeparatorStyleMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D816D627A459E5005F8135 /* TableViewSeparatorStyleMenuViewController.swift */; };
-		26D816F927A459E5005F8135 /* CellSeparatorIsetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D816D827A459E5005F8135 /* CellSeparatorIsetsViewController.swift */; };
+		26D816F927A459E5005F8135 /* CellSeparatorInsetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D816D827A459E5005F8135 /* CellSeparatorInsetsViewController.swift */; };
 		26D816FC27A459E5005F8135 /* TableViewStyleInsetGroupedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D816DE27A459E5005F8135 /* TableViewStyleInsetGroupedViewController.swift */; };
 		26D816FD27A459E5005F8135 /* TableViewStyleGroupedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D816DF27A459E5005F8135 /* TableViewStyleGroupedViewController.swift */; };
 		26D816FE27A459E5005F8135 /* TableViewStylePlainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D816E027A459E5005F8135 /* TableViewStylePlainViewController.swift */; };
@@ -87,7 +87,9 @@
 		26F3843427A84B1C005E2588 /* SimpleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F3843327A84B1C005E2588 /* SimpleTableViewController.swift */; };
 		26F3843627A84D94005E2588 /* SimpleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26F3843527A84D94005E2588 /* SimpleTableViewCell.xib */; };
 		26F3843827A85C0B005E2588 /* CellStyleSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F3843727A85C0B005E2588 /* CellStyleSection.swift */; };
-		26F3843A27A85C1F005E2588 /* CellSelectionStyleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F3843927A85C1F005E2588 /* CellSelectionStyleCell.swift */; };
+		26F3843A27A85C1F005E2588 /* CellSelectionStyleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F3843927A85C1F005E2588 /* CellSelectionStyleItem.swift */; };
+		26F3843C27A87979005E2588 /* CellAccessoryTypeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F3843B27A87979005E2588 /* CellAccessoryTypeItem.swift */; };
+		26F3843E27A87C99005E2588 /* CellSeparatorInsetsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F3843D27A87C99005E2588 /* CellSeparatorInsetsItem.swift */; };
 		8050A3D0275A329D00CE2BD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8050A3CF275A329D00CE2BD4 /* AppDelegate.swift */; };
 		8050A3D2275A329D00CE2BD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8050A3D1275A329D00CE2BD4 /* SceneDelegate.swift */; };
 		8050A3D9275A329E00CE2BD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8050A3D8275A329E00CE2BD4 /* Assets.xcassets */; };
@@ -185,7 +187,7 @@
 		26D816D327A459E5005F8135 /* TableViewSeparatorStyleLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewSeparatorStyleLineViewController.swift; sourceTree = "<group>"; };
 		26D816D527A459E5005F8135 /* TableViewSeparatorStyleMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewSeparatorStyleMenuItem.swift; sourceTree = "<group>"; };
 		26D816D627A459E5005F8135 /* TableViewSeparatorStyleMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewSeparatorStyleMenuViewController.swift; sourceTree = "<group>"; };
-		26D816D827A459E5005F8135 /* CellSeparatorIsetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellSeparatorIsetsViewController.swift; sourceTree = "<group>"; };
+		26D816D827A459E5005F8135 /* CellSeparatorInsetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellSeparatorInsetsViewController.swift; sourceTree = "<group>"; };
 		26D816DE27A459E5005F8135 /* TableViewStyleInsetGroupedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewStyleInsetGroupedViewController.swift; sourceTree = "<group>"; };
 		26D816DF27A459E5005F8135 /* TableViewStyleGroupedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewStyleGroupedViewController.swift; sourceTree = "<group>"; };
 		26D816E027A459E5005F8135 /* TableViewStylePlainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewStylePlainViewController.swift; sourceTree = "<group>"; };
@@ -197,7 +199,9 @@
 		26F3843327A84B1C005E2588 /* SimpleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewController.swift; sourceTree = "<group>"; };
 		26F3843527A84D94005E2588 /* SimpleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleTableViewCell.xib; sourceTree = "<group>"; };
 		26F3843727A85C0B005E2588 /* CellStyleSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellStyleSection.swift; sourceTree = "<group>"; };
-		26F3843927A85C1F005E2588 /* CellSelectionStyleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellSelectionStyleCell.swift; sourceTree = "<group>"; };
+		26F3843927A85C1F005E2588 /* CellSelectionStyleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellSelectionStyleItem.swift; sourceTree = "<group>"; };
+		26F3843B27A87979005E2588 /* CellAccessoryTypeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellAccessoryTypeItem.swift; sourceTree = "<group>"; };
+		26F3843D27A87C99005E2588 /* CellSeparatorInsetsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellSeparatorInsetsItem.swift; sourceTree = "<group>"; };
 		8050A3CC275A329D00CE2BD4 /* UIKit-Storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit-Storyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8050A3CF275A329D00CE2BD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8050A3D1275A329D00CE2BD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -611,7 +615,7 @@
 				26F3843227A84983005E2588 /* Base */,
 				26D816E627A459E5005F8135 /* CellAccessoryType */,
 				26D816EA27A459E5005F8135 /* CellSelectionStyle */,
-				26D816D727A459E5005F8135 /* CellSeparatorIsets */,
+				26D816D727A459E5005F8135 /* CellSeparatorInsets */,
 				26D816E827A459E5005F8135 /* CellStyle */,
 				26D816C727A459E5005F8135 /* TableViewSelection */,
 				26D816CF27A459E5005F8135 /* TableViewSeparatorStyle */,
@@ -676,12 +680,13 @@
 			path = Menu;
 			sourceTree = "<group>";
 		};
-		26D816D727A459E5005F8135 /* CellSeparatorIsets */ = {
+		26D816D727A459E5005F8135 /* CellSeparatorInsets */ = {
 			isa = PBXGroup;
 			children = (
-				26D816D827A459E5005F8135 /* CellSeparatorIsetsViewController.swift */,
+				26D816D827A459E5005F8135 /* CellSeparatorInsetsViewController.swift */,
+				26F3843D27A87C99005E2588 /* CellSeparatorInsetsItem.swift */,
 			);
-			path = CellSeparatorIsets;
+			path = CellSeparatorInsets;
 			sourceTree = "<group>";
 		};
 		26D816DC27A459E5005F8135 /* TableViewStyle */ = {
@@ -716,6 +721,7 @@
 			isa = PBXGroup;
 			children = (
 				26D816E727A459E5005F8135 /* CellAccessoryTypeViewController.swift */,
+				26F3843B27A87979005E2588 /* CellAccessoryTypeItem.swift */,
 			);
 			path = CellAccessoryType;
 			sourceTree = "<group>";
@@ -733,7 +739,7 @@
 			isa = PBXGroup;
 			children = (
 				26D816EB27A459E5005F8135 /* CellSelectionStyleViewController.swift */,
-				26F3843927A85C1F005E2588 /* CellSelectionStyleCell.swift */,
+				26F3843927A85C1F005E2588 /* CellSelectionStyleItem.swift */,
 			);
 			path = CellSelectionStyle;
 			sourceTree = "<group>";
@@ -1063,11 +1069,12 @@
 				2696CFFD279B0D02004521F0 /* FontWeightsViewController.swift in Sources */,
 				26A3C64E27A310030029020F /* TextViewEditableViewController.swift in Sources */,
 				2696D00C279B2D33004521F0 /* ButtonStylesViewController.swift in Sources */,
-				26F3843A27A85C1F005E2588 /* CellSelectionStyleCell.swift in Sources */,
-				26D816F927A459E5005F8135 /* CellSeparatorIsetsViewController.swift in Sources */,
+				26F3843A27A85C1F005E2588 /* CellSelectionStyleItem.swift in Sources */,
+				26D816F927A459E5005F8135 /* CellSeparatorInsetsViewController.swift in Sources */,
 				26D63230279C7E170029AE96 /* TextFieldKeyboardTypeViewController.swift in Sources */,
 				807FE376275E1D1D00E60A6D /* ScrollViewHorizontalViewController.swift in Sources */,
 				2696D015279B2D94004521F0 /* ButtonToggleViewController.swift in Sources */,
+				26F3843C27A87979005E2588 /* CellAccessoryTypeItem.swift in Sources */,
 				807FE379275E1D1D00E60A6D /* ScrollViewWithKeyboardViewController.swift in Sources */,
 				2696D022279B3031004521F0 /* OtherButtonsViewController.swift in Sources */,
 				26D8170227A459E5005F8135 /* CellAccessoryTypeViewController.swift in Sources */,
@@ -1086,6 +1093,7 @@
 				26D816C127A4576A005F8135 /* TableViewMenuViewController.swift in Sources */,
 				807FE356275E062100E60A6D /* MenuItemProtocol.swift in Sources */,
 				807FE360275E0ADF00E60A6D /* ScrollViewMenuItem.swift in Sources */,
+				26F3843E27A87C99005E2588 /* CellSeparatorInsetsItem.swift in Sources */,
 				267400B927836A7200BCA6D3 /* AllElementsViewController.swift in Sources */,
 				26D631FA279C08230029AE96 /* ButtonImagePlacementViewController.swift in Sources */,
 				26D816FC27A459E5005F8135 /* TableViewStyleInsetGroupedViewController.swift in Sources */,

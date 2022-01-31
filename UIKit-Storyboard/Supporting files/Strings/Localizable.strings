@@ -51,7 +51,7 @@
 "tableViewMenuItemCellCellStyle" = "Cell.Style";
 "tableViewMenuItemCellSelectionStyle" = "Cell.SelectionStyle";
 "tableViewMenuItemCellAccessoryType" = "Cell.AccessoryType";
-"tableViewMenuItemCellSeparatorIsets" = "Cell.SeparatorIsets";
+"tableViewMenuItemCellSeparatorInsets" = "Cell.SeparatorInsets";
 "tableViewMenuItemHeadersAndFootters" = "Headers and Footters";
 "tableViewMenuItemSectionIndex" = "SectionIndex";
 "tableViewMenuItemEditing" = "Editing modes";
