@@ -86,6 +86,8 @@
 		26D8170427A459E5005F8135 /* CellSelectionStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D816EB27A459E5005F8135 /* CellSelectionStyleViewController.swift */; };
 		26F3843427A84B1C005E2588 /* SimpleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F3843327A84B1C005E2588 /* SimpleTableViewController.swift */; };
 		26F3843627A84D94005E2588 /* SimpleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26F3843527A84D94005E2588 /* SimpleTableViewCell.xib */; };
+		26F3843827A85C0B005E2588 /* CellStyleSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F3843727A85C0B005E2588 /* CellStyleSection.swift */; };
+		26F3843A27A85C1F005E2588 /* CellSelectionStyleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F3843927A85C1F005E2588 /* CellSelectionStyleCell.swift */; };
 		8050A3D0275A329D00CE2BD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8050A3CF275A329D00CE2BD4 /* AppDelegate.swift */; };
 		8050A3D2275A329D00CE2BD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8050A3D1275A329D00CE2BD4 /* SceneDelegate.swift */; };
 		8050A3D9275A329E00CE2BD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8050A3D8275A329E00CE2BD4 /* Assets.xcassets */; };
@@ -194,6 +196,8 @@
 		26D816EB27A459E5005F8135 /* CellSelectionStyleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellSelectionStyleViewController.swift; sourceTree = "<group>"; };
 		26F3843327A84B1C005E2588 /* SimpleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewController.swift; sourceTree = "<group>"; };
 		26F3843527A84D94005E2588 /* SimpleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleTableViewCell.xib; sourceTree = "<group>"; };
+		26F3843727A85C0B005E2588 /* CellStyleSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellStyleSection.swift; sourceTree = "<group>"; };
+		26F3843927A85C1F005E2588 /* CellSelectionStyleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellSelectionStyleCell.swift; sourceTree = "<group>"; };
 		8050A3CC275A329D00CE2BD4 /* UIKit-Storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit-Storyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8050A3CF275A329D00CE2BD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8050A3D1275A329D00CE2BD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -720,6 +724,7 @@
 			isa = PBXGroup;
 			children = (
 				26D816E927A459E5005F8135 /* CellStyleViewController.swift */,
+				26F3843727A85C0B005E2588 /* CellStyleSection.swift */,
 			);
 			path = CellStyle;
 			sourceTree = "<group>";
@@ -728,6 +733,7 @@
 			isa = PBXGroup;
 			children = (
 				26D816EB27A459E5005F8135 /* CellSelectionStyleViewController.swift */,
+				26F3843927A85C1F005E2588 /* CellSelectionStyleCell.swift */,
 			);
 			path = CellSelectionStyle;
 			sourceTree = "<group>";
@@ -1057,6 +1063,7 @@
 				2696CFFD279B0D02004521F0 /* FontWeightsViewController.swift in Sources */,
 				26A3C64E27A310030029020F /* TextViewEditableViewController.swift in Sources */,
 				2696D00C279B2D33004521F0 /* ButtonStylesViewController.swift in Sources */,
+				26F3843A27A85C1F005E2588 /* CellSelectionStyleCell.swift in Sources */,
 				26D816F927A459E5005F8135 /* CellSeparatorIsetsViewController.swift in Sources */,
 				26D63230279C7E170029AE96 /* TextFieldKeyboardTypeViewController.swift in Sources */,
 				807FE376275E1D1D00E60A6D /* ScrollViewHorizontalViewController.swift in Sources */,
@@ -1069,6 +1076,7 @@
 				2696D001279B0D15004521F0 /* TextStylesViewController.swift in Sources */,
 				26A3C65227A310030029020F /* TextViewNonEditableViewController.swift in Sources */,
 				8050A3FA275A5A0100CE2BD4 /* UIViewControllerExtensions.swift in Sources */,
+				26F3843827A85C0B005E2588 /* CellStyleSection.swift in Sources */,
 				807FE354275E02D700E60A6D /* MenuViewController.swift in Sources */,
 				26D63226279C7E170029AE96 /* TextFieldReturnKeyTypeViewController.swift in Sources */,
 				807FE35C275E0AA100E60A6D /* ScrollViewMenuViewController.swift in Sources */,
