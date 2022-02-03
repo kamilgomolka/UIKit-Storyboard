@@ -14,6 +14,11 @@
 		261F780E27AB9D1E00B12235 /* CellStyleDefaultFontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261F780827AB9D1E00B12235 /* CellStyleDefaultFontViewController.swift */; };
 		261F780F27AB9D1E00B12235 /* CellStyleTitle3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261F780927AB9D1E00B12235 /* CellStyleTitle3ViewController.swift */; };
 		261F781127AB9EB900B12235 /* CellStyleBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261F781027AB9EB900B12235 /* CellStyleBaseViewController.swift */; };
+		261F781527ABA3BB00B12235 /* TableViewHeadersAndFoottersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261F781427ABA3BB00B12235 /* TableViewHeadersAndFoottersViewController.swift */; };
+		261F781827ABA44900B12235 /* TableViewHeaderFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 261F781727ABA44900B12235 /* TableViewHeaderFooterView.xib */; };
+		261F781A27ABA49700B12235 /* TableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261F781927ABA49700B12235 /* TableViewHeaderFooterView.swift */; };
+		261F781C27AC4EC800B12235 /* TableViewSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 261F781B27AC4EC800B12235 /* TableViewSectionHeaderView.xib */; };
+		261F781E27AC4EDD00B12235 /* TableViewSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261F781D27AC4EDD00B12235 /* TableViewSectionHeaderView.swift */; };
 		267400B727836A5C00BCA6D3 /* AllElements.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267400B627836A5C00BCA6D3 /* AllElements.storyboard */; };
 		267400B927836A7200BCA6D3 /* AllElementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267400B827836A7200BCA6D3 /* AllElementsViewController.swift */; };
 		2696CFED279B0183004521F0 /* TextStyles.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2696CFEC279B0183004521F0 /* TextStyles.storyboard */; };
@@ -132,6 +137,11 @@
 		261F780827AB9D1E00B12235 /* CellStyleDefaultFontViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellStyleDefaultFontViewController.swift; sourceTree = "<group>"; };
 		261F780927AB9D1E00B12235 /* CellStyleTitle3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellStyleTitle3ViewController.swift; sourceTree = "<group>"; };
 		261F781027AB9EB900B12235 /* CellStyleBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellStyleBaseViewController.swift; sourceTree = "<group>"; };
+		261F781427ABA3BB00B12235 /* TableViewHeadersAndFoottersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewHeadersAndFoottersViewController.swift; sourceTree = "<group>"; };
+		261F781727ABA44900B12235 /* TableViewHeaderFooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewHeaderFooterView.xib; sourceTree = "<group>"; };
+		261F781927ABA49700B12235 /* TableViewHeaderFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewHeaderFooterView.swift; sourceTree = "<group>"; };
+		261F781B27AC4EC800B12235 /* TableViewSectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewSectionHeaderView.xib; sourceTree = "<group>"; };
+		261F781D27AC4EDD00B12235 /* TableViewSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSectionHeaderView.swift; sourceTree = "<group>"; };
 		267400B627836A5C00BCA6D3 /* AllElements.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AllElements.storyboard; sourceTree = "<group>"; };
 		267400B827836A7200BCA6D3 /* AllElementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllElementsViewController.swift; sourceTree = "<group>"; };
 		2696CFEC279B0183004521F0 /* TextStyles.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TextStyles.storyboard; sourceTree = "<group>"; };
@@ -283,6 +293,26 @@
 				26F3843727A85C0B005E2588 /* CellStyleSection.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		261F781327ABA38000B12235 /* HeadersAndFootters */ = {
+			isa = PBXGroup;
+			children = (
+				261F781627ABA42700B12235 /* Subviews */,
+				261F781427ABA3BB00B12235 /* TableViewHeadersAndFoottersViewController.swift */,
+			);
+			path = HeadersAndFootters;
+			sourceTree = "<group>";
+		};
+		261F781627ABA42700B12235 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				261F781727ABA44900B12235 /* TableViewHeaderFooterView.xib */,
+				261F781927ABA49700B12235 /* TableViewHeaderFooterView.swift */,
+				261F781B27AC4EC800B12235 /* TableViewSectionHeaderView.xib */,
+				261F781D27AC4EDD00B12235 /* TableViewSectionHeaderView.swift */,
+			);
+			path = Subviews;
 			sourceTree = "<group>";
 		};
 		267400B527836A4A00BCA6D3 /* AllElements */ = {
@@ -659,6 +689,7 @@
 				26D816EA27A459E5005F8135 /* CellSelectionStyle */,
 				26D816D727A459E5005F8135 /* CellSeparatorInsets */,
 				26D816E827A459E5005F8135 /* CellStyle */,
+				261F781327ABA38000B12235 /* HeadersAndFootters */,
 				26D816C727A459E5005F8135 /* TableViewSelection */,
 				26D816CF27A459E5005F8135 /* TableViewSeparatorStyle */,
 				26D816DC27A459E5005F8135 /* TableViewStyle */,
@@ -1023,6 +1054,7 @@
 				2696D013279B2D8A004521F0 /* ButtonToggle.storyboard in Resources */,
 				807FE358275E06B500E60A6D /* MenuCell.xib in Resources */,
 				807FE365275E0B8800E60A6D /* ScrollViewVertical.storyboard in Resources */,
+				261F781C27AC4EC800B12235 /* TableViewSectionHeaderView.xib in Resources */,
 				8050A3EB275A386500CE2BD4 /* MainMenu.storyboard in Resources */,
 				26D816BF27A45759005F8135 /* TableView.storyboard in Resources */,
 				26D63201279C12AC0029AE96 /* ButtonMenu.storyboard in Resources */,
@@ -1036,6 +1068,7 @@
 				8050A3DC275A329E00CE2BD4 /* LaunchScreen.storyboard in Resources */,
 				26D6322B279C7E170029AE96 /* TextFieldBorderStyle.storyboard in Resources */,
 				26D63229279C7E170029AE96 /* TextFieldTraits.storyboard in Resources */,
+				261F781827ABA44900B12235 /* TableViewHeaderFooterView.xib in Resources */,
 				807FE372275E1D1D00E60A6D /* ScrollViewTwoDirections.storyboard in Resources */,
 				2696CFF9279B0598004521F0 /* FontSizes.storyboard in Resources */,
 				2696D010279B2D5E004521F0 /* ButtonSystemSizes.storyboard in Resources */,
@@ -1073,6 +1106,7 @@
 				261F780F27AB9D1E00B12235 /* CellStyleTitle3ViewController.swift in Sources */,
 				26D63228279C7E170029AE96 /* TextFieldTraitsViewController.swift in Sources */,
 				26A3C65427A310030029020F /* TextViewMenuItem.swift in Sources */,
+				261F781527ABA3BB00B12235 /* TableViewHeadersAndFoottersViewController.swift in Sources */,
 				261F780D27AB9D1E00B12235 /* CellStyleLongTextViewController.swift in Sources */,
 				26F3843427A84B1C005E2588 /* SimpleTableViewController.swift in Sources */,
 				2696CFFF279B0D0D004521F0 /* FontSizesViewController.swift in Sources */,
@@ -1113,6 +1147,8 @@
 				2696CFFD279B0D02004521F0 /* FontWeightsViewController.swift in Sources */,
 				26A3C64E27A310030029020F /* TextViewEditableViewController.swift in Sources */,
 				2696D00C279B2D33004521F0 /* ButtonStylesViewController.swift in Sources */,
+				261F781E27AC4EDD00B12235 /* TableViewSectionHeaderView.swift in Sources */,
+				261F781A27ABA49700B12235 /* TableViewHeaderFooterView.swift in Sources */,
 				26F3843A27A85C1F005E2588 /* CellSelectionStyleItem.swift in Sources */,
 				26D816F927A459E5005F8135 /* CellSeparatorInsetsViewController.swift in Sources */,
 				26D63230279C7E170029AE96 /* TextFieldKeyboardTypeViewController.swift in Sources */,

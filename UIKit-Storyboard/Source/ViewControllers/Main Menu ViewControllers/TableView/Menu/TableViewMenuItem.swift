@@ -65,7 +65,7 @@ enum TableViewMenuItem: MenuItemProtocol {
         case .cellSeparatorInsets:
             return "CellSeparatorInsetsViewController"
         case .headersAndFootters:
-            return ""
+            return "TableViewHeadersAndFoottersViewController"
         case .sectionIndex:
             return ""
         case .editing:
