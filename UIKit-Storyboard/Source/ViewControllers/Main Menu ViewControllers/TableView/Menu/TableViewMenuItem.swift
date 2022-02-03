@@ -67,7 +67,7 @@ enum TableViewMenuItem: MenuItemProtocol {
         case .headersAndFootters:
             return "TableViewHeadersAndFoottersViewController"
         case .sectionIndex:
-            return ""
+            return "TableViewSectionIndexViewController"
         case .editing:
             return ""
         }

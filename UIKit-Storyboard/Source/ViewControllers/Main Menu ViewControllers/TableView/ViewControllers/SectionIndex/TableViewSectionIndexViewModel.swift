@@ -1,0 +1,58 @@
+//
+//  TableViewSectionIndexViewModel.swift
+//  UIKit-Storyboard
+//
+//  Created by Kamil Gomółka on 03/02/2022.
+//
+
+import Foundation
+
+class TableViewSectionIndexViewModel {
+    
+    typealias Section = (letter: String, persons: [Person])
+    
+    var letters: [String] = []
+    var sections: [String: [Person]] = [:]
+    
+    private var persons: [Person] = []    
+    
+    func loadData() {
+        loadPersonsFromJsonFile()
+        createSections()
+    }
+    
+    private func loadPersonsFromJsonFile() {
+        guard let path = Bundle.main.path(forResource: "personData", ofType: "json") else {
+            return
+        }
+        
+        let url = URL(fileURLWithPath: path)
+        
+        guard let data = try? Data(contentsOf: url),
+              let array = try? JSONDecoder().decode([Person].self, from: data) else {
+                  return
+              }
+        
+        persons = array
+    }
+    
+    private func createSections() {
+        letters = []
+        sections = [:]
+        
+        persons.sort(by: {
+            ( $0.lastName?.lowercased() ?? "" ) < ( $1.lastName?.lowercased() ?? "" )
+        })
+        
+        persons.forEach { person in
+            let currentLetter = person.lastName?.first?.uppercased() ?? "#"
+            
+            if letters.last == nil || letters.last != currentLetter {
+                letters.append(currentLetter)
+                sections[currentLetter] = []
+            }
+            
+            sections[currentLetter]?.append(person)
+        }
+    }
+}

@@ -16,7 +16,7 @@ class TableViewHeadersAndFoottersViewController: UIViewController, UITableViewDa
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+                
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(UINib(nibName: cellNibName, bundle: nil), forCellReuseIdentifier: cellNibName)
@@ -24,6 +24,8 @@ class TableViewHeadersAndFoottersViewController: UIViewController, UITableViewDa
                            forHeaderFooterViewReuseIdentifier: sectionHeaderNibName)
         tableView.tableHeaderView = TableViewHeaderFooterView.newHeaderView()
         tableView.tableFooterView = TableViewHeaderFooterView.newFooterView()
+        tableView.sectionHeaderHeight = UITableView.automaticDimension
+        tableView.estimatedSectionHeaderHeight = 52.5
     }
     
     // MARK: - UITableViewDataSource
@@ -34,15 +36,6 @@ class TableViewHeadersAndFoottersViewController: UIViewController, UITableViewDa
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 3
-    }
-    
-    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        guard let headerView = self.tableView(tableView, viewForHeaderInSection: section)
-                as? TableViewSectionHeaderView else {
-            return 0.0
-        }
-        
-        return headerView.embededContentView.frame.size.height
     }
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
