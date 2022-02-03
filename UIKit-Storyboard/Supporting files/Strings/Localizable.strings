@@ -67,3 +67,8 @@
 "tableViewSelectionMenuItemSingle" = "Single";
 "tableViewSelectionMenuItemDeselect" = "Single with deselect";
 "tableViewSelectionMenuItemMultiple" = "Multiple";
+
+"cellStyleMenuItemDefaultFont" = "Default font";
+"cellStyleMenuItemBody" = "Body";
+"cellStyleMenuItemTitle3" = "Title3";
+"cellStyleMenuItemLongText" = "Long text";

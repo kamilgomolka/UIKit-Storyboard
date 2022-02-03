@@ -70,6 +70,11 @@ enum LocalizableString: String {
     case tableViewSelectionMenuItemSingle
     case tableViewSelectionMenuItemDeselect
     case tableViewSelectionMenuItemMultiple
+    
+    case cellStyleMenuItemDefaultFont
+    case cellStyleMenuItemBody
+    case cellStyleMenuItemTitle3
+    case cellStyleMenuItemLongText
 }
 
 func LocalizedString(_ localizable: LocalizableString) -> String {

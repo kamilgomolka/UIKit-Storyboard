@@ -1,15 +1,17 @@
 //
-//  CellStyleViewController.swift
+//  CellStyleBaseViewController.swift
 //  UIKit-Storyboard
 //
-//  Created by Kamil Gomółka on 28/01/2022.
+//  Created by Kamil Gomółka on 03/02/2022.
 //
 
 import UIKit
 
-class CellStyleViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class CellStyleBaseViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    @IBOutlet weak var tableView: UITableView!
+    var tableView: UITableView {
+        fatalError("Please override 'var tableView' in subclass!")
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

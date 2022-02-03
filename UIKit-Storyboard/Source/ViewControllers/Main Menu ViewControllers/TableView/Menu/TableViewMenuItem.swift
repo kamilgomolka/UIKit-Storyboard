@@ -57,7 +57,7 @@ enum TableViewMenuItem: MenuItemProtocol {
         case .tableViewSelection:
             return "TableViewSelectionMenuViewController"
         case .cellCellStyle:
-            return "CellStyleViewController"
+            return "CellStyleMenuViewController"
         case .cellSelectionStyle:
             return "CellSelectionStyleViewController"
         case .cellAccessoryType:
