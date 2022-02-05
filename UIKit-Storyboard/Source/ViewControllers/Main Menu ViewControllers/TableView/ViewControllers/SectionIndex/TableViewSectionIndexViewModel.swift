@@ -9,12 +9,14 @@ import Foundation
 
 class TableViewSectionIndexViewModel {
     
-    typealias Section = (letter: String, persons: [Person])
+    // MARK: - Properties
     
     var letters: [String] = []
     var sections: [String: [Person]] = [:]
     
-    private var persons: [Person] = []    
+    private var persons: [Person] = []
+    
+    // MARK: - Functions
     
     func loadData() {
         loadPersonsFromJsonFile()
@@ -45,7 +47,7 @@ class TableViewSectionIndexViewModel {
         })
         
         for person in persons {
-            let currentLetter = String(person.fullNameLowercased?.first ?? "#")
+            let currentLetter = person.fullName?.first?.uppercased() ?? "#"
             
             if letters.last == nil || letters.last != currentLetter {
                 letters.append(currentLetter)
