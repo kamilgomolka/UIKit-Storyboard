@@ -41,11 +41,11 @@ class TableViewSectionIndexViewModel {
         sections = [:]
         
         persons.sort(by: {
-            ( $0.lastName?.lowercased() ?? "" ) < ( $1.lastName?.lowercased() ?? "" )
+            ( $0.fullNameLowercased ?? "" ) < ( $1.fullNameLowercased ?? "" )
         })
         
-        persons.forEach { person in
-            let currentLetter = person.lastName?.first?.uppercased() ?? "#"
+        for person in persons {
+            let currentLetter = String(person.fullNameLowercased?.first ?? "#")
             
             if letters.last == nil || letters.last != currentLetter {
                 letters.append(currentLetter)
