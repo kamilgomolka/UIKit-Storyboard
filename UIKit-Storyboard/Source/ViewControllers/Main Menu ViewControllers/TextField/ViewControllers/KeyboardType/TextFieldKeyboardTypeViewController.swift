@@ -15,4 +15,3 @@ class TextFieldKeyboardTypeViewController: BaseViewController {
         return scrollView
     }
 }
-

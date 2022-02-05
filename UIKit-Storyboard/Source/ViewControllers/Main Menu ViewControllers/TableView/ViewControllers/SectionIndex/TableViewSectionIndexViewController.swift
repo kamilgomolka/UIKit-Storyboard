@@ -61,4 +61,3 @@ class TableViewSectionIndexViewController: UIViewController, UITableViewDataSour
         tableView.deselectRow(at: indexPath, animated: true)
     }
 }
-

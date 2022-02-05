@@ -31,4 +31,3 @@ class TableViewStyleInsetGroupedViewController: SimpleTableViewController {
         return cell
     }
 }
-

@@ -15,4 +15,3 @@ class CellStyleLongTextViewController: CellStyleBaseViewController {
         return tableViewOutlet
     }
 }
-

@@ -54,4 +54,3 @@ enum TextFieldMenuItem: MenuItemProtocol {
         }
     }
 }
-

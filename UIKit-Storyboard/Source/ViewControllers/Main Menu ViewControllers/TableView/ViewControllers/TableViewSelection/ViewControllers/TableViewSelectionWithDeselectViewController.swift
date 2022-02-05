@@ -15,4 +15,3 @@ class TableViewSelectionWithDeselectViewController: SimpleTableViewController {
         return tableViewOutlet
     }
 }
-

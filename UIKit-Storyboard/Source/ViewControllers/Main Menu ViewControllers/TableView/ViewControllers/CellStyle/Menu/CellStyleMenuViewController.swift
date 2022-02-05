@@ -15,4 +15,3 @@ class CellStyleMenuViewController: MenuViewController<CellStyleMenuItem> {
         return tableViewOutlet
     }
 }
-

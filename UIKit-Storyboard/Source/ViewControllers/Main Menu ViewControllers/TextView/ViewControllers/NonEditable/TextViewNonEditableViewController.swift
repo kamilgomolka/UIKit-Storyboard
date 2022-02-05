@@ -15,4 +15,3 @@ class TextViewNonEditableViewController: BaseViewController {
         return textView
     }
 }
-

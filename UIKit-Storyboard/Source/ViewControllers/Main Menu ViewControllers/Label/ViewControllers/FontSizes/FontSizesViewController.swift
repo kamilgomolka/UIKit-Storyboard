@@ -10,4 +10,3 @@ import UIKit
 class FontSizesViewController: UIViewController {
     
 }
-

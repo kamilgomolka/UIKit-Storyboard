@@ -15,4 +15,3 @@ class TableViewSeparatorStyleEtchedViewController: SimpleTableViewController {
         return tableViewOutlet
     }
 }
-

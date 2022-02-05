@@ -15,4 +15,3 @@ class TableViewSeparatorStyleLineViewController: SimpleTableViewController {
         return tableViewOutlet
     }
 }
-

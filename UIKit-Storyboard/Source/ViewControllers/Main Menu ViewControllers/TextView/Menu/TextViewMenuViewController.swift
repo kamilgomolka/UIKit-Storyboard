@@ -15,4 +15,3 @@ class TextViewMenuViewController: MenuViewController<TextViewMenuItem> {
         return tableViewOutlet
     }
 }
-

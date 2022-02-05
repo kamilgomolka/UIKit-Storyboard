@@ -15,4 +15,3 @@ class LabelMenuViewController: MenuViewController<LabelMenuItem> {
         return tableViewOutlet
     }
 }
-

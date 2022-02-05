@@ -15,4 +15,3 @@ class TableViewSeparatorStyleMenuViewController: MenuViewController<TableViewSep
         return tableViewOutlet
     }
 }
-

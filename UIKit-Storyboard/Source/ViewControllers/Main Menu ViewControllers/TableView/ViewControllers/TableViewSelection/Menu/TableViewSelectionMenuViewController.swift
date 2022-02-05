@@ -15,4 +15,3 @@ class TableViewSelectionMenuViewController: MenuViewController<TableViewSelectio
         return tableViewOutlet
     }
 }
-

@@ -15,4 +15,3 @@ class TableViewStyleMenuViewController: MenuViewController<TableViewStyleMenuIte
         return tableViewOutlet
     }
 }
-
