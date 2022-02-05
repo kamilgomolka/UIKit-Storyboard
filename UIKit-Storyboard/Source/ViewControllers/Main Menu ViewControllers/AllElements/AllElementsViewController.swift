@@ -20,14 +20,15 @@ class AllElementsViewController: UIViewController {
     @IBOutlet weak var activityIndicatorContainer: UIView!
     @IBOutlet weak var progressContainer: UIView!
     @IBOutlet weak var pageControlContainer: UIView!
-    
     @IBOutlet weak var stepper: UIStepper!
     @IBOutlet weak var stepperValueLabel: UILabel!
-    
     @IBOutlet weak var slider: UISlider!
     @IBOutlet weak var sliderValueLabel: UILabel!
+    @IBOutlet var buttons: [UIButton]!
     
-    // MARK: - UIViewController Lifecycle
+    let clicksCounter = ButtonClicksCounter()
+    
+    // MARK: - Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,9 +36,10 @@ class AllElementsViewController: UIViewController {
         setCornerRadius()
         updateStepperValueLabel()
         updateSliderValueLabel()
+        clicksCounter.setup(buttons: buttons)
     }
     
-    // MARK: - IBActions
+    // MARK: - Actions
     
     @IBAction func stepperValueChanged() {
         updateStepperValueLabel()
@@ -73,5 +75,13 @@ class AllElementsViewController: UIViewController {
     
     func updateSliderValueLabel() {
         sliderValueLabel.text = String(Int(slider.value))
+    }
+}
+
+extension AllElementsViewController: UITextFieldDelegate {
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return false
     }
 }

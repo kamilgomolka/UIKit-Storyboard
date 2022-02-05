@@ -129,6 +129,21 @@
                         </constraints>
                     </view>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outletCollection property="buttons" destination="oBL-bU-dC2" collectionClass="NSMutableArray" id="3wz-E8-mCg"/>
+                        <outletCollection property="buttons" destination="xdb-oF-ICC" collectionClass="NSMutableArray" id="ZCq-ft-7cg"/>
+                        <outletCollection property="buttons" destination="dJl-4V-qmJ" collectionClass="NSMutableArray" id="ZSZ-hz-enx"/>
+                        <outletCollection property="buttons" destination="5UH-3K-KqG" collectionClass="NSMutableArray" id="bjv-Gu-Qfc"/>
+                        <outletCollection property="buttons" destination="7X2-ef-xL8" collectionClass="NSMutableArray" id="Mid-Ls-djL"/>
+                        <outletCollection property="buttons" destination="kfy-f5-9L9" collectionClass="NSMutableArray" id="ARR-eN-MLB"/>
+                        <outletCollection property="buttons" destination="D6f-SA-M5e" collectionClass="NSMutableArray" id="urU-SZ-tCd"/>
+                        <outletCollection property="buttons" destination="BOf-Oy-kZp" collectionClass="NSMutableArray" id="gmK-YU-coX"/>
+                        <outletCollection property="buttons" destination="OrW-hA-Na0" collectionClass="NSMutableArray" id="zIV-MC-D58"/>
+                        <outletCollection property="buttons" destination="dA0-1J-NqM" collectionClass="NSMutableArray" id="hHi-Us-XXY"/>
+                        <outletCollection property="buttons" destination="YHl-so-Frk" collectionClass="NSMutableArray" id="ZS3-SP-CAo"/>
+                        <outletCollection property="buttons" destination="fhV-x7-4wf" collectionClass="NSMutableArray" id="pO4-rA-ksN"/>
+                        <outletCollection property="buttons" destination="B0r-R9-M59" collectionClass="NSMutableArray" id="05B-tI-eFd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vGq-k6-ieP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

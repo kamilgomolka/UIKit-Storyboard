@@ -9,11 +9,15 @@ import UIKit
 
 class SimpleTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
+    // MARK: Properties
+    
     let cellNibName = "SimpleTableViewCell"
     
     var tableView: UITableView {
         fatalError("Please override 'var tableView' in subclass!")
     }
+    
+    // MARK: - Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()

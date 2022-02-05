@@ -9,10 +9,14 @@ import UIKit
 
 class TableViewSectionIndexViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
+    // MARK: - Properties
+    
     let cellNibName = "SimpleTableViewCell"
     let viewModel = TableViewSectionIndexViewModel()
     
     @IBOutlet weak var tableView: UITableView!
+    
+    // MARK: - Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,6 +34,14 @@ class TableViewSectionIndexViewController: UIViewController, UITableViewDataSour
         return viewModel.sections.count
     }
     
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return viewModel.letters[section]
+    }
+    
+    func sectionIndexTitles(for tableView: UITableView) -> [String]? {
+        return viewModel.letters
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         let letter = viewModel.letters[section]
         let persons = viewModel.sections[letter]
@@ -45,14 +57,6 @@ class TableViewSectionIndexViewController: UIViewController, UITableViewDataSour
         cell.textLabel?.text = person?.fullName
         
         return cell
-    }
-    
-    func sectionIndexTitles(for tableView: UITableView) -> [String]? {
-        return viewModel.letters
-    }
-    
-    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return viewModel.letters[section]
     }
     
     // MARK: - UITableViewDelegate

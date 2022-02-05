@@ -9,11 +9,15 @@ import UIKit
 
 class TableViewStyleInsetGroupedViewController: SimpleTableViewController {
     
+    // MARK: - Properties
+    
     @IBOutlet weak var tableViewOutlet: UITableView!
     
     override var tableView: UITableView {
         return tableViewOutlet
     }
+    
+    // MARK: - UITableViewDataSource
     
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 3

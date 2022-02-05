@@ -155,6 +155,9 @@
                                                                 <rect key="frame" x="8" y="36.5" width="366" height="34"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits"/>
+                                                                <connections>
+                                                                    <outlet property="delegate" destination="Y6W-OH-hqX" id="af8-jk-ii7"/>
+                                                                </connections>
                                                             </textField>
                                                         </subviews>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -451,6 +454,10 @@
                         <outlet property="stepperValueLabel" destination="Hyf-2A-9Bk" id="kgS-IV-cYH"/>
                         <outlet property="switchContainer" destination="1Vc-MY-NjQ" id="cPg-oj-hCb"/>
                         <outlet property="textFieldContainer" destination="Jtd-6J-wgv" id="JSu-ez-CIg"/>
+                        <outletCollection property="buttons" destination="QiW-yZ-tXC" collectionClass="NSMutableArray" id="M38-T8-Poz"/>
+                        <outletCollection property="buttons" destination="Puo-M2-MXz" collectionClass="NSMutableArray" id="mft-RN-Iex"/>
+                        <outletCollection property="buttons" destination="8Nc-vx-P4w" collectionClass="NSMutableArray" id="NjV-jP-vS6"/>
+                        <outletCollection property="buttons" destination="PJO-at-5a0" collectionClass="NSMutableArray" id="1LL-pz-Ss9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -9,13 +9,19 @@ import UIKit
 
 class ScrollViewVerticalViewController: UIViewController {
     
+    // MARK: Properties
+    
     @IBOutlet weak var label: UILabel!
+    
+    // MARK: Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         generateLabelText()
     }
+    
+    // MARK: Functions
     
     func generateLabelText() {
         let ints = 1...100

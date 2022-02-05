@@ -101,6 +101,14 @@
                         </constraints>
                     </view>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outletCollection property="buttons" destination="psv-3U-4jM" collectionClass="NSMutableArray" id="6SO-ml-ZYl"/>
+                        <outletCollection property="buttons" destination="cHl-jD-byb" collectionClass="NSMutableArray" id="Uhi-yg-lDi"/>
+                        <outletCollection property="buttons" destination="jwf-dw-nzS" collectionClass="NSMutableArray" id="Kur-X8-8QZ"/>
+                        <outletCollection property="buttons" destination="XRT-h7-DmI" collectionClass="NSMutableArray" id="f5E-jX-PcZ"/>
+                        <outletCollection property="buttons" destination="9v5-xY-Y30" collectionClass="NSMutableArray" id="KKg-iA-er6"/>
+                        <outletCollection property="buttons" destination="FIa-zz-4Gh" collectionClass="NSMutableArray" id="oTk-R0-8qQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B15-7T-LnK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

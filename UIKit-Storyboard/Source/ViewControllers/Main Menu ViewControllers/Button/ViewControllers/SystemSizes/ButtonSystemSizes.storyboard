@@ -79,6 +79,12 @@
                         </constraints>
                     </view>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outletCollection property="buttons" destination="Nbj-2e-Xi4" collectionClass="NSMutableArray" id="17m-EH-37v"/>
+                        <outletCollection property="buttons" destination="uZx-s0-QDa" collectionClass="NSMutableArray" id="ihc-fl-IJS"/>
+                        <outletCollection property="buttons" destination="LJc-Uc-gcg" collectionClass="NSMutableArray" id="HQl-zc-d7u"/>
+                        <outletCollection property="buttons" destination="D1c-KN-mWG" collectionClass="NSMutableArray" id="gKm-a4-Xnj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dik-yv-r9r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

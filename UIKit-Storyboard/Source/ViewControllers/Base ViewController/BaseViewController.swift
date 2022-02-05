@@ -9,9 +9,13 @@ import UIKit
 
 class BaseViewController: UIViewController {
     
+    // MARK: - Properties
+    
     var scrollViewToAdjst: UIScrollView? {
         return nil
     }
+    
+    // MARK: - Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,17 +36,6 @@ class BaseViewController: UIViewController {
     }
     
     // MARK: - Keyboard
-    
-    func addKeyboardHideGesture() {
-        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(hideKeyboard))
-        tapGesture.cancelsTouchesInView = false
-        tapGesture.delegate = self
-        view.addGestureRecognizer(tapGesture)
-    }
-    
-    @objc func hideKeyboard() {
-        UIApplication.shared.sendAction(#selector(resignFirstResponder), to: nil, from: nil, for: nil)
-    }
     
     func addKeyboardObservers() {
         NotificationCenter.default.addObserver(self,
@@ -92,6 +85,17 @@ class BaseViewController: UIViewController {
         
         return keyboardFrame.cgRectValue.height
     }
+    
+    func addKeyboardHideGesture() {
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(hideKeyboard))
+        tapGesture.cancelsTouchesInView = false
+        tapGesture.delegate = self
+        view.addGestureRecognizer(tapGesture)
+    }
+    
+    @objc func hideKeyboard() {
+        UIApplication.shared.sendAction(#selector(resignFirstResponder), to: nil, from: nil, for: nil)
+    }
 }
 
 extension BaseViewController: UIGestureRecognizerDelegate {
@@ -104,4 +108,3 @@ extension BaseViewController: UIGestureRecognizerDelegate {
         }
     }
 }
-

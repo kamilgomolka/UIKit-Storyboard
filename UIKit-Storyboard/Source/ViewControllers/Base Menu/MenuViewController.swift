@@ -9,11 +9,15 @@ import UIKit
 
 class MenuViewController<MenuItemType: MenuItemProtocol>: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
+    // MARK: - Properties
+    
     let cellNibName = "MenuCell"
     
     var tableView: UITableView {
         fatalError("Please override 'var tableView' in subclass!")
     }
+    
+    // MARK: - Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()

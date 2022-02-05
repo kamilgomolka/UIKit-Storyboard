@@ -23,6 +23,7 @@
 		261F782427AC72B500B12235 /* personData.json in Resources */ = {isa = PBXBuildFile; fileRef = 261F782327AC72B500B12235 /* personData.json */; };
 		261F782927AC731D00B12235 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261F782827AC731D00B12235 /* Person.swift */; };
 		261F782C27AC73AE00B12235 /* TableViewSectionIndexViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261F782B27AC73AE00B12235 /* TableViewSectionIndexViewModel.swift */; };
+		2658055127AEE408002255F7 /* ButtonClicksCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2658055027AEE408002255F7 /* ButtonClicksCounter.swift */; };
 		267400B727836A5C00BCA6D3 /* AllElements.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267400B627836A5C00BCA6D3 /* AllElements.storyboard */; };
 		267400B927836A7200BCA6D3 /* AllElementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267400B827836A7200BCA6D3 /* AllElementsViewController.swift */; };
 		2696CFED279B0183004521F0 /* TextStyles.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2696CFEC279B0183004521F0 /* TextStyles.storyboard */; };
@@ -150,6 +151,7 @@
 		261F782327AC72B500B12235 /* personData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = personData.json; sourceTree = "<group>"; };
 		261F782827AC731D00B12235 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		261F782B27AC73AE00B12235 /* TableViewSectionIndexViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSectionIndexViewModel.swift; sourceTree = "<group>"; };
+		2658055027AEE408002255F7 /* ButtonClicksCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonClicksCounter.swift; sourceTree = "<group>"; };
 		267400B627836A5C00BCA6D3 /* AllElements.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AllElements.storyboard; sourceTree = "<group>"; };
 		267400B827836A7200BCA6D3 /* AllElementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllElementsViewController.swift; sourceTree = "<group>"; };
 		2696CFEC279B0183004521F0 /* TextStyles.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TextStyles.storyboard; sourceTree = "<group>"; };
@@ -315,10 +317,10 @@
 		261F781627ABA42700B12235 /* Subviews */ = {
 			isa = PBXGroup;
 			children = (
-				261F781727ABA44900B12235 /* TableViewHeaderFooterView.xib */,
 				261F781927ABA49700B12235 /* TableViewHeaderFooterView.swift */,
-				261F781B27AC4EC800B12235 /* TableViewSectionHeaderView.xib */,
+				261F781727ABA44900B12235 /* TableViewHeaderFooterView.xib */,
 				261F781D27AC4EDD00B12235 /* TableViewSectionHeaderView.swift */,
+				261F781B27AC4EC800B12235 /* TableViewSectionHeaderView.xib */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -347,6 +349,14 @@
 				261F782327AC72B500B12235 /* personData.json */,
 			);
 			path = "Mock data";
+			sourceTree = "<group>";
+		};
+		2658054F27AEE3F6002255F7 /* ButtonClicksCounter */ = {
+			isa = PBXGroup;
+			children = (
+				2658055027AEE408002255F7 /* ButtonClicksCounter.swift */,
+			);
+			path = ButtonClicksCounter;
 			sourceTree = "<group>";
 		};
 		267400B527836A4A00BCA6D3 /* AllElements */ = {
@@ -380,8 +390,8 @@
 		2696CFF5279B0536004521F0 /* TextStyles */ = {
 			isa = PBXGroup;
 			children = (
-				2696CFEC279B0183004521F0 /* TextStyles.storyboard */,
 				2696D000279B0D15004521F0 /* TextStylesViewController.swift */,
+				2696CFEC279B0183004521F0 /* TextStyles.storyboard */,
 			);
 			path = TextStyles;
 			sourceTree = "<group>";
@@ -389,8 +399,8 @@
 		2696CFF6279B0578004521F0 /* FontSizes */ = {
 			isa = PBXGroup;
 			children = (
-				2696CFF8279B0598004521F0 /* FontSizes.storyboard */,
 				2696CFFE279B0D0D004521F0 /* FontSizesViewController.swift */,
+				2696CFF8279B0598004521F0 /* FontSizes.storyboard */,
 			);
 			path = FontSizes;
 			sourceTree = "<group>";
@@ -398,8 +408,8 @@
 		2696CFF7279B0580004521F0 /* FontWeights */ = {
 			isa = PBXGroup;
 			children = (
-				2696CFFA279B05A1004521F0 /* FontWeights.storyboard */,
 				2696CFFC279B0D02004521F0 /* FontWeightsViewController.swift */,
+				2696CFFA279B05A1004521F0 /* FontWeights.storyboard */,
 			);
 			path = FontWeights;
 			sourceTree = "<group>";
@@ -407,6 +417,7 @@
 		2696D002279B20E0004521F0 /* Button */ = {
 			isa = PBXGroup;
 			children = (
+				2658054F27AEE3F6002255F7 /* ButtonClicksCounter */,
 				26D631FC279C12AC0029AE96 /* Menu */,
 				26D63208279C7B5A0029AE96 /* ViewControllers */,
 			);
@@ -598,11 +609,11 @@
 		26D6320B279C7C220029AE96 /* Main Menu ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				26D816BC27A45745005F8135 /* TableView */,
 				267400B527836A4A00BCA6D3 /* AllElements */,
 				2696D002279B20E0004521F0 /* Button */,
 				2696CFEB279B0174004521F0 /* Label */,
 				807FE359275E0A8D00E60A6D /* ScrollView */,
+				26D816BC27A45745005F8135 /* TableView */,
 				26D63203279C72D40029AE96 /* TextField */,
 				26A3C63727A310030029020F /* TextView */,
 			);
@@ -725,20 +736,20 @@
 				26D816E827A459E5005F8135 /* CellStyle */,
 				261F781327ABA38000B12235 /* HeadersAndFootters */,
 				261F781F27AC6E3200B12235 /* SectionIndex */,
-				26D816C727A459E5005F8135 /* TableViewSelection */,
-				26D816CF27A459E5005F8135 /* TableViewSeparatorStyle */,
-				26D816DC27A459E5005F8135 /* TableViewStyle */,
+				26D816C727A459E5005F8135 /* Selection */,
+				26D816CF27A459E5005F8135 /* SeparatorStyle */,
+				26D816DC27A459E5005F8135 /* Style */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		26D816C727A459E5005F8135 /* TableViewSelection */ = {
+		26D816C727A459E5005F8135 /* Selection */ = {
 			isa = PBXGroup;
 			children = (
 				26D816C827A459E5005F8135 /* ViewControllers */,
 				26D816CC27A459E5005F8135 /* Menu */,
 			);
-			path = TableViewSelection;
+			path = Selection;
 			sourceTree = "<group>";
 		};
 		26D816C827A459E5005F8135 /* ViewControllers */ = {
@@ -760,13 +771,13 @@
 			path = Menu;
 			sourceTree = "<group>";
 		};
-		26D816CF27A459E5005F8135 /* TableViewSeparatorStyle */ = {
+		26D816CF27A459E5005F8135 /* SeparatorStyle */ = {
 			isa = PBXGroup;
 			children = (
 				26D816D027A459E5005F8135 /* ViewControllers */,
 				26D816D427A459E5005F8135 /* Menu */,
 			);
-			path = TableViewSeparatorStyle;
+			path = SeparatorStyle;
 			sourceTree = "<group>";
 		};
 		26D816D027A459E5005F8135 /* ViewControllers */ = {
@@ -797,13 +808,13 @@
 			path = CellSeparatorInsets;
 			sourceTree = "<group>";
 		};
-		26D816DC27A459E5005F8135 /* TableViewStyle */ = {
+		26D816DC27A459E5005F8135 /* Style */ = {
 			isa = PBXGroup;
 			children = (
 				26D816DD27A459E5005F8135 /* ViewControllers */,
 				26D816E127A459E5005F8135 /* Menu */,
 			);
-			path = TableViewStyle;
+			path = Style;
 			sourceTree = "<group>";
 		};
 		26D816DD27A459E5005F8135 /* ViewControllers */ = {
@@ -1139,6 +1150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26A3C64F27A310030029020F /* TextViewDataDetectorsViewController.swift in Sources */,
+				2658055127AEE408002255F7 /* ButtonClicksCounter.swift in Sources */,
 				26D63202279C12AC0029AE96 /* ButtonMenuItem.swift in Sources */,
 				261F780F27AB9D1E00B12235 /* CellStyleTitle3ViewController.swift in Sources */,
 				26D63228279C7E170029AE96 /* TextFieldTraitsViewController.swift in Sources */,

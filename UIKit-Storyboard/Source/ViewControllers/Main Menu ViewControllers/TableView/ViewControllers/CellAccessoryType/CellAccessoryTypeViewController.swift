@@ -9,7 +9,11 @@ import UIKit
 
 class CellAccessoryTypeViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
+    // MARK: - Properties
+    
     @IBOutlet weak var tableView: UITableView!
+    
+    // MARK: - Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
