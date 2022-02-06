@@ -22,27 +22,27 @@ enum TableViewMenuItem: MenuItemProtocol {
     var name: String {
         switch self {
         case .tableViewStyle:
-            return LocalizedString(.tableViewMenuItemTableViewStyle)
+            return "TableView.Style"
         case .tableViewSeparatorStyle:
-            return LocalizedString(.tableViewMenuItemTableViewSeparatorStyle)
+            return "TableView.SeparatorStyle"
         case .tableViewSelection:
-            return LocalizedString(.tableViewMenuItemTableViewSelection)
+            return "TableView.Selection"
         case .cellCellStyle:
-            return LocalizedString(.tableViewMenuItemCellCellStyle)
+            return "Cell.Style"
         case .cellSelectionStyle:
-            return LocalizedString(.tableViewMenuItemCellSelectionStyle)
+            return "Cell.SelectionStyle"
         case .cellAccessoryType:
-            return LocalizedString(.tableViewMenuItemCellAccessoryType)
+            return "Cell.AccessoryType"
         case .cellSeparatorInsets:
-            return LocalizedString(.tableViewMenuItemCellSeparatorInsets)
+            return "Cell.SeparatorInsets"
         case .headersAndFootters:
-            return LocalizedString(.tableViewMenuItemHeadersAndFootters)
+            return "Headers and Footters"
         case .sectionIndex:
-            return LocalizedString(.tableViewMenuItemSectionIndex)
+            return "SectionIndex"
 //        case .editing:
-//            return LocalizedString(.tableViewMenuItemEditing)
+//            return "Editing modes"
         }
-    }
+    }    
     
     var storyboardName: String {
         return "TableView"

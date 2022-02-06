@@ -13,13 +13,13 @@ class ButtonCornerStyleViewController: UIViewController {
     
     @IBOutlet var buttons: [UIButton]!
     
-    let clicksCounter = ButtonClicksCounter()
+    //let clicksCounter = ButtonClicksCounter()
     
     // MARK: Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        clicksCounter.setup(buttons: buttons)
+        //clicksCounter.setup(buttons: buttons)
     }
 }

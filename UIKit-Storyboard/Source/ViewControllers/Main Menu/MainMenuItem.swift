@@ -19,21 +19,21 @@ enum MainMenuItem: MenuItemProtocol {
     var name: String {
         switch self {
         case .allElements:
-            return LocalizedString(.mainMenuItemAllElements)
+            return "All controls"
         case .label:
-            return LocalizedString(.mainMenuItemLabel)
+            return "Label"
         case .button:
-            return LocalizedString(.mainMenuItemButton)
+            return "Button"
         case .textField:
-            return LocalizedString(.mainMenuItemTextField)
+            return "TextField"
         case .textView:
-            return LocalizedString(.mainMenuItemTextView)
+            return "TextView"
         case .scrollView:
-            return LocalizedString(.mainMenuItemScrollView)
+            return "Scrollview"
         case .tableView:
-            return LocalizedString(.mainMenuItemTableView)
+            return "TableView"
         }
-    }
+    }    
     
     var storyboardName: String {
         switch self {

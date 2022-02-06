@@ -15,11 +15,11 @@ enum LabelMenuItem: MenuItemProtocol {
     var name: String {
         switch self {
         case .textStyles:
-            return LocalizedString(.labelMenuItemTextStyles)
+            return "System text styles"
         case .fontSizes:
-            return LocalizedString(.labelMenuItemFontSizes)
+            return "Font sizes in pt"
         case .fontWeights:
-            return LocalizedString(.labelMenuItemFontWeights)
+            return "Font weights"
         }
     }
     

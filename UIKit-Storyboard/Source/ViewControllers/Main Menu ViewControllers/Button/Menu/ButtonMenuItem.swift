@@ -18,19 +18,19 @@ enum ButtonMenuItem: MenuItemProtocol {
     var name: String {
         switch self {
         case .styles:
-            return LocalizedString(.buttonMenuItemStyles)
+            return "Button styles"
         case .systemSizes:
-            return LocalizedString(.buttonMenuItemSystemSizes)
+            return "System sizes"
         case .cornerStyle:
-            return LocalizedString(.buttonMenuItemCornerStyle)
+            return "Corner style"
         case .imagePlacement:
-            return LocalizedString(.buttonMenuItemImagePlacement)
+            return "Image placement"
         case .toggle:
-            return LocalizedString(.buttonMenuItemToggle)
+            return "Toggle button"
         case .other:
-            return LocalizedString(.buttonMenuItemOther)
+            return "Other"
         }
-    }
+    }    
     
     var storyboardName: String {
         switch self {

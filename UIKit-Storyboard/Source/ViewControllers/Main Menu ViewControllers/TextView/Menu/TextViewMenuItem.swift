@@ -16,13 +16,13 @@ enum TextViewMenuItem: MenuItemProtocol {
     var name: String {
         switch self {
         case .editable:
-            return LocalizedString(.textViewMenuEditable)
+            return "Editable"
         case .nonEditable:
-            return LocalizedString(.textViewMenuNonEditable)
+            return "Non editable"
         case .nonEditableNonSelectable:
-            return LocalizedString(.textViewMenuNonEditableNonSelectable)
+            return "Non editable, non selectable"
         case .dataDetectors:
-            return LocalizedString(.textViewMenuDataDetectors)
+            return "Data detectors"
         }
     }
     

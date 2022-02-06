@@ -19,19 +19,19 @@ enum TextFieldMenuItem: MenuItemProtocol {
     var name: String {
         switch self {
         case .borderStyle:
-            return LocalizedString(.textFieldMenuItemBorderStyle)
+            return "Border style"
         case .clearButton:
-            return LocalizedString(.textFieldMenuItemClearButton)
+            return "Clear button"
         case .disabled:
-            return LocalizedString(.textFieldMenuItemDisabled)
+            return "Disabled"
         case .traits:
-            return LocalizedString(.textFieldMenuItemTraits)
+            return "Text input traits"
         case .keyboardType:
-            return LocalizedString(.textFieldMenuItemKeyboardType)
+            return "Keyboard type"
         case .returnKeyType:
-            return LocalizedString(.textFieldMenuItemReturnKeyType)
+            return "Return key type"
         case .other:
-            return LocalizedString(.textFieldMenuItemOther)
+            return "Other"
         }
     }
     

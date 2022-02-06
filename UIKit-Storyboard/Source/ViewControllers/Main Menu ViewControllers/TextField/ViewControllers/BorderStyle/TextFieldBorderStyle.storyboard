@@ -81,6 +81,7 @@
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="scrollView" destination="jtc-0x-5HA" id="l4K-cG-qCo"/>
+                        <outlet property="stackView" destination="wFF-F0-zlO" id="lI0-7M-78F"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ubK-wf-pF9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
