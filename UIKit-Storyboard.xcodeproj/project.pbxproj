@@ -27,6 +27,19 @@
 		2658055427AFB705002255F7 /* BaseTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2658055327AFB705002255F7 /* BaseTextFieldViewController.swift */; };
 		267400B727836A5C00BCA6D3 /* AllElements.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267400B627836A5C00BCA6D3 /* AllElements.storyboard */; };
 		267400B927836A7200BCA6D3 /* AllElementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267400B827836A7200BCA6D3 /* AllElementsViewController.swift */; };
+		2695795A27B24E5D00F47C11 /* Transitions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2695795927B24E5D00F47C11 /* Transitions.storyboard */; };
+		2695795C27B24E6900F47C11 /* TransitionsMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2695795B27B24E6900F47C11 /* TransitionsMenuViewController.swift */; };
+		2695796027B24E9000F47C11 /* TransitionsMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2695795F27B24E9000F47C11 /* TransitionsMenuItem.swift */; };
+		2695796227B2563A00F47C11 /* FullScreenCoverVerticalTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2695796127B2563A00F47C11 /* FullScreenCoverVerticalTransitionViewController.swift */; };
+		2695796427B257C500F47C11 /* FullScreenFlipHorizontalTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2695796327B257C500F47C11 /* FullScreenFlipHorizontalTransitionViewController.swift */; };
+		2695796627B257CA00F47C11 /* FullScreenCrossDisolveTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2695796527B257CA00F47C11 /* FullScreenCrossDisolveTransitionViewController.swift */; };
+		2695796827B257D000F47C11 /* FullScreenPartialCurlTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2695796727B257D000F47C11 /* FullScreenPartialCurlTransitionViewController.swift */; };
+		2695796A27B2CF3D00F47C11 /* PageSheetCoverVerticalTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2695796927B2CF3D00F47C11 /* PageSheetCoverVerticalTransitionViewController.swift */; };
+		2695796C27B2CF4300F47C11 /* PageSheetCrossDisolveTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2695796B27B2CF4300F47C11 /* PageSheetCrossDisolveTransitionViewController.swift */; };
+		2695796E27B2CF4800F47C11 /* PageSheetWithDelegateTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2695796D27B2CF4800F47C11 /* PageSheetWithDelegateTransitionViewController.swift */; };
+		2695797027B2D56B00F47C11 /* PageSheetFlipHorizontalTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2695796F27B2D56B00F47C11 /* PageSheetFlipHorizontalTransitionViewController.swift */; };
+		2695797227B2D9E400F47C11 /* SheetMediumTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2695797127B2D9E400F47C11 /* SheetMediumTransitionViewController.swift */; };
+		2695797427B2DCE900F47C11 /* SheetResizableTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2695797327B2DCE900F47C11 /* SheetResizableTransitionViewController.swift */; };
 		2696CFED279B0183004521F0 /* TextStyles.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2696CFEC279B0183004521F0 /* TextStyles.storyboard */; };
 		2696CFF0279B030F004521F0 /* LabelMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696CFEF279B030F004521F0 /* LabelMenuViewController.swift */; };
 		2696CFF2279B0316004521F0 /* LabelMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696CFF1279B0316004521F0 /* LabelMenuItem.swift */; };
@@ -154,6 +167,19 @@
 		2658055327AFB705002255F7 /* BaseTextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTextFieldViewController.swift; sourceTree = "<group>"; };
 		267400B627836A5C00BCA6D3 /* AllElements.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AllElements.storyboard; sourceTree = "<group>"; };
 		267400B827836A7200BCA6D3 /* AllElementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllElementsViewController.swift; sourceTree = "<group>"; };
+		2695795927B24E5D00F47C11 /* Transitions.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Transitions.storyboard; sourceTree = "<group>"; };
+		2695795B27B24E6900F47C11 /* TransitionsMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionsMenuViewController.swift; sourceTree = "<group>"; };
+		2695795F27B24E9000F47C11 /* TransitionsMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionsMenuItem.swift; sourceTree = "<group>"; };
+		2695796127B2563A00F47C11 /* FullScreenCoverVerticalTransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenCoverVerticalTransitionViewController.swift; sourceTree = "<group>"; };
+		2695796327B257C500F47C11 /* FullScreenFlipHorizontalTransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenFlipHorizontalTransitionViewController.swift; sourceTree = "<group>"; };
+		2695796527B257CA00F47C11 /* FullScreenCrossDisolveTransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenCrossDisolveTransitionViewController.swift; sourceTree = "<group>"; };
+		2695796727B257D000F47C11 /* FullScreenPartialCurlTransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenPartialCurlTransitionViewController.swift; sourceTree = "<group>"; };
+		2695796927B2CF3D00F47C11 /* PageSheetCoverVerticalTransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageSheetCoverVerticalTransitionViewController.swift; sourceTree = "<group>"; };
+		2695796B27B2CF4300F47C11 /* PageSheetCrossDisolveTransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageSheetCrossDisolveTransitionViewController.swift; sourceTree = "<group>"; };
+		2695796D27B2CF4800F47C11 /* PageSheetWithDelegateTransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageSheetWithDelegateTransitionViewController.swift; sourceTree = "<group>"; };
+		2695796F27B2D56B00F47C11 /* PageSheetFlipHorizontalTransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageSheetFlipHorizontalTransitionViewController.swift; sourceTree = "<group>"; };
+		2695797127B2D9E400F47C11 /* SheetMediumTransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetMediumTransitionViewController.swift; sourceTree = "<group>"; };
+		2695797327B2DCE900F47C11 /* SheetResizableTransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetResizableTransitionViewController.swift; sourceTree = "<group>"; };
 		2696CFEC279B0183004521F0 /* TextStyles.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TextStyles.storyboard; sourceTree = "<group>"; };
 		2696CFEF279B030F004521F0 /* LabelMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelMenuViewController.swift; sourceTree = "<group>"; };
 		2696CFF1279B0316004521F0 /* LabelMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelMenuItem.swift; sourceTree = "<group>"; };
@@ -372,6 +398,42 @@
 				267400B827836A7200BCA6D3 /* AllElementsViewController.swift */,
 			);
 			path = AllElements;
+			sourceTree = "<group>";
+		};
+		2695795827B24E5200F47C11 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				2695795D27B24E7300F47C11 /* Menu */,
+				2695795E27B24E7900F47C11 /* ViewControllers */,
+				2695795927B24E5D00F47C11 /* Transitions.storyboard */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		2695795D27B24E7300F47C11 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				2695795B27B24E6900F47C11 /* TransitionsMenuViewController.swift */,
+				2695795F27B24E9000F47C11 /* TransitionsMenuItem.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		2695795E27B24E7900F47C11 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2695796127B2563A00F47C11 /* FullScreenCoverVerticalTransitionViewController.swift */,
+				2695796527B257CA00F47C11 /* FullScreenCrossDisolveTransitionViewController.swift */,
+				2695796327B257C500F47C11 /* FullScreenFlipHorizontalTransitionViewController.swift */,
+				2695796727B257D000F47C11 /* FullScreenPartialCurlTransitionViewController.swift */,
+				2695796927B2CF3D00F47C11 /* PageSheetCoverVerticalTransitionViewController.swift */,
+				2695796B27B2CF4300F47C11 /* PageSheetCrossDisolveTransitionViewController.swift */,
+				2695796F27B2D56B00F47C11 /* PageSheetFlipHorizontalTransitionViewController.swift */,
+				2695796D27B2CF4800F47C11 /* PageSheetWithDelegateTransitionViewController.swift */,
+				2695797127B2D9E400F47C11 /* SheetMediumTransitionViewController.swift */,
+				2695797327B2DCE900F47C11 /* SheetResizableTransitionViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		2696CFEB279B0174004521F0 /* Label */ = {
@@ -622,6 +684,7 @@
 				26D816BC27A45745005F8135 /* TableView */,
 				26D63203279C72D40029AE96 /* TextField */,
 				26A3C63727A310030029020F /* TextView */,
+				2695795827B24E5200F47C11 /* Transitions */,
 			);
 			path = "Main Menu ViewControllers";
 			sourceTree = "<group>";
@@ -1128,6 +1191,7 @@
 				8050A3D9275A329E00CE2BD4 /* Assets.xcassets in Resources */,
 				26D6322C279C7E170029AE96 /* TextFieldClearButton.storyboard in Resources */,
 				2696CFF4279B0324004521F0 /* LabelMenu.storyboard in Resources */,
+				2695795A27B24E5D00F47C11 /* Transitions.storyboard in Resources */,
 				26D63236279C81130029AE96 /* TextFieldOther.storyboard in Resources */,
 				267400B727836A5C00BCA6D3 /* AllElements.storyboard in Resources */,
 				26D63231279C7E170029AE96 /* TextFieldKeyboardType.storyboard in Resources */,
@@ -1151,13 +1215,16 @@
 				261F780F27AB9D1E00B12235 /* CellStyleTitle3ViewController.swift in Sources */,
 				26D63228279C7E170029AE96 /* TextFieldTraitsViewController.swift in Sources */,
 				26A3C65427A310030029020F /* TextViewMenuItem.swift in Sources */,
+				2695796E27B2CF4800F47C11 /* PageSheetWithDelegateTransitionViewController.swift in Sources */,
 				261F781527ABA3BB00B12235 /* TableViewHeadersAndFoottersViewController.swift in Sources */,
 				261F780D27AB9D1E00B12235 /* CellStyleLongTextViewController.swift in Sources */,
 				26F3843427A84B1C005E2588 /* SimpleTableViewController.swift in Sources */,
 				2696CFFF279B0D0D004521F0 /* FontSizesViewController.swift in Sources */,
 				26D63200279C12AC0029AE96 /* ButtonMenuViewController.swift in Sources */,
 				26D816F227A459E5005F8135 /* TableViewSelectionMenuViewController.swift in Sources */,
+				2695796827B257D000F47C11 /* FullScreenPartialCurlTransitionViewController.swift in Sources */,
 				261F782C27AC73AE00B12235 /* TableViewSectionIndexViewModel.swift in Sources */,
+				2695796227B2563A00F47C11 /* FullScreenCoverVerticalTransitionViewController.swift in Sources */,
 				26D816F427A459E5005F8135 /* TableViewSeparatorStyleEtchedViewController.swift in Sources */,
 				26D816FE27A459E5005F8135 /* TableViewStylePlainViewController.swift in Sources */,
 				26D816F327A459E5005F8135 /* TableViewSelectionMenuItem.swift in Sources */,
@@ -1173,12 +1240,14 @@
 				26A3C65927A31B900029020F /* BaseViewController.swift in Sources */,
 				26D816F527A459E5005F8135 /* TableViewSeparatorStyleNoneViewController.swift in Sources */,
 				26D816F727A459E5005F8135 /* TableViewSeparatorStyleMenuItem.swift in Sources */,
+				2695796027B24E9000F47C11 /* TransitionsMenuItem.swift in Sources */,
 				26D63225279C7E170029AE96 /* TextFieldMenuItem.swift in Sources */,
 				807FE375275E1D1D00E60A6D /* ScrollViewWithNoContentLayoutGuidesViewController.swift in Sources */,
 				8050A3D0275A329D00CE2BD4 /* AppDelegate.swift in Sources */,
 				26D816C327A45772005F8135 /* TableViewMenuItem.swift in Sources */,
 				26D816EF27A459E5005F8135 /* TableViewSelectionSingleViewController.swift in Sources */,
 				26D816F127A459E5005F8135 /* TableViewSelectionMultipleViewController.swift in Sources */,
+				2695795C27B24E6900F47C11 /* TransitionsMenuViewController.swift in Sources */,
 				261F780E27AB9D1E00B12235 /* CellStyleDefaultFontViewController.swift in Sources */,
 				807FE373275E1D1D00E60A6D /* ScrollViewTwoDirectionsViewController.swift in Sources */,
 				2696D018279B2F0B004521F0 /* ButtonCornerStyleViewController.swift in Sources */,
@@ -1189,10 +1258,14 @@
 				26D6322F279C7E170029AE96 /* TextFieldDisabledViewController.swift in Sources */,
 				26D8170027A459E5005F8135 /* TableViewStyleMenuViewController.swift in Sources */,
 				26A3C64C27A310030029020F /* TextViewNonEditableNonSelectableViewController.swift in Sources */,
+				2695796A27B2CF3D00F47C11 /* PageSheetCoverVerticalTransitionViewController.swift in Sources */,
+				2695796627B257CA00F47C11 /* FullScreenCrossDisolveTransitionViewController.swift in Sources */,
+				2695797027B2D56B00F47C11 /* PageSheetFlipHorizontalTransitionViewController.swift in Sources */,
 				26D816FD27A459E5005F8135 /* TableViewStyleGroupedViewController.swift in Sources */,
 				2696CFFD279B0D02004521F0 /* FontWeightsViewController.swift in Sources */,
 				26A3C64E27A310030029020F /* TextViewEditableViewController.swift in Sources */,
 				2696D00C279B2D33004521F0 /* ButtonStylesViewController.swift in Sources */,
+				2695797227B2D9E400F47C11 /* SheetMediumTransitionViewController.swift in Sources */,
 				261F781E27AC4EDD00B12235 /* TableViewSectionHeaderView.swift in Sources */,
 				261F781A27ABA49700B12235 /* TableViewHeaderFooterView.swift in Sources */,
 				26F3843A27A85C1F005E2588 /* CellSelectionStyleItem.swift in Sources */,
@@ -1201,6 +1274,7 @@
 				807FE376275E1D1D00E60A6D /* ScrollViewHorizontalViewController.swift in Sources */,
 				2696D015279B2D94004521F0 /* ButtonToggleViewController.swift in Sources */,
 				26F3843C27A87979005E2588 /* CellAccessoryTypeItem.swift in Sources */,
+				2695796C27B2CF4300F47C11 /* PageSheetCrossDisolveTransitionViewController.swift in Sources */,
 				807FE379275E1D1D00E60A6D /* ScrollViewWithKeyboardViewController.swift in Sources */,
 				2696D022279B3031004521F0 /* OtherButtonsViewController.swift in Sources */,
 				26D8170227A459E5005F8135 /* CellAccessoryTypeViewController.swift in Sources */,
@@ -1209,6 +1283,8 @@
 				2696D001279B0D15004521F0 /* TextStylesViewController.swift in Sources */,
 				26A3C65227A310030029020F /* TextViewNonEditableViewController.swift in Sources */,
 				8050A3FA275A5A0100CE2BD4 /* UIViewControllerExtensions.swift in Sources */,
+				2695796427B257C500F47C11 /* FullScreenFlipHorizontalTransitionViewController.swift in Sources */,
+				2695797427B2DCE900F47C11 /* SheetResizableTransitionViewController.swift in Sources */,
 				26F3843827A85C0B005E2588 /* CellStyleSection.swift in Sources */,
 				2658055427AFB705002255F7 /* BaseTextFieldViewController.swift in Sources */,
 				261F782927AC731D00B12235 /* Person.swift in Sources */,
