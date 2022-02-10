@@ -15,6 +15,7 @@ enum MainMenuItem: MenuItemProtocol {
     case textView
     case scrollView
     case tableView
+    case collectionView
     case trantisions
     
     var name: String {
@@ -33,6 +34,8 @@ enum MainMenuItem: MenuItemProtocol {
             return "ScrollView"
         case .tableView:
             return "TableView"
+        case .collectionView:
+            return "CollectionView"
         case .trantisions:
             return "ViewController transitions"
         }
@@ -54,6 +57,8 @@ enum MainMenuItem: MenuItemProtocol {
             return "ScrollViewMenu"
         case .tableView:
             return "TableView"
+        case .collectionView:
+            return "CollectionViewMenu"
         case .trantisions:
             return "Transitions"
         }

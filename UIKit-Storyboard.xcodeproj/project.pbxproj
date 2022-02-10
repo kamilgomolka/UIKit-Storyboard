@@ -27,6 +27,24 @@
 		2658055427AFB705002255F7 /* BaseTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2658055327AFB705002255F7 /* BaseTextFieldViewController.swift */; };
 		267400B727836A5C00BCA6D3 /* AllElements.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267400B627836A5C00BCA6D3 /* AllElements.storyboard */; };
 		267400B927836A7200BCA6D3 /* AllElementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267400B827836A7200BCA6D3 /* AllElementsViewController.swift */; };
+		267C89BC27B57DBE0061FC2F /* CollectionViewGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C89B627B57DBE0061FC2F /* CollectionViewGridViewController.swift */; };
+		267C89BD27B57DBE0061FC2F /* CollectionViewGrid.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267C89B727B57DBE0061FC2F /* CollectionViewGrid.storyboard */; };
+		267C89BE27B57DBE0061FC2F /* CollectionViewMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267C89B927B57DBE0061FC2F /* CollectionViewMenu.storyboard */; };
+		267C89BF27B57DBE0061FC2F /* CollectionViewMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C89BA27B57DBE0061FC2F /* CollectionViewMenuItem.swift */; };
+		267C89C027B57DBE0061FC2F /* CollectionViewMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C89BB27B57DBE0061FC2F /* CollectionViewMenuViewController.swift */; };
+		267C89C427B57DF50061FC2F /* BigNumberCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C89C327B57DF50061FC2F /* BigNumberCollectionViewCell.swift */; };
+		267C89C627B57DFF0061FC2F /* BigNumberCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 267C89C527B57DFF0061FC2F /* BigNumberCollectionViewCell.xib */; };
+		267C89D027B5AB9F0061FC2F /* CollectionViewPagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C89C827B5AB9F0061FC2F /* CollectionViewPagingViewController.swift */; };
+		267C89D127B5AB9F0061FC2F /* CollectionViewPaging.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267C89C927B5AB9F0061FC2F /* CollectionViewPaging.storyboard */; };
+		267C89D227B5AB9F0061FC2F /* CollectionViewSectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C89CB27B5AB9F0061FC2F /* CollectionViewSectionsViewController.swift */; };
+		267C89D327B5AB9F0061FC2F /* CollectionViewSections.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267C89CC27B5AB9F0061FC2F /* CollectionViewSections.storyboard */; };
+		267C89D427B5AB9F0061FC2F /* CollectionViewBadgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C89CE27B5AB9F0061FC2F /* CollectionViewBadgeViewController.swift */; };
+		267C89D527B5AB9F0061FC2F /* CollectionViewBadge.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267C89CF27B5AB9F0061FC2F /* CollectionViewBadge.storyboard */; };
+		267C89D827B5AD130061FC2F /* CollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C89D727B5AD130061FC2F /* CollectionHeaderView.swift */; };
+		267C89DA27B5AD280061FC2F /* CollectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 267C89D927B5AD280061FC2F /* CollectionHeaderView.xib */; };
+		267C89DD27B5B7B10061FC2F /* CollectionBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C89DC27B5B7B10061FC2F /* CollectionBadgeView.swift */; };
+		267C89DF27B5B7B70061FC2F /* CollectionBadgeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 267C89DE27B5B7B70061FC2F /* CollectionBadgeView.xib */; };
+		267C89E127B5BC530061FC2F /* CollectionViewPagingSectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C89E027B5BC530061FC2F /* CollectionViewPagingSectionType.swift */; };
 		2695795A27B24E5D00F47C11 /* Transitions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2695795927B24E5D00F47C11 /* Transitions.storyboard */; };
 		2695795C27B24E6900F47C11 /* TransitionsMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2695795B27B24E6900F47C11 /* TransitionsMenuViewController.swift */; };
 		2695796027B24E9000F47C11 /* TransitionsMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2695795F27B24E9000F47C11 /* TransitionsMenuItem.swift */; };
@@ -167,6 +185,24 @@
 		2658055327AFB705002255F7 /* BaseTextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTextFieldViewController.swift; sourceTree = "<group>"; };
 		267400B627836A5C00BCA6D3 /* AllElements.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AllElements.storyboard; sourceTree = "<group>"; };
 		267400B827836A7200BCA6D3 /* AllElementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllElementsViewController.swift; sourceTree = "<group>"; };
+		267C89B627B57DBE0061FC2F /* CollectionViewGridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewGridViewController.swift; sourceTree = "<group>"; };
+		267C89B727B57DBE0061FC2F /* CollectionViewGrid.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CollectionViewGrid.storyboard; sourceTree = "<group>"; };
+		267C89B927B57DBE0061FC2F /* CollectionViewMenu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CollectionViewMenu.storyboard; sourceTree = "<group>"; };
+		267C89BA27B57DBE0061FC2F /* CollectionViewMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewMenuItem.swift; sourceTree = "<group>"; };
+		267C89BB27B57DBE0061FC2F /* CollectionViewMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewMenuViewController.swift; sourceTree = "<group>"; };
+		267C89C327B57DF50061FC2F /* BigNumberCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigNumberCollectionViewCell.swift; sourceTree = "<group>"; };
+		267C89C527B57DFF0061FC2F /* BigNumberCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BigNumberCollectionViewCell.xib; sourceTree = "<group>"; };
+		267C89C827B5AB9F0061FC2F /* CollectionViewPagingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewPagingViewController.swift; sourceTree = "<group>"; };
+		267C89C927B5AB9F0061FC2F /* CollectionViewPaging.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CollectionViewPaging.storyboard; sourceTree = "<group>"; };
+		267C89CB27B5AB9F0061FC2F /* CollectionViewSectionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewSectionsViewController.swift; sourceTree = "<group>"; };
+		267C89CC27B5AB9F0061FC2F /* CollectionViewSections.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CollectionViewSections.storyboard; sourceTree = "<group>"; };
+		267C89CE27B5AB9F0061FC2F /* CollectionViewBadgeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewBadgeViewController.swift; sourceTree = "<group>"; };
+		267C89CF27B5AB9F0061FC2F /* CollectionViewBadge.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CollectionViewBadge.storyboard; sourceTree = "<group>"; };
+		267C89D727B5AD130061FC2F /* CollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionHeaderView.swift; sourceTree = "<group>"; };
+		267C89D927B5AD280061FC2F /* CollectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionHeaderView.xib; sourceTree = "<group>"; };
+		267C89DC27B5B7B10061FC2F /* CollectionBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionBadgeView.swift; sourceTree = "<group>"; };
+		267C89DE27B5B7B70061FC2F /* CollectionBadgeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionBadgeView.xib; sourceTree = "<group>"; };
+		267C89E027B5BC530061FC2F /* CollectionViewPagingSectionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewPagingSectionType.swift; sourceTree = "<group>"; };
 		2695795927B24E5D00F47C11 /* Transitions.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Transitions.storyboard; sourceTree = "<group>"; };
 		2695795B27B24E6900F47C11 /* TransitionsMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionsMenuViewController.swift; sourceTree = "<group>"; };
 		2695795F27B24E9000F47C11 /* TransitionsMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionsMenuItem.swift; sourceTree = "<group>"; };
@@ -398,6 +434,111 @@
 				267400B827836A7200BCA6D3 /* AllElementsViewController.swift */,
 			);
 			path = AllElements;
+			sourceTree = "<group>";
+		};
+		267C89B327B57DBE0061FC2F /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				267C89C127B57DD90061FC2F /* Cells */,
+				267C89B827B57DBE0061FC2F /* Menu */,
+				267C89B427B57DBE0061FC2F /* ViewControllers */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		267C89B427B57DBE0061FC2F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				267C89CD27B5AB9F0061FC2F /* Badge */,
+				267C89B527B57DBE0061FC2F /* Grid */,
+				267C89C727B5AB9F0061FC2F /* Paging */,
+				267C89CA27B5AB9F0061FC2F /* Sections */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		267C89B527B57DBE0061FC2F /* Grid */ = {
+			isa = PBXGroup;
+			children = (
+				267C89B627B57DBE0061FC2F /* CollectionViewGridViewController.swift */,
+				267C89B727B57DBE0061FC2F /* CollectionViewGrid.storyboard */,
+			);
+			path = Grid;
+			sourceTree = "<group>";
+		};
+		267C89B827B57DBE0061FC2F /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				267C89BA27B57DBE0061FC2F /* CollectionViewMenuItem.swift */,
+				267C89BB27B57DBE0061FC2F /* CollectionViewMenuViewController.swift */,
+				267C89B927B57DBE0061FC2F /* CollectionViewMenu.storyboard */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		267C89C127B57DD90061FC2F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				267C89DB27B5B7A70061FC2F /* Badge */,
+				267C89D627B5ACEE0061FC2F /* Header */,
+				267C89C227B57DE80061FC2F /* BigNumber */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		267C89C227B57DE80061FC2F /* BigNumber */ = {
+			isa = PBXGroup;
+			children = (
+				267C89C327B57DF50061FC2F /* BigNumberCollectionViewCell.swift */,
+				267C89C527B57DFF0061FC2F /* BigNumberCollectionViewCell.xib */,
+			);
+			path = BigNumber;
+			sourceTree = "<group>";
+		};
+		267C89C727B5AB9F0061FC2F /* Paging */ = {
+			isa = PBXGroup;
+			children = (
+				267C89E027B5BC530061FC2F /* CollectionViewPagingSectionType.swift */,
+				267C89C827B5AB9F0061FC2F /* CollectionViewPagingViewController.swift */,
+				267C89C927B5AB9F0061FC2F /* CollectionViewPaging.storyboard */,
+			);
+			path = Paging;
+			sourceTree = "<group>";
+		};
+		267C89CA27B5AB9F0061FC2F /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				267C89CB27B5AB9F0061FC2F /* CollectionViewSectionsViewController.swift */,
+				267C89CC27B5AB9F0061FC2F /* CollectionViewSections.storyboard */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		267C89CD27B5AB9F0061FC2F /* Badge */ = {
+			isa = PBXGroup;
+			children = (
+				267C89CE27B5AB9F0061FC2F /* CollectionViewBadgeViewController.swift */,
+				267C89CF27B5AB9F0061FC2F /* CollectionViewBadge.storyboard */,
+			);
+			path = Badge;
+			sourceTree = "<group>";
+		};
+		267C89D627B5ACEE0061FC2F /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				267C89D727B5AD130061FC2F /* CollectionHeaderView.swift */,
+				267C89D927B5AD280061FC2F /* CollectionHeaderView.xib */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		267C89DB27B5B7A70061FC2F /* Badge */ = {
+			isa = PBXGroup;
+			children = (
+				267C89DC27B5B7B10061FC2F /* CollectionBadgeView.swift */,
+				267C89DE27B5B7B70061FC2F /* CollectionBadgeView.xib */,
+			);
+			path = Badge;
 			sourceTree = "<group>";
 		};
 		2695795827B24E5200F47C11 /* Transitions */ = {
@@ -679,6 +820,7 @@
 			children = (
 				267400B527836A4A00BCA6D3 /* AllElements */,
 				2696D002279B20E0004521F0 /* Button */,
+				267C89B327B57DBE0061FC2F /* CollectionView */,
 				2696CFEB279B0174004521F0 /* Label */,
 				807FE359275E0A8D00E60A6D /* ScrollView */,
 				26D816BC27A45745005F8135 /* TableView */,
@@ -1161,7 +1303,9 @@
 				2696D013279B2D8A004521F0 /* ButtonToggle.storyboard in Resources */,
 				807FE358275E06B500E60A6D /* MenuCell.xib in Resources */,
 				807FE365275E0B8800E60A6D /* ScrollViewVertical.storyboard in Resources */,
+				267C89BD27B57DBE0061FC2F /* CollectionViewGrid.storyboard in Resources */,
 				261F781C27AC4EC800B12235 /* TableViewSectionHeaderView.xib in Resources */,
+				267C89D327B5AB9F0061FC2F /* CollectionViewSections.storyboard in Resources */,
 				8050A3EB275A386500CE2BD4 /* MainMenu.storyboard in Resources */,
 				26D816BF27A45759005F8135 /* TableView.storyboard in Resources */,
 				26D63201279C12AC0029AE96 /* ButtonMenu.storyboard in Resources */,
@@ -1175,13 +1319,16 @@
 				8050A3DC275A329E00CE2BD4 /* LaunchScreen.storyboard in Resources */,
 				26D6322B279C7E170029AE96 /* TextFieldBorderStyle.storyboard in Resources */,
 				26D63229279C7E170029AE96 /* TextFieldTraits.storyboard in Resources */,
+				267C89DA27B5AD280061FC2F /* CollectionHeaderView.xib in Resources */,
 				261F781827ABA44900B12235 /* TableViewHeaderFooterView.xib in Resources */,
 				807FE372275E1D1D00E60A6D /* ScrollViewTwoDirections.storyboard in Resources */,
 				2696CFF9279B0598004521F0 /* FontSizes.storyboard in Resources */,
+				267C89DF27B5B7B70061FC2F /* CollectionBadgeView.xib in Resources */,
 				2696D010279B2D5E004521F0 /* ButtonSystemSizes.storyboard in Resources */,
 				807FE35E275E0AA900E60A6D /* ScrollViewMenu.storyboard in Resources */,
 				807FE378275E1D1D00E60A6D /* ScrollViewWithKeyboard.storyboard in Resources */,
 				26A3C65027A310030029020F /* TextViewDataDetectors.storyboard in Resources */,
+				267C89D527B5AB9F0061FC2F /* CollectionViewBadge.storyboard in Resources */,
 				26D63227279C7E170029AE96 /* TextFieldReturnKeyType.storyboard in Resources */,
 				26D631FB279C08230029AE96 /* ButtonImagePlacement.storyboard in Resources */,
 				807FE377275E1D1D00E60A6D /* ScrollViewHorizontal.storyboard in Resources */,
@@ -1189,6 +1336,7 @@
 				26A3C64D27A310030029020F /* TextViewEditable.storyboard in Resources */,
 				2696D00A279B2D2A004521F0 /* ButtonStyles.storyboard in Resources */,
 				8050A3D9275A329E00CE2BD4 /* Assets.xcassets in Resources */,
+				267C89BE27B57DBE0061FC2F /* CollectionViewMenu.storyboard in Resources */,
 				26D6322C279C7E170029AE96 /* TextFieldClearButton.storyboard in Resources */,
 				2696CFF4279B0324004521F0 /* LabelMenu.storyboard in Resources */,
 				2695795A27B24E5D00F47C11 /* Transitions.storyboard in Resources */,
@@ -1198,7 +1346,9 @@
 				26D63224279C7E170029AE96 /* TextFieldMenu.storyboard in Resources */,
 				26F3843627A84D94005E2588 /* SimpleTableViewCell.xib in Resources */,
 				2696CFFB279B05A1004521F0 /* FontWeights.storyboard in Resources */,
+				267C89C627B57DFF0061FC2F /* BigNumberCollectionViewCell.xib in Resources */,
 				2696D01A279B2F10004521F0 /* ButtonCornerStyle.storyboard in Resources */,
+				267C89D127B5AB9F0061FC2F /* CollectionViewPaging.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1209,6 +1359,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				267C89D827B5AD130061FC2F /* CollectionHeaderView.swift in Sources */,
 				26A3C64F27A310030029020F /* TextViewDataDetectorsViewController.swift in Sources */,
 				2658055127AEE408002255F7 /* ButtonClicksCounter.swift in Sources */,
 				26D63202279C12AC0029AE96 /* ButtonMenuItem.swift in Sources */,
@@ -1238,6 +1389,7 @@
 				26D816F827A459E5005F8135 /* TableViewSeparatorStyleMenuViewController.swift in Sources */,
 				2696D00E279B2D43004521F0 /* ButtonSystemSizesViewController.swift in Sources */,
 				26A3C65927A31B900029020F /* BaseViewController.swift in Sources */,
+				267C89BC27B57DBE0061FC2F /* CollectionViewGridViewController.swift in Sources */,
 				26D816F527A459E5005F8135 /* TableViewSeparatorStyleNoneViewController.swift in Sources */,
 				26D816F727A459E5005F8135 /* TableViewSeparatorStyleMenuItem.swift in Sources */,
 				2695796027B24E9000F47C11 /* TransitionsMenuItem.swift in Sources */,
@@ -1246,6 +1398,7 @@
 				8050A3D0275A329D00CE2BD4 /* AppDelegate.swift in Sources */,
 				26D816C327A45772005F8135 /* TableViewMenuItem.swift in Sources */,
 				26D816EF27A459E5005F8135 /* TableViewSelectionSingleViewController.swift in Sources */,
+				267C89C427B57DF50061FC2F /* BigNumberCollectionViewCell.swift in Sources */,
 				26D816F127A459E5005F8135 /* TableViewSelectionMultipleViewController.swift in Sources */,
 				2695795C27B24E6900F47C11 /* TransitionsMenuViewController.swift in Sources */,
 				261F780E27AB9D1E00B12235 /* CellStyleDefaultFontViewController.swift in Sources */,
@@ -1253,7 +1406,9 @@
 				2696D018279B2F0B004521F0 /* ButtonCornerStyleViewController.swift in Sources */,
 				8050A3E9275A385C00CE2BD4 /* MainMenuViewController.swift in Sources */,
 				8050A3D2275A329D00CE2BD4 /* SceneDelegate.swift in Sources */,
+				267C89DD27B5B7B10061FC2F /* CollectionBadgeView.swift in Sources */,
 				807FE363275E0B7500E60A6D /* ScrollViewVerticalViewController.swift in Sources */,
+				267C89D227B5AB9F0061FC2F /* CollectionViewSectionsViewController.swift in Sources */,
 				26D816F627A459E5005F8135 /* TableViewSeparatorStyleLineViewController.swift in Sources */,
 				26D6322F279C7E170029AE96 /* TextFieldDisabledViewController.swift in Sources */,
 				26D8170027A459E5005F8135 /* TableViewStyleMenuViewController.swift in Sources */,
@@ -1288,6 +1443,8 @@
 				26F3843827A85C0B005E2588 /* CellStyleSection.swift in Sources */,
 				2658055427AFB705002255F7 /* BaseTextFieldViewController.swift in Sources */,
 				261F782927AC731D00B12235 /* Person.swift in Sources */,
+				267C89E127B5BC530061FC2F /* CollectionViewPagingSectionType.swift in Sources */,
+				267C89BF27B57DBE0061FC2F /* CollectionViewMenuItem.swift in Sources */,
 				807FE354275E02D700E60A6D /* MenuViewController.swift in Sources */,
 				261F780A27AB9D1E00B12235 /* CellStyleMenuViewController.swift in Sources */,
 				26D63226279C7E170029AE96 /* TextFieldReturnKeyTypeViewController.swift in Sources */,
@@ -1295,6 +1452,7 @@
 				26D8170427A459E5005F8135 /* CellSelectionStyleViewController.swift in Sources */,
 				8050A3FC275A5AFB00CE2BD4 /* MainMenuItem.swift in Sources */,
 				2696CFF2279B0316004521F0 /* LabelMenuItem.swift in Sources */,
+				267C89C027B57DBE0061FC2F /* CollectionViewMenuViewController.swift in Sources */,
 				26D816C127A4576A005F8135 /* TableViewMenuViewController.swift in Sources */,
 				261F780C27AB9D1E00B12235 /* CellStyleBodyViewController.swift in Sources */,
 				807FE356275E062100E60A6D /* MenuItemProtocol.swift in Sources */,
@@ -1302,7 +1460,9 @@
 				26F3843E27A87C99005E2588 /* CellSeparatorInsetsItem.swift in Sources */,
 				261F781127AB9EB900B12235 /* CellStyleBaseViewController.swift in Sources */,
 				267400B927836A7200BCA6D3 /* AllElementsViewController.swift in Sources */,
+				267C89D427B5AB9F0061FC2F /* CollectionViewBadgeViewController.swift in Sources */,
 				26D631FA279C08230029AE96 /* ButtonImagePlacementViewController.swift in Sources */,
+				267C89D027B5AB9F0061FC2F /* CollectionViewPagingViewController.swift in Sources */,
 				261F780B27AB9D1E00B12235 /* CellStyleMenuItem.swift in Sources */,
 				26D816FC27A459E5005F8135 /* TableViewStyleInsetGroupedViewController.swift in Sources */,
 			);
