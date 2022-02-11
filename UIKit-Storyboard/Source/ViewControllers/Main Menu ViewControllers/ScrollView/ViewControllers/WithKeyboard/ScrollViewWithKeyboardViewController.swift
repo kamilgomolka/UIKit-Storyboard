@@ -9,7 +9,7 @@ import UIKit
 
 class ScrollViewWithKeyboardViewController: UIViewController {
     
-    // MARK: Properties
+    // MARK: - Properties
     
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var textField1: UITextField!
@@ -30,7 +30,7 @@ class ScrollViewWithKeyboardViewController: UIViewController {
         ]
     }
     
-    // MARK: Lifecycle
+    // MARK: - Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,7 +51,7 @@ class ScrollViewWithKeyboardViewController: UIViewController {
         removeObservers()
     }
     
-    // MARK: Functions
+    // MARK: - Functions
     
     func setupTextFields() {
         for textField in allTextFields {

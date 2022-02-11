@@ -9,7 +9,7 @@ import UIKit
 
 class CollectionViewPagingViewController: UIViewController {
     
-    // MARK: Properties
+    // MARK: - Properties
     
     let margin: CGFloat = 8.0
     let headerElementKind = "headerElementKind"

@@ -9,11 +9,11 @@ import UIKit
 
 class ScrollViewWithNoContentLayoutGuidesViewController: UIViewController {
     
-    // MARK: Properties
+    // MARK: - Properties
     
     @IBOutlet weak var label: UILabel!
     
-    // MARK: Lifecycle
+    // MARK: - Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +21,7 @@ class ScrollViewWithNoContentLayoutGuidesViewController: UIViewController {
         generateLabelText()
     }
     
-    // MARK: Functions
+    // MARK: - Functions
     
     func generateLabelText() {
         let ints = 1...100

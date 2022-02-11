@@ -9,7 +9,7 @@ import UIKit
 
 class CollectionViewGridViewController: UIViewController {
     
-    // MARK: Properties
+    // MARK: - Properties
     
     let margin: CGFloat = 8.0
     

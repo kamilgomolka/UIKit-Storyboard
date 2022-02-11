@@ -10,7 +10,7 @@ import UIKit
 class TableViewHeaderFooterView: UIView {
     
     //
-    // MARK: Static functions
+    // MARK: - Static functions
     //
     
     static func newHeaderView() -> TableViewHeaderFooterView {
@@ -33,7 +33,7 @@ class TableViewHeaderFooterView: UIView {
     }
     
     //
-    // MARK: Properties
+    // MARK: - Properties
     //
     
     @IBOutlet weak var contentView: UIView?

@@ -9,7 +9,7 @@ import UIKit
 
 class SimpleTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    // MARK: Properties
+    // MARK: - Properties
     
     let cellNibName = "SimpleTableViewCell"
     

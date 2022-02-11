@@ -9,13 +9,13 @@ import UIKit
 
 class ButtonStylesViewController: UIViewController {
     
-    // MARK: Properties
+    // MARK: - Properties
     
     @IBOutlet var buttons: [UIButton]!
     
     let clicksCounter = ButtonClicksCounter()
     
-    // MARK: Lifecycle
+    // MARK: - Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()

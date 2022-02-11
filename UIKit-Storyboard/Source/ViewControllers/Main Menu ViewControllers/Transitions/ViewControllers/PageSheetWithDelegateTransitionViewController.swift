@@ -30,7 +30,7 @@ class PageSheetWithDelegateTransitionViewController: UIViewController, UIAdaptiv
         dismiss(animated: true, completion: nil)
     }
     
-    // MARK: UIAdaptivePresentationControllerDelegate
+    // MARK: - UIAdaptivePresentationControllerDelegate
     
     public func presentationControllerDidAttemptToDismiss(_ presentationController: UIPresentationController) {
         let alert = UIAlertController(title: "You made some changes.",
