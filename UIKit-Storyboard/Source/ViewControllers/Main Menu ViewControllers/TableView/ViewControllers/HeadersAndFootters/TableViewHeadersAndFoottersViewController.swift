@@ -26,6 +26,7 @@ class TableViewHeadersAndFoottersViewController: UIViewController, UITableViewDa
         tableView.tableFooterView = TableViewHeaderFooterView.newFooterView()
         tableView.sectionHeaderHeight = UITableView.automaticDimension
         tableView.estimatedSectionHeaderHeight = 52.5
+        tableView.sectionHeaderTopPadding = 0.0
     }
     
     // MARK: - UITableViewDataSource
