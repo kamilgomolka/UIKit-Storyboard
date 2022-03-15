@@ -25,8 +25,8 @@
 		261F782C27AC73AE00B12235 /* TableViewSectionIndexViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261F782B27AC73AE00B12235 /* TableViewSectionIndexViewModel.swift */; };
 		2658055127AEE408002255F7 /* ButtonClicksCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2658055027AEE408002255F7 /* ButtonClicksCounter.swift */; };
 		2658055427AFB705002255F7 /* BaseTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2658055327AFB705002255F7 /* BaseTextFieldViewController.swift */; };
-		267400B727836A5C00BCA6D3 /* AllElements.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267400B627836A5C00BCA6D3 /* AllElements.storyboard */; };
-		267400B927836A7200BCA6D3 /* AllElementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267400B827836A7200BCA6D3 /* AllElementsViewController.swift */; };
+		267400B727836A5C00BCA6D3 /* AllControls.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267400B627836A5C00BCA6D3 /* AllControls.storyboard */; };
+		267400B927836A7200BCA6D3 /* AllControlsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267400B827836A7200BCA6D3 /* AllControlsViewController.swift */; };
 		267C89BC27B57DBE0061FC2F /* CollectionViewGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C89B627B57DBE0061FC2F /* CollectionViewGridViewController.swift */; };
 		267C89BD27B57DBE0061FC2F /* CollectionViewGrid.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267C89B727B57DBE0061FC2F /* CollectionViewGrid.storyboard */; };
 		267C89BE27B57DBE0061FC2F /* CollectionViewMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267C89B927B57DBE0061FC2F /* CollectionViewMenu.storyboard */; };
@@ -183,8 +183,8 @@
 		261F782B27AC73AE00B12235 /* TableViewSectionIndexViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSectionIndexViewModel.swift; sourceTree = "<group>"; };
 		2658055027AEE408002255F7 /* ButtonClicksCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonClicksCounter.swift; sourceTree = "<group>"; };
 		2658055327AFB705002255F7 /* BaseTextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTextFieldViewController.swift; sourceTree = "<group>"; };
-		267400B627836A5C00BCA6D3 /* AllElements.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AllElements.storyboard; sourceTree = "<group>"; };
-		267400B827836A7200BCA6D3 /* AllElementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllElementsViewController.swift; sourceTree = "<group>"; };
+		267400B627836A5C00BCA6D3 /* AllControls.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AllControls.storyboard; sourceTree = "<group>"; };
+		267400B827836A7200BCA6D3 /* AllControlsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllControlsViewController.swift; sourceTree = "<group>"; };
 		267C89B627B57DBE0061FC2F /* CollectionViewGridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewGridViewController.swift; sourceTree = "<group>"; };
 		267C89B727B57DBE0061FC2F /* CollectionViewGrid.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CollectionViewGrid.storyboard; sourceTree = "<group>"; };
 		267C89B927B57DBE0061FC2F /* CollectionViewMenu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CollectionViewMenu.storyboard; sourceTree = "<group>"; };
@@ -430,8 +430,8 @@
 		267400B527836A4A00BCA6D3 /* AllElements */ = {
 			isa = PBXGroup;
 			children = (
-				267400B627836A5C00BCA6D3 /* AllElements.storyboard */,
-				267400B827836A7200BCA6D3 /* AllElementsViewController.swift */,
+				267400B627836A5C00BCA6D3 /* AllControls.storyboard */,
+				267400B827836A7200BCA6D3 /* AllControlsViewController.swift */,
 			);
 			path = AllElements;
 			sourceTree = "<group>";
@@ -1341,7 +1341,7 @@
 				2696CFF4279B0324004521F0 /* LabelMenu.storyboard in Resources */,
 				2695795A27B24E5D00F47C11 /* Transitions.storyboard in Resources */,
 				26D63236279C81130029AE96 /* TextFieldOther.storyboard in Resources */,
-				267400B727836A5C00BCA6D3 /* AllElements.storyboard in Resources */,
+				267400B727836A5C00BCA6D3 /* AllControls.storyboard in Resources */,
 				26D63231279C7E170029AE96 /* TextFieldKeyboardType.storyboard in Resources */,
 				26D63224279C7E170029AE96 /* TextFieldMenu.storyboard in Resources */,
 				26F3843627A84D94005E2588 /* SimpleTableViewCell.xib in Resources */,
@@ -1459,7 +1459,7 @@
 				807FE360275E0ADF00E60A6D /* ScrollViewMenuItem.swift in Sources */,
 				26F3843E27A87C99005E2588 /* CellSeparatorInsetsItem.swift in Sources */,
 				261F781127AB9EB900B12235 /* CellStyleBaseViewController.swift in Sources */,
-				267400B927836A7200BCA6D3 /* AllElementsViewController.swift in Sources */,
+				267400B927836A7200BCA6D3 /* AllControlsViewController.swift in Sources */,
 				267C89D427B5AB9F0061FC2F /* CollectionViewBadgeViewController.swift in Sources */,
 				26D631FA279C08230029AE96 /* ButtonImagePlacementViewController.swift in Sources */,
 				267C89D027B5AB9F0061FC2F /* CollectionViewPagingViewController.swift in Sources */,

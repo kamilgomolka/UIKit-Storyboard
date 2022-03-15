@@ -8,7 +8,7 @@
 import Foundation
 
 enum MainMenuItem: MenuItemProtocol {
-    case allElements
+    case allControls
     case label
     case button
     case textField
@@ -20,7 +20,7 @@ enum MainMenuItem: MenuItemProtocol {
     
     var name: String {
         switch self {
-        case .allElements:
+        case .allControls:
             return "All controls"
         case .label:
             return "Label"
@@ -43,8 +43,8 @@ enum MainMenuItem: MenuItemProtocol {
     
     var storyboardName: String {
         switch self {
-        case .allElements:
-            return "AllElements"
+        case .allControls:
+            return "AllControls"
         case .label:
             return "LabelMenu"
         case .button:

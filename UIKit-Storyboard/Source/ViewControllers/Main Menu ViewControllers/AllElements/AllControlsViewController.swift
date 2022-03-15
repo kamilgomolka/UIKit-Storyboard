@@ -1,5 +1,5 @@
 //
-//  AllElementsViewController.swift
+//  AllControlsViewController.swift
 //  UIKit-Storyboard
 //
 //  Created by Kamil Gomółka on 03/01/2022.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class AllElementsViewController: UIViewController {
+class AllControlsViewController: UIViewController {
     
     // MARK: - Properties
     
@@ -78,7 +78,7 @@ class AllElementsViewController: UIViewController {
     }
 }
 
-extension AllElementsViewController: UITextFieldDelegate {
+extension AllControlsViewController: UITextFieldDelegate {
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
