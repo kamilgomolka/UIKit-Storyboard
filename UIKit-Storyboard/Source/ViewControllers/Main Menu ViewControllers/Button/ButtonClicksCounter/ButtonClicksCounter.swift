@@ -9,9 +9,13 @@ import UIKit
 
 class ButtonClicksCounter {
     
+    // MARK: - Properties
+    
     private var buttons: [UIButton] = []
     private var titles: [UIButton: String] = [:]
     private var clicks: [UIButton: Int] = [:]
+    
+    // MARK: - Setup
     
     func setup(buttons: [UIButton]) {
         self.buttons = buttons
@@ -20,6 +24,8 @@ class ButtonClicksCounter {
         loadTitles()
         bindClickEvents()
     }
+    
+    // MARK: - Private functions
     
     private func loadTitles() {
         for button in buttons {
@@ -41,3 +47,4 @@ class ButtonClicksCounter {
         sender.setTitle(newTitle, for: .normal)
     }
 }
+

@@ -25,6 +25,7 @@ class AllControlsViewController: UIViewController {
     @IBOutlet weak var slider: UISlider!
     @IBOutlet weak var sliderValueLabel: UILabel!
     @IBOutlet var buttons: [UIButton]!
+    @IBOutlet var pageControls: [UIPageControl]!
     
     let clicksCounter = ButtonClicksCounter()
     
@@ -64,8 +65,12 @@ class AllControlsViewController: UIViewController {
             pageControlContainer
         ]
         
-        roundedContainers.forEach { view in
+        for view in roundedContainers {
             view?.layer.cornerRadius = 8.0
+        }
+        
+        for pageControl in pageControls {
+            pageControl.layer.cornerRadius = 13.0
         }
     }
     

@@ -19,7 +19,7 @@ class TextFieldClearButtonViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        stackView.arrangedSubviews.forEach { view in
+        for view in stackView.arrangedSubviews {
             if let textField = view as? UITextField {
                 textField.delegate = self
             }
