@@ -22,46 +22,46 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iiq-8g-YJJ" userLabel="Content View">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="375"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="GPA-mQ-LND">
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="GPA-mQ-LND">
                                                 <rect key="frame" x="20" y="20" width="374" height="335"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="psv-3U-4jM">
-                                                        <rect key="frame" x="0.0" y="0.0" width="248" height="59.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="374" height="59.5"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="filled" title="Corner style = Fixed" subtitle="uses cornerRadius without modification" cornerStyle="fixed" buttonSize="medium">
                                                             <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle1"/>
                                                         </buttonConfiguration>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHl-jD-byb">
-                                                        <rect key="frame" x="0.0" y="67.5" width="275.5" height="59.5"/>
+                                                        <rect key="frame" x="0.0" y="67.5" width="374" height="59.5"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="filled" title="Corner style = Dynamic" subtitle="adjust cornerRadius depending on size" cornerStyle="dynamic" buttonSize="medium">
                                                             <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle1"/>
                                                         </buttonConfiguration>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jwf-dw-nzS">
-                                                        <rect key="frame" x="0.0" y="135" width="240" height="44"/>
+                                                        <rect key="frame" x="0.0" y="135" width="374" height="44"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="filled" title="Corner style = Small" cornerStyle="small" buttonSize="medium">
                                                             <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle1"/>
                                                         </buttonConfiguration>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XRT-h7-DmI">
-                                                        <rect key="frame" x="0.0" y="187" width="268.5" height="44"/>
+                                                        <rect key="frame" x="0.0" y="187" width="374" height="44"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="filled" title="Corner style = Medium" cornerStyle="medium" buttonSize="medium">
                                                             <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle1"/>
                                                         </buttonConfiguration>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9v5-xY-Y30">
-                                                        <rect key="frame" x="0.0" y="239" width="242" height="44"/>
+                                                        <rect key="frame" x="0.0" y="239" width="374" height="44"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="filled" title="Corner style = Large" cornerStyle="large" buttonSize="medium">
                                                             <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle1"/>
                                                         </buttonConfiguration>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FIa-zz-4Gh">
-                                                        <rect key="frame" x="0.0" y="291" width="269" height="44"/>
+                                                        <rect key="frame" x="0.0" y="291" width="374" height="44"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="filled" title="Corner style = Capsule" cornerStyle="capsule" buttonSize="medium">
                                                             <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle1"/>
