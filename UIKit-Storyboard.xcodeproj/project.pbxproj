@@ -89,6 +89,7 @@
 		26A3C65527A310030029020F /* TextViewMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A3C64927A310030029020F /* TextViewMenu.storyboard */; };
 		26A3C65627A310030029020F /* TextViewMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A3C64A27A310030029020F /* TextViewMenuViewController.swift */; };
 		26A3C65927A31B900029020F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A3C65827A31B900029020F /* BaseViewController.swift */; };
+		26BBDB0F2801F557009647A3 /* KeyboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BBDB0E2801F557009647A3 /* KeyboardHelper.swift */; };
 		26D631FA279C08230029AE96 /* ButtonImagePlacementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D631F8279C08230029AE96 /* ButtonImagePlacementViewController.swift */; };
 		26D631FB279C08230029AE96 /* ButtonImagePlacement.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D631F9279C08230029AE96 /* ButtonImagePlacement.storyboard */; };
 		26D63200279C12AC0029AE96 /* ButtonMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D631FD279C12AC0029AE96 /* ButtonMenuViewController.swift */; };
@@ -247,6 +248,7 @@
 		26A3C64927A310030029020F /* TextViewMenu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TextViewMenu.storyboard; sourceTree = "<group>"; };
 		26A3C64A27A310030029020F /* TextViewMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewMenuViewController.swift; sourceTree = "<group>"; };
 		26A3C65827A31B900029020F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		26BBDB0E2801F557009647A3 /* KeyboardHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHelper.swift; sourceTree = "<group>"; };
 		26D631F8279C08230029AE96 /* ButtonImagePlacementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonImagePlacementViewController.swift; sourceTree = "<group>"; };
 		26D631F9279C08230029AE96 /* ButtonImagePlacement.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ButtonImagePlacement.storyboard; sourceTree = "<group>"; };
 		26D631FD279C12AC0029AE96 /* ButtonMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonMenuViewController.swift; sourceTree = "<group>"; };
@@ -1164,6 +1166,7 @@
 			isa = PBXGroup;
 			children = (
 				8050A3F9275A5A0100CE2BD4 /* UIViewControllerExtensions.swift */,
+				26BBDB0E2801F557009647A3 /* KeyboardHelper.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -1406,6 +1409,7 @@
 				2696D018279B2F0B004521F0 /* ButtonCornerStyleViewController.swift in Sources */,
 				8050A3E9275A385C00CE2BD4 /* MainMenuViewController.swift in Sources */,
 				8050A3D2275A329D00CE2BD4 /* SceneDelegate.swift in Sources */,
+				26BBDB0F2801F557009647A3 /* KeyboardHelper.swift in Sources */,
 				267C89DD27B5B7B10061FC2F /* CollectionBadgeView.swift in Sources */,
 				807FE363275E0B7500E60A6D /* ScrollViewVerticalViewController.swift in Sources */,
 				267C89D227B5AB9F0061FC2F /* CollectionViewSectionsViewController.swift in Sources */,
