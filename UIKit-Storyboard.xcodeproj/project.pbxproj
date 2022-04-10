@@ -23,6 +23,8 @@
 		261F782427AC72B500B12235 /* personData.json in Resources */ = {isa = PBXBuildFile; fileRef = 261F782327AC72B500B12235 /* personData.json */; };
 		261F782927AC731D00B12235 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261F782827AC731D00B12235 /* Person.swift */; };
 		261F782C27AC73AE00B12235 /* TableViewSectionIndexViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261F782B27AC73AE00B12235 /* TableViewSectionIndexViewModel.swift */; };
+		263153792803341800939451 /* TextFieldAlignmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263153772803341800939451 /* TextFieldAlignmentViewController.swift */; };
+		2631537A2803341800939451 /* TextFieldAlignment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 263153782803341800939451 /* TextFieldAlignment.storyboard */; };
 		2658055127AEE408002255F7 /* ButtonClicksCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2658055027AEE408002255F7 /* ButtonClicksCounter.swift */; };
 		2658055427AFB705002255F7 /* BaseTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2658055327AFB705002255F7 /* BaseTextFieldViewController.swift */; };
 		267400B727836A5C00BCA6D3 /* AllControls.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267400B627836A5C00BCA6D3 /* AllControls.storyboard */; };
@@ -110,8 +112,8 @@
 		26D6322F279C7E170029AE96 /* TextFieldDisabledViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D6321F279C7E170029AE96 /* TextFieldDisabledViewController.swift */; };
 		26D63230279C7E170029AE96 /* TextFieldKeyboardTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D63221279C7E170029AE96 /* TextFieldKeyboardTypeViewController.swift */; };
 		26D63231279C7E170029AE96 /* TextFieldKeyboardType.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D63222279C7E170029AE96 /* TextFieldKeyboardType.storyboard */; };
-		26D63235279C81130029AE96 /* TextFieldOtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D63233279C81130029AE96 /* TextFieldOtherViewController.swift */; };
-		26D63236279C81130029AE96 /* TextFieldOther.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D63234279C81130029AE96 /* TextFieldOther.storyboard */; };
+		26D63235279C81130029AE96 /* TextFieldPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D63233279C81130029AE96 /* TextFieldPasswordViewController.swift */; };
+		26D63236279C81130029AE96 /* TextFieldPassword.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D63234279C81130029AE96 /* TextFieldPassword.storyboard */; };
 		26D816BF27A45759005F8135 /* TableView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D816BE27A45759005F8135 /* TableView.storyboard */; };
 		26D816C127A4576A005F8135 /* TableViewMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D816C027A4576A005F8135 /* TableViewMenuViewController.swift */; };
 		26D816C327A45772005F8135 /* TableViewMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D816C227A45772005F8135 /* TableViewMenuItem.swift */; };
@@ -182,6 +184,8 @@
 		261F782327AC72B500B12235 /* personData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = personData.json; sourceTree = "<group>"; };
 		261F782827AC731D00B12235 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		261F782B27AC73AE00B12235 /* TableViewSectionIndexViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSectionIndexViewModel.swift; sourceTree = "<group>"; };
+		263153772803341800939451 /* TextFieldAlignmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldAlignmentViewController.swift; sourceTree = "<group>"; };
+		263153782803341800939451 /* TextFieldAlignment.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TextFieldAlignment.storyboard; sourceTree = "<group>"; };
 		2658055027AEE408002255F7 /* ButtonClicksCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonClicksCounter.swift; sourceTree = "<group>"; };
 		2658055327AFB705002255F7 /* BaseTextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTextFieldViewController.swift; sourceTree = "<group>"; };
 		267400B627836A5C00BCA6D3 /* AllControls.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AllControls.storyboard; sourceTree = "<group>"; };
@@ -269,8 +273,8 @@
 		26D6321F279C7E170029AE96 /* TextFieldDisabledViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldDisabledViewController.swift; sourceTree = "<group>"; };
 		26D63221279C7E170029AE96 /* TextFieldKeyboardTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldKeyboardTypeViewController.swift; sourceTree = "<group>"; };
 		26D63222279C7E170029AE96 /* TextFieldKeyboardType.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TextFieldKeyboardType.storyboard; sourceTree = "<group>"; };
-		26D63233279C81130029AE96 /* TextFieldOtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldOtherViewController.swift; sourceTree = "<group>"; };
-		26D63234279C81130029AE96 /* TextFieldOther.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TextFieldOther.storyboard; sourceTree = "<group>"; };
+		26D63233279C81130029AE96 /* TextFieldPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldPasswordViewController.swift; sourceTree = "<group>"; };
+		26D63234279C81130029AE96 /* TextFieldPassword.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TextFieldPassword.storyboard; sourceTree = "<group>"; };
 		26D816BE27A45759005F8135 /* TableView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TableView.storyboard; sourceTree = "<group>"; };
 		26D816C027A4576A005F8135 /* TableViewMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewMenuViewController.swift; sourceTree = "<group>"; };
 		26D816C227A45772005F8135 /* TableViewMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewMenuItem.swift; sourceTree = "<group>"; };
@@ -411,6 +415,15 @@
 				261F782327AC72B500B12235 /* personData.json */,
 			);
 			path = "Mock data";
+			sourceTree = "<group>";
+		};
+		263153762803341800939451 /* Alignment */ = {
+			isa = PBXGroup;
+			children = (
+				263153772803341800939451 /* TextFieldAlignmentViewController.swift */,
+				263153782803341800939451 /* TextFieldAlignment.storyboard */,
+			);
+			path = Alignment;
 			sourceTree = "<group>";
 		};
 		2658054F27AEE3F6002255F7 /* ButtonClicksCounter */ = {
@@ -846,12 +859,13 @@
 		26D63210279C7E170029AE96 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				263153762803341800939451 /* Alignment */,
 				2658055227AFB6FA002255F7 /* Base */,
 				26D63217279C7E170029AE96 /* BorderStyle */,
 				26D6321A279C7E170029AE96 /* ClearButton */,
 				26D6321D279C7E170029AE96 /* Disabled */,
 				26D63220279C7E170029AE96 /* KeyboardType */,
-				26D63232279C81130029AE96 /* Other */,
+				26D63232279C81130029AE96 /* Password */,
 				26D63211279C7E170029AE96 /* ReturnKeyType */,
 				26D63214279C7E170029AE96 /* Traits */,
 			);
@@ -912,13 +926,13 @@
 			path = KeyboardType;
 			sourceTree = "<group>";
 		};
-		26D63232279C81130029AE96 /* Other */ = {
+		26D63232279C81130029AE96 /* Password */ = {
 			isa = PBXGroup;
 			children = (
-				26D63233279C81130029AE96 /* TextFieldOtherViewController.swift */,
-				26D63234279C81130029AE96 /* TextFieldOther.storyboard */,
+				26D63233279C81130029AE96 /* TextFieldPasswordViewController.swift */,
+				26D63234279C81130029AE96 /* TextFieldPassword.storyboard */,
 			);
-			path = Other;
+			path = Password;
 			sourceTree = "<group>";
 		};
 		26D816BC27A45745005F8135 /* TableView */ = {
@@ -1342,8 +1356,9 @@
 				267C89BE27B57DBE0061FC2F /* CollectionViewMenu.storyboard in Resources */,
 				26D6322C279C7E170029AE96 /* TextFieldClearButton.storyboard in Resources */,
 				2696CFF4279B0324004521F0 /* LabelMenu.storyboard in Resources */,
+				2631537A2803341800939451 /* TextFieldAlignment.storyboard in Resources */,
 				2695795A27B24E5D00F47C11 /* Transitions.storyboard in Resources */,
-				26D63236279C81130029AE96 /* TextFieldOther.storyboard in Resources */,
+				26D63236279C81130029AE96 /* TextFieldPassword.storyboard in Resources */,
 				267400B727836A5C00BCA6D3 /* AllControls.storyboard in Resources */,
 				26D63231279C7E170029AE96 /* TextFieldKeyboardType.storyboard in Resources */,
 				26D63224279C7E170029AE96 /* TextFieldMenu.storyboard in Resources */,
@@ -1388,7 +1403,7 @@
 				26D816F027A459E5005F8135 /* TableViewSelectionWithDeselectViewController.swift in Sources */,
 				26D63223279C7E170029AE96 /* TextFieldMenuViewController.swift in Sources */,
 				26D6322D279C7E170029AE96 /* TextFieldClearButtonViewController.swift in Sources */,
-				26D63235279C81130029AE96 /* TextFieldOtherViewController.swift in Sources */,
+				26D63235279C81130029AE96 /* TextFieldPasswordViewController.swift in Sources */,
 				26D816F827A459E5005F8135 /* TableViewSeparatorStyleMenuViewController.swift in Sources */,
 				2696D00E279B2D43004521F0 /* ButtonSystemSizesViewController.swift in Sources */,
 				26A3C65927A31B900029020F /* BaseViewController.swift in Sources */,
@@ -1453,6 +1468,7 @@
 				261F780A27AB9D1E00B12235 /* CellStyleMenuViewController.swift in Sources */,
 				26D63226279C7E170029AE96 /* TextFieldReturnKeyTypeViewController.swift in Sources */,
 				807FE35C275E0AA100E60A6D /* ScrollViewMenuViewController.swift in Sources */,
+				263153792803341800939451 /* TextFieldAlignmentViewController.swift in Sources */,
 				26D8170427A459E5005F8135 /* CellSelectionStyleViewController.swift in Sources */,
 				8050A3FC275A5AFB00CE2BD4 /* MainMenuItem.swift in Sources */,
 				2696CFF2279B0316004521F0 /* LabelMenuItem.swift in Sources */,
