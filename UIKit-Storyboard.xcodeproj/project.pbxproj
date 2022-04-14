@@ -122,7 +122,6 @@
 		26D816F127A459E5005F8135 /* TableViewSelectionMultipleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D816CB27A459E5005F8135 /* TableViewSelectionMultipleViewController.swift */; };
 		26D816F227A459E5005F8135 /* TableViewSelectionMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D816CD27A459E5005F8135 /* TableViewSelectionMenuViewController.swift */; };
 		26D816F327A459E5005F8135 /* TableViewSelectionMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D816CE27A459E5005F8135 /* TableViewSelectionMenuItem.swift */; };
-		26D816F427A459E5005F8135 /* TableViewSeparatorStyleEtchedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D816D127A459E5005F8135 /* TableViewSeparatorStyleEtchedViewController.swift */; };
 		26D816F527A459E5005F8135 /* TableViewSeparatorStyleNoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D816D227A459E5005F8135 /* TableViewSeparatorStyleNoneViewController.swift */; };
 		26D816F627A459E5005F8135 /* TableViewSeparatorStyleLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D816D327A459E5005F8135 /* TableViewSeparatorStyleLineViewController.swift */; };
 		26D816F727A459E5005F8135 /* TableViewSeparatorStyleMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D816D527A459E5005F8135 /* TableViewSeparatorStyleMenuItem.swift */; };
@@ -283,7 +282,6 @@
 		26D816CB27A459E5005F8135 /* TableViewSelectionMultipleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewSelectionMultipleViewController.swift; sourceTree = "<group>"; };
 		26D816CD27A459E5005F8135 /* TableViewSelectionMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewSelectionMenuViewController.swift; sourceTree = "<group>"; };
 		26D816CE27A459E5005F8135 /* TableViewSelectionMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewSelectionMenuItem.swift; sourceTree = "<group>"; };
-		26D816D127A459E5005F8135 /* TableViewSeparatorStyleEtchedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewSeparatorStyleEtchedViewController.swift; sourceTree = "<group>"; };
 		26D816D227A459E5005F8135 /* TableViewSeparatorStyleNoneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewSeparatorStyleNoneViewController.swift; sourceTree = "<group>"; };
 		26D816D327A459E5005F8135 /* TableViewSeparatorStyleLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewSeparatorStyleLineViewController.swift; sourceTree = "<group>"; };
 		26D816D527A459E5005F8135 /* TableViewSeparatorStyleMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewSeparatorStyleMenuItem.swift; sourceTree = "<group>"; };
@@ -403,7 +401,6 @@
 		261F782727AC72F500B12235 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				261F782A27AC733300B12235 /* Mock data */,
 				261F782827AC731D00B12235 /* Person.swift */,
 			);
 			path = Models;
@@ -1011,7 +1008,6 @@
 		26D816D027A459E5005F8135 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				26D816D127A459E5005F8135 /* TableViewSeparatorStyleEtchedViewController.swift */,
 				26D816D227A459E5005F8135 /* TableViewSeparatorStyleNoneViewController.swift */,
 				26D816D327A459E5005F8135 /* TableViewSeparatorStyleLineViewController.swift */,
 			);
@@ -1158,6 +1154,7 @@
 		8050A3E6275A36FE00CE2BD4 /* Supporting files */ = {
 			isa = PBXGroup;
 			children = (
+				261F782A27AC733300B12235 /* Mock data */,
 				8050A3D8275A329E00CE2BD4 /* Assets.xcassets */,
 				8050A3DD275A329E00CE2BD4 /* Info.plist */,
 				8050A3DA275A329E00CE2BD4 /* LaunchScreen.storyboard */,
@@ -1394,7 +1391,6 @@
 				2695796827B257D000F47C11 /* FullScreenPartialCurlTransitionViewController.swift in Sources */,
 				261F782C27AC73AE00B12235 /* TableViewSectionIndexViewModel.swift in Sources */,
 				2695796227B2563A00F47C11 /* FullScreenCoverVerticalTransitionViewController.swift in Sources */,
-				26D816F427A459E5005F8135 /* TableViewSeparatorStyleEtchedViewController.swift in Sources */,
 				26D816FE27A459E5005F8135 /* TableViewStylePlainViewController.swift in Sources */,
 				26D816F327A459E5005F8135 /* TableViewSelectionMenuItem.swift in Sources */,
 				26A3C65627A310030029020F /* TextViewMenuViewController.swift in Sources */,

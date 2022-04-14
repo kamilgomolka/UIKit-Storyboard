@@ -17,6 +17,10 @@ class TableViewHeadersAndFoottersViewController: UIViewController, UITableViewDa
     override func viewDidLoad() {
         super.viewDidLoad()
                 
+		setupTableView()
+	}
+		
+	func setupTableView() {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(UINib(nibName: cellNibName, bundle: nil), forCellReuseIdentifier: cellNibName)

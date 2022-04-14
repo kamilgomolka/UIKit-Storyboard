@@ -51,12 +51,20 @@ class TableViewHeaderFooterView: UIView {
             return super.frame
         } set {
             var newFrame = newValue
-            newFrame.size.height = currentHeight
+			newFrame.size.height = currentHeight(width: newFrame.width)
             super.frame = newFrame
         }
     }
     
-    private var currentHeight: CGFloat {
-        return contentView?.frame.size.height ?? 0.0
+	func currentHeight(width: CGFloat) -> CGFloat {
+		guard let contentView = contentView else {
+			return 0.0
+		}
+		
+		let size = contentView.systemLayoutSizeFitting(CGSize(width: width, height: .greatestFiniteMagnitude),
+													   withHorizontalFittingPriority: .required,
+													   verticalFittingPriority: .defaultLow)
+		
+		return size.height
     }
 }
