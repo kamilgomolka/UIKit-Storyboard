@@ -42,22 +42,22 @@ class TableViewSectionIndexViewController: UIViewController, UITableViewDataSour
         return viewModel.letters
     }
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        let letter = viewModel.letters[section]
-        let persons = viewModel.sections[letter]
-        return persons?.count ?? 0
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: cellNibName, for: indexPath)
-        let letter = viewModel.letters[indexPath.section]
-        let persons = viewModel.sections[letter]
-        let person = persons?[indexPath.row]
-        
-        cell.textLabel?.text = person?.fullName
-        
-        return cell
-    }
+	func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+		let letter = viewModel.letters[section]
+		let personsInSection = viewModel.sections[letter]
+		return personsInSection?.count ?? 0
+	}
+	
+	func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+		let cell = tableView.dequeueReusableCell(withIdentifier: cellNibName, for: indexPath)
+		let letter = viewModel.letters[indexPath.section]
+		let personsInSection = viewModel.sections[letter]
+		let person = personsInSection?[indexPath.row]
+		
+		cell.textLabel?.text = person?.fullName
+		
+		return cell
+	}
     
     // MARK: - UITableViewDelegate
     

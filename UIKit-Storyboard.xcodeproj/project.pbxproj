@@ -47,6 +47,7 @@
 		267C89DD27B5B7B10061FC2F /* CollectionBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C89DC27B5B7B10061FC2F /* CollectionBadgeView.swift */; };
 		267C89DF27B5B7B70061FC2F /* CollectionBadgeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 267C89DE27B5B7B70061FC2F /* CollectionBadgeView.xib */; };
 		267C89E127B5BC530061FC2F /* CollectionViewPagingSectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C89E027B5BC530061FC2F /* CollectionViewPagingSectionType.swift */; };
+		26859E5A280818DB00E233BB /* MockDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26859E59280818DB00E233BB /* MockDataLoader.swift */; };
 		2695795A27B24E5D00F47C11 /* Transitions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2695795927B24E5D00F47C11 /* Transitions.storyboard */; };
 		2695795C27B24E6900F47C11 /* TransitionsMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2695795B27B24E6900F47C11 /* TransitionsMenuViewController.swift */; };
 		2695796027B24E9000F47C11 /* TransitionsMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2695795F27B24E9000F47C11 /* TransitionsMenuItem.swift */; };
@@ -207,6 +208,7 @@
 		267C89DC27B5B7B10061FC2F /* CollectionBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionBadgeView.swift; sourceTree = "<group>"; };
 		267C89DE27B5B7B70061FC2F /* CollectionBadgeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionBadgeView.xib; sourceTree = "<group>"; };
 		267C89E027B5BC530061FC2F /* CollectionViewPagingSectionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewPagingSectionType.swift; sourceTree = "<group>"; };
+		26859E59280818DB00E233BB /* MockDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataLoader.swift; sourceTree = "<group>"; };
 		2695795927B24E5D00F47C11 /* Transitions.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Transitions.storyboard; sourceTree = "<group>"; };
 		2695795B27B24E6900F47C11 /* TransitionsMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionsMenuViewController.swift; sourceTree = "<group>"; };
 		2695795F27B24E9000F47C11 /* TransitionsMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionsMenuItem.swift; sourceTree = "<group>"; };
@@ -1178,6 +1180,7 @@
 			children = (
 				8050A3F9275A5A0100CE2BD4 /* UIViewControllerExtensions.swift */,
 				26BBDB0E2801F557009647A3 /* KeyboardHelper.swift */,
+				26859E59280818DB00E233BB /* MockDataLoader.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -1388,6 +1391,7 @@
 				2696CFFF279B0D0D004521F0 /* FontSizesViewController.swift in Sources */,
 				26D63200279C12AC0029AE96 /* ButtonMenuViewController.swift in Sources */,
 				26D816F227A459E5005F8135 /* TableViewSelectionMenuViewController.swift in Sources */,
+				26859E5A280818DB00E233BB /* MockDataLoader.swift in Sources */,
 				2695796827B257D000F47C11 /* FullScreenPartialCurlTransitionViewController.swift in Sources */,
 				261F782C27AC73AE00B12235 /* TableViewSectionIndexViewModel.swift in Sources */,
 				2695796227B2563A00F47C11 /* FullScreenCoverVerticalTransitionViewController.swift in Sources */,

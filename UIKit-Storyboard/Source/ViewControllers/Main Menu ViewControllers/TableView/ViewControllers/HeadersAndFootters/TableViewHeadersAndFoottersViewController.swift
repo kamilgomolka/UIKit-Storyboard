@@ -36,7 +36,7 @@ class TableViewHeadersAndFoottersViewController: UIViewController, UITableViewDa
     // MARK: - UITableViewDataSource
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 8
+        return 10
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

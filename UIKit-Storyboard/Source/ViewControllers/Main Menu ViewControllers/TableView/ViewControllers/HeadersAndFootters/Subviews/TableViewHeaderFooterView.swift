@@ -42,7 +42,7 @@ class TableViewHeaderFooterView: UIView {
     //
     // The trick with overriding frame
     // is a fix to have properly working AutoLayout
-    // in UItableView.tableHeaderView and tableFooterView.
+    // in UITableView.tableHeaderView and tableFooterView.
     //
     // Otherwise the header/footer does not resize - it stays with the height from Xib.
     //
