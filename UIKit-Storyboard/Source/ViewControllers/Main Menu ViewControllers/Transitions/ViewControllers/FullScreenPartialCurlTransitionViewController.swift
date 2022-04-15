@@ -7,6 +7,15 @@
 
 import UIKit
 
+/// Notes - as for iOS 15.2:
+///
+/// -> "Partial curl" can be only applied
+///     with full-screen presentation ViewControllers.
+///
+/// -> "Partial curl" can only be dismissed without animation.
+///    Animated dismiss causes a visual bug.
+///    (trantision stops in half and app is not responsive).
+///
 class FullScreenPartialCurlTransitionViewController: UIViewController {
     
     override func viewDidLoad() {

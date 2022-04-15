@@ -7,7 +7,7 @@
 
 import UIKit
 
-class PageSheetWithDelegateTransitionViewController: UIViewController, UIAdaptivePresentationControllerDelegate {
+class PageSheetWithDelegateTransitionViewController: UIViewController {
     
     // MARK: - Lifecycle
     
@@ -29,10 +29,13 @@ class PageSheetWithDelegateTransitionViewController: UIViewController, UIAdaptiv
         
         dismiss(animated: true, completion: nil)
     }
+}
+
+// MARK: - UIAdaptivePresentationControllerDelegate
+
+extension PageSheetWithDelegateTransitionViewController: UIAdaptivePresentationControllerDelegate {
     
-    // MARK: - UIAdaptivePresentationControllerDelegate
-    
-    public func presentationControllerDidAttemptToDismiss(_ presentationController: UIPresentationController) {
+    func presentationControllerDidAttemptToDismiss(_ presentationController: UIPresentationController) {
         let alert = UIAlertController(title: "You made some changes.",
                                       message: nil,
                                       preferredStyle: .actionSheet)
