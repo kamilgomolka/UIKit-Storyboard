@@ -20,7 +20,11 @@ class CollectionViewPagingViewController: UIViewController {
     
     override func loadView() {
         super.loadView()
-                
+		
+		setupCollectionView()
+	}
+	
+	func setupCollectionView() {                
         collectionView.dataSource = self
         collectionView.delegate = self
         
@@ -48,20 +52,25 @@ class CollectionViewPagingViewController: UIViewController {
     }
     
     func provideSection(sectionIndex: Int, layoutEnvironment: NSCollectionLayoutEnvironment) -> NSCollectionLayoutSection? {
-        
         guard let sectionType = CollectionViewPagingSectionType(rawValue: sectionIndex) else {
             return nil
         }
         
+		//
         // Item
-        
-        let itemSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1.0),
-                                              heightDimension: .fractionalHeight(1.0))
+		//
+		let itemSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1.0),
+											  heightDimension: .fractionalHeight(1.0))
         
         let item = NSCollectionLayoutItem(layoutSize: itemSize)
-        item.contentInsets = NSDirectionalEdgeInsets(top: margin, leading: margin, bottom: margin, trailing: margin)
+        item.contentInsets = NSDirectionalEdgeInsets(top: margin,
+													 leading: margin,
+													 bottom: margin,
+													 trailing: margin)
         
+		//
         // Group
+		//		
         let itemAspectRatio = 2.0 / 3.0
         
         let groupSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(0.8),
@@ -69,13 +78,15 @@ class CollectionViewPagingViewController: UIViewController {
         
         let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitems: [item])
         
+		//
         // Section
-        
+        //
         let section = NSCollectionLayoutSection(group: group)
-        section.orthogonalScrollingBehavior = sectionType.orthogonalScrollingBehavior()
+        section.orthogonalScrollingBehavior = sectionType.orthogonalScrollingBehavior
         
+		//
         // Header
-        
+        //
         let headerSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1.0),
                                                 heightDimension: .absolute(44.0))
         
@@ -121,8 +132,8 @@ extension CollectionViewPagingViewController: UICollectionViewDataSource {
             return UICollectionViewCell()
         }
 
-        let displayNumber = indexPath.row + 1
-        cell.updateView(number: displayNumber)
+        let numberToDisplay = indexPath.row + 1
+        cell.updateView(number: numberToDisplay)
 
         return cell
     }

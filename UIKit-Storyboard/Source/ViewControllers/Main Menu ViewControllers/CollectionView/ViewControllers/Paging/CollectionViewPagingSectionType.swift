@@ -14,7 +14,7 @@ enum CollectionViewPagingSectionType: Int, CaseIterable {
     case continuousGroupLeadingBoundary
     case paging
     
-    func orthogonalScrollingBehavior() -> UICollectionLayoutSectionOrthogonalScrollingBehavior {
+	var orthogonalScrollingBehavior: UICollectionLayoutSectionOrthogonalScrollingBehavior {
         switch self {
         case .groupPaging:
             return UICollectionLayoutSectionOrthogonalScrollingBehavior.groupPaging

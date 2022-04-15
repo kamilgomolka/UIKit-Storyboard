@@ -20,7 +20,11 @@ class CollectionViewSectionsViewController: UIViewController {
     
     override func loadView() {
         super.loadView()
-                
+		
+		setupCollectionView()
+	}
+	
+	func setupCollectionView() {                
         collectionView.dataSource = self
         collectionView.delegate = self
         
@@ -37,29 +41,40 @@ class CollectionViewSectionsViewController: UIViewController {
     // MARK: - Layout creation
     
     func createLayout() -> UICollectionViewLayout {
-        
+        //
         // Item
-        
-        let itemSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1.0),
-                                              heightDimension: .fractionalWidth(1.0 / 3.0))
+        //
+		let itemSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1.0),
+											  heightDimension: .fractionalHeight(1.0))
         
         let item = NSCollectionLayoutItem(layoutSize: itemSize)
-        item.contentInsets = NSDirectionalEdgeInsets(top: margin, leading: margin, bottom: 0.0, trailing: 0.0)
         
+		item.contentInsets = NSDirectionalEdgeInsets(top: margin,
+													 leading: margin,
+													 bottom: 0.0,
+													 trailing: 0.0)
+        
+		//
         // Group
-        
+        //
         let groupSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1.0),
                                                heightDimension: .fractionalWidth(1.0 / 3.0))
         
         let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitem: item, count: 3)
         
+		//
         // Section
-        
+        //
         let section = NSCollectionLayoutSection(group: group)
-        section.contentInsets = NSDirectionalEdgeInsets(top: 0.0, leading: 0.0, bottom: margin, trailing: margin)
         
+		section.contentInsets = NSDirectionalEdgeInsets(top: 0.0,
+														leading: 0.0,
+														bottom: margin,
+														trailing: margin)
+        
+		//
         // Header
-        
+        //
         let headerSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1.0),
                                                 heightDimension: .absolute(44.0))
         
@@ -106,8 +121,8 @@ extension CollectionViewSectionsViewController: UICollectionViewDataSource {
             return UICollectionViewCell()
         }
 
-        let displayNumber = indexPath.row + 1
-        cell.updateView(number: displayNumber)
+        let numberToDisplay = indexPath.row + 1
+        cell.updateView(number: numberToDisplay)
 
         return cell
     }

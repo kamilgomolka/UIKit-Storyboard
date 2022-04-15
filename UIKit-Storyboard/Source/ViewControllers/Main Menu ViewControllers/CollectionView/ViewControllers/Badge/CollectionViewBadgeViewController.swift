@@ -12,15 +12,19 @@ class CollectionViewBadgeViewController: UIViewController {
     // MARK: - Properties
     
     let margin: CGFloat = 8.0
-    let badgeElementKind = "headerElementKind"
+    let badgeElementKind = "badgeElementKind"
     
     @IBOutlet weak var collectionView: UICollectionView!
     
     // MARK: - Lifecycle
     
     override func loadView() {
-        super.loadView()
-                
+        super.loadView()		
+		
+		setupCollectionView()
+	}
+	
+	func setupCollectionView() {
         collectionView.dataSource = self
         collectionView.delegate = self
         
@@ -37,38 +41,49 @@ class CollectionViewBadgeViewController: UIViewController {
     // MARK: - Layout creation
     
     func createLayout() -> UICollectionViewLayout {
-        
-        // Badge
-        
+		//
+        // Badge view
+        //
         let badgeAnchor = NSCollectionLayoutAnchor(edges: [.top, .trailing],
                                                    absoluteOffset: CGPoint(x: 6.0, y: -6.0))
         
         let badgeSize = NSCollectionLayoutSize(widthDimension: .absolute(26.0),
                                                heightDimension: .absolute(26.0))
         
-        let badge = NSCollectionLayoutSupplementaryItem(layoutSize: badgeSize,
-                                                        elementKind: badgeElementKind,
-                                                        containerAnchor: badgeAnchor)
+        let badgeView = NSCollectionLayoutSupplementaryItem(layoutSize: badgeSize,
+															elementKind: badgeElementKind,
+															containerAnchor: badgeAnchor)
         
+		//
         // Item
+        //
+		let itemSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1.0),
+											  heightDimension: .fractionalHeight(1.0))
         
-        let itemSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1.0),
-                                              heightDimension: .fractionalWidth(1.0 / 3.0))
+        let item = NSCollectionLayoutItem(layoutSize: itemSize, supplementaryItems: [badgeView])
         
-        let item = NSCollectionLayoutItem(layoutSize: itemSize, supplementaryItems: [badge])
-        item.contentInsets = NSDirectionalEdgeInsets(top: margin, leading: margin, bottom: 0.0, trailing: 0.0)
+		item.contentInsets = NSDirectionalEdgeInsets(top: margin,
+													 leading: margin,
+													 bottom: 0.0,
+													 trailing: 0.0)
         
+		//
         // Group
-        
+        //
         let groupSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1.0),
                                                heightDimension: .fractionalWidth(1.0 / 3.0))
         
         let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitem: item, count: 3)
         
+		//
         // Section
-        
+        //
         let section = NSCollectionLayoutSection(group: group)
-        section.contentInsets = NSDirectionalEdgeInsets(top: 0.0, leading: 0.0, bottom: margin, trailing: margin)
+        
+		section.contentInsets = NSDirectionalEdgeInsets(top: 0.0,
+														leading: 0.0,
+														bottom: margin,
+														trailing: margin)
         
         //
         // Other properties that might be useful:
@@ -92,8 +107,8 @@ extension CollectionViewBadgeViewController: UICollectionViewDataSource {
             return UICollectionViewCell()
         }
 
-        let displayNumber = indexPath.row + 1
-        cell.updateView(number: displayNumber)
+        let numberToDisplay = indexPath.row + 1
+        cell.updateView(number: numberToDisplay)
 
         return cell
     }
