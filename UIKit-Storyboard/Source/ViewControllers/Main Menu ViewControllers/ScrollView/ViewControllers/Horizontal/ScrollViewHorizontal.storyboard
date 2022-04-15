@@ -106,7 +106,7 @@
         <!--Scroll View Horizontal View Controller-->
         <scene sceneID="j6M-Y3-CXf">
             <objects>
-                <viewController id="liW-Ie-VSX" customClass="ScrollViewHorizontalViewController" customModule="UIKit_Storyboard" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ScrollViewHorizontalViewController" id="liW-Ie-VSX" customClass="ScrollViewHorizontalViewController" customModule="UIKit_Storyboard" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3fW-E2-aSs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
