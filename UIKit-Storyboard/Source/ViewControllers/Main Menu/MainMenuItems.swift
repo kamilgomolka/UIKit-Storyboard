@@ -46,6 +46,10 @@ struct MainMenuItems {
 			MenuItem(
 				name: "ViewController transitions",
 				storyboardName: "Transitions"
+			),
+			MenuItem(
+				name: "Bars",
+				storyboardName: "BarsMenu"
 			)
 		]
 	}

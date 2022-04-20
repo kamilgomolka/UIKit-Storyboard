@@ -27,6 +27,28 @@
 		263153792803341800939451 /* TextFieldAlignmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263153772803341800939451 /* TextFieldAlignmentViewController.swift */; };
 		2631537A2803341800939451 /* TextFieldAlignment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 263153782803341800939451 /* TextFieldAlignment.storyboard */; };
 		264CD4AD28101195009FFF29 /* TransitionsMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264CD4AC28101195009FFF29 /* TransitionsMenuItem.swift */; };
+		264CD4B228104688009FFF29 /* BarsMenuItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264CD4B128104688009FFF29 /* BarsMenuItems.swift */; };
+		264CD4B42810469C009FFF29 /* BarsMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264CD4B32810469C009FFF29 /* BarsMenu.storyboard */; };
+		264CD4B8281046BB009FFF29 /* BarsMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264CD4B7281046BB009FFF29 /* BarsMenuViewController.swift */; };
+		264CD4BC28104793009FFF29 /* NavigationBarMenuItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264CD4BB28104793009FFF29 /* NavigationBarMenuItems.swift */; };
+		264CD4BE2810479A009FFF29 /* NavigationBarMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264CD4BD2810479A009FFF29 /* NavigationBarMenuViewController.swift */; };
+		264CD4C0281047A4009FFF29 /* NavigationBarMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264CD4BF281047A4009FFF29 /* NavigationBarMenu.storyboard */; };
+		264CD4CA2810480E009FFF29 /* NavigationBarPrompt.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264CD4C92810480E009FFF29 /* NavigationBarPrompt.storyboard */; };
+		264CD4CC28104817009FFF29 /* NavigationBarSmallTitle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264CD4CB28104817009FFF29 /* NavigationBarSmallTitle.storyboard */; };
+		264CD4CE28104825009FFF29 /* NavigationBarLargeTitle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264CD4CD28104825009FFF29 /* NavigationBarLargeTitle.storyboard */; };
+		264CD4D02810483B009FFF29 /* NavigationBarGroupedSmallTitle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264CD4CF2810483B009FFF29 /* NavigationBarGroupedSmallTitle.storyboard */; };
+		264CD4D228104847009FFF29 /* NavigationBarGroupedLargeTitle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264CD4D128104847009FFF29 /* NavigationBarGroupedLargeTitle.storyboard */; };
+		264CD4D428104852009FFF29 /* NavigationBarCustomTitleView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264CD4D328104852009FFF29 /* NavigationBarCustomTitleView.storyboard */; };
+		264CD4D72810487A009FFF29 /* NavigationBarButtons.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264CD4D62810487A009FFF29 /* NavigationBarButtons.storyboard */; };
+		264CD4DA281048B5009FFF29 /* NavigationBarPromptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264CD4D9281048B5009FFF29 /* NavigationBarPromptViewController.swift */; };
+		264CD4DC281048BE009FFF29 /* NavigationBarButtonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264CD4DB281048BE009FFF29 /* NavigationBarButtonsViewController.swift */; };
+		264CD4DE281048CE009FFF29 /* NavigationBarCustomTitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264CD4DD281048CE009FFF29 /* NavigationBarCustomTitleViewController.swift */; };
+		264CD4E0281048DE009FFF29 /* NavigationBarGroupedLargeTitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264CD4DF281048DE009FFF29 /* NavigationBarGroupedLargeTitleViewController.swift */; };
+		264CD4E2281048F5009FFF29 /* NavigationBarGroupedSmallTitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264CD4E1281048F5009FFF29 /* NavigationBarGroupedSmallTitleViewController.swift */; };
+		264CD4E428104901009FFF29 /* NavigationBarLargeTitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264CD4E328104901009FFF29 /* NavigationBarLargeTitleViewController.swift */; };
+		264CD4E62810490F009FFF29 /* NavigationBarSmallTitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264CD4E52810490F009FFF29 /* NavigationBarSmallTitleViewController.swift */; };
+		264CD4E828104942009FFF29 /* BaseNavigationBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264CD4E728104942009FFF29 /* BaseNavigationBarViewController.swift */; };
+		264CD4EA28104952009FFF29 /* BaseNavigationBarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 264CD4E928104952009FFF29 /* BaseNavigationBarCell.xib */; };
 		2658055127AEE408002255F7 /* ButtonClicksCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2658055027AEE408002255F7 /* ButtonClicksCounter.swift */; };
 		2658055427AFB705002255F7 /* BaseTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2658055327AFB705002255F7 /* BaseTextFieldViewController.swift */; };
 		267400B727836A5C00BCA6D3 /* AllControls.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267400B627836A5C00BCA6D3 /* AllControls.storyboard */; };
@@ -189,6 +211,28 @@
 		263153772803341800939451 /* TextFieldAlignmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldAlignmentViewController.swift; sourceTree = "<group>"; };
 		263153782803341800939451 /* TextFieldAlignment.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TextFieldAlignment.storyboard; sourceTree = "<group>"; };
 		264CD4AC28101195009FFF29 /* TransitionsMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionsMenuItem.swift; sourceTree = "<group>"; };
+		264CD4B128104688009FFF29 /* BarsMenuItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarsMenuItems.swift; sourceTree = "<group>"; };
+		264CD4B32810469C009FFF29 /* BarsMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BarsMenu.storyboard; sourceTree = "<group>"; };
+		264CD4B7281046BB009FFF29 /* BarsMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarsMenuViewController.swift; sourceTree = "<group>"; };
+		264CD4BB28104793009FFF29 /* NavigationBarMenuItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarMenuItems.swift; sourceTree = "<group>"; };
+		264CD4BD2810479A009FFF29 /* NavigationBarMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarMenuViewController.swift; sourceTree = "<group>"; };
+		264CD4BF281047A4009FFF29 /* NavigationBarMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NavigationBarMenu.storyboard; sourceTree = "<group>"; };
+		264CD4C92810480E009FFF29 /* NavigationBarPrompt.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NavigationBarPrompt.storyboard; sourceTree = "<group>"; };
+		264CD4CB28104817009FFF29 /* NavigationBarSmallTitle.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NavigationBarSmallTitle.storyboard; sourceTree = "<group>"; };
+		264CD4CD28104825009FFF29 /* NavigationBarLargeTitle.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NavigationBarLargeTitle.storyboard; sourceTree = "<group>"; };
+		264CD4CF2810483B009FFF29 /* NavigationBarGroupedSmallTitle.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NavigationBarGroupedSmallTitle.storyboard; sourceTree = "<group>"; };
+		264CD4D128104847009FFF29 /* NavigationBarGroupedLargeTitle.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NavigationBarGroupedLargeTitle.storyboard; sourceTree = "<group>"; };
+		264CD4D328104852009FFF29 /* NavigationBarCustomTitleView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NavigationBarCustomTitleView.storyboard; sourceTree = "<group>"; };
+		264CD4D62810487A009FFF29 /* NavigationBarButtons.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NavigationBarButtons.storyboard; sourceTree = "<group>"; };
+		264CD4D9281048B5009FFF29 /* NavigationBarPromptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarPromptViewController.swift; sourceTree = "<group>"; };
+		264CD4DB281048BE009FFF29 /* NavigationBarButtonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarButtonsViewController.swift; sourceTree = "<group>"; };
+		264CD4DD281048CE009FFF29 /* NavigationBarCustomTitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarCustomTitleViewController.swift; sourceTree = "<group>"; };
+		264CD4DF281048DE009FFF29 /* NavigationBarGroupedLargeTitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarGroupedLargeTitleViewController.swift; sourceTree = "<group>"; };
+		264CD4E1281048F5009FFF29 /* NavigationBarGroupedSmallTitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarGroupedSmallTitleViewController.swift; sourceTree = "<group>"; };
+		264CD4E328104901009FFF29 /* NavigationBarLargeTitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarLargeTitleViewController.swift; sourceTree = "<group>"; };
+		264CD4E52810490F009FFF29 /* NavigationBarSmallTitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarSmallTitleViewController.swift; sourceTree = "<group>"; };
+		264CD4E728104942009FFF29 /* BaseNavigationBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationBarViewController.swift; sourceTree = "<group>"; };
+		264CD4E928104952009FFF29 /* BaseNavigationBarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseNavigationBarCell.xib; sourceTree = "<group>"; };
 		2658055027AEE408002255F7 /* ButtonClicksCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonClicksCounter.swift; sourceTree = "<group>"; };
 		2658055327AFB705002255F7 /* BaseTextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTextFieldViewController.swift; sourceTree = "<group>"; };
 		267400B627836A5C00BCA6D3 /* AllControls.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AllControls.storyboard; sourceTree = "<group>"; };
@@ -425,6 +469,131 @@
 				263153782803341800939451 /* TextFieldAlignment.storyboard */,
 			);
 			path = Alignment;
+			sourceTree = "<group>";
+		};
+		264CD4AE281045FE009FFF29 /* Bars */ = {
+			isa = PBXGroup;
+			children = (
+				264CD4B028104607009FFF29 /* Menu */,
+				264CD4AF28104602009FFF29 /* NavigationBar */,
+			);
+			path = Bars;
+			sourceTree = "<group>";
+		};
+		264CD4AF28104602009FFF29 /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				264CD4BA28104764009FFF29 /* ViewControllers */,
+				264CD4B92810475E009FFF29 /* Menu */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		264CD4B028104607009FFF29 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				264CD4B128104688009FFF29 /* BarsMenuItems.swift */,
+				264CD4B7281046BB009FFF29 /* BarsMenuViewController.swift */,
+				264CD4B32810469C009FFF29 /* BarsMenu.storyboard */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		264CD4B92810475E009FFF29 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				264CD4BB28104793009FFF29 /* NavigationBarMenuItems.swift */,
+				264CD4BD2810479A009FFF29 /* NavigationBarMenuViewController.swift */,
+				264CD4BF281047A4009FFF29 /* NavigationBarMenu.storyboard */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		264CD4BA28104764009FFF29 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				264CD4C1281047B8009FFF29 /* Base */,
+				264CD4C7281047E5009FFF29 /* Buttons */,
+				264CD4C6281047DF009FFF29 /* Custom TitleView */,
+				264CD4C5281047D6009FFF29 /* Grouped, LargeTitle */,
+				264CD4C4281047C9009FFF29 /* Grouped, SmallTitle */,
+				264CD4C3281047BF009FFF29 /* LargeTitle */,
+				264CD4C8281047EA009FFF29 /* Prompt */,
+				264CD4C2281047BB009FFF29 /* SmallTitle */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		264CD4C1281047B8009FFF29 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				264CD4E728104942009FFF29 /* BaseNavigationBarViewController.swift */,
+				264CD4E928104952009FFF29 /* BaseNavigationBarCell.xib */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		264CD4C2281047BB009FFF29 /* SmallTitle */ = {
+			isa = PBXGroup;
+			children = (
+				264CD4E52810490F009FFF29 /* NavigationBarSmallTitleViewController.swift */,
+				264CD4CB28104817009FFF29 /* NavigationBarSmallTitle.storyboard */,
+			);
+			path = SmallTitle;
+			sourceTree = "<group>";
+		};
+		264CD4C3281047BF009FFF29 /* LargeTitle */ = {
+			isa = PBXGroup;
+			children = (
+				264CD4E328104901009FFF29 /* NavigationBarLargeTitleViewController.swift */,
+				264CD4CD28104825009FFF29 /* NavigationBarLargeTitle.storyboard */,
+			);
+			path = LargeTitle;
+			sourceTree = "<group>";
+		};
+		264CD4C4281047C9009FFF29 /* Grouped, SmallTitle */ = {
+			isa = PBXGroup;
+			children = (
+				264CD4E1281048F5009FFF29 /* NavigationBarGroupedSmallTitleViewController.swift */,
+				264CD4CF2810483B009FFF29 /* NavigationBarGroupedSmallTitle.storyboard */,
+			);
+			path = "Grouped, SmallTitle";
+			sourceTree = "<group>";
+		};
+		264CD4C5281047D6009FFF29 /* Grouped, LargeTitle */ = {
+			isa = PBXGroup;
+			children = (
+				264CD4DF281048DE009FFF29 /* NavigationBarGroupedLargeTitleViewController.swift */,
+				264CD4D128104847009FFF29 /* NavigationBarGroupedLargeTitle.storyboard */,
+			);
+			path = "Grouped, LargeTitle";
+			sourceTree = "<group>";
+		};
+		264CD4C6281047DF009FFF29 /* Custom TitleView */ = {
+			isa = PBXGroup;
+			children = (
+				264CD4DD281048CE009FFF29 /* NavigationBarCustomTitleViewController.swift */,
+				264CD4D328104852009FFF29 /* NavigationBarCustomTitleView.storyboard */,
+			);
+			path = "Custom TitleView";
+			sourceTree = "<group>";
+		};
+		264CD4C7281047E5009FFF29 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				264CD4DB281048BE009FFF29 /* NavigationBarButtonsViewController.swift */,
+				264CD4D62810487A009FFF29 /* NavigationBarButtons.storyboard */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		264CD4C8281047EA009FFF29 /* Prompt */ = {
+			isa = PBXGroup;
+			children = (
+				264CD4D9281048B5009FFF29 /* NavigationBarPromptViewController.swift */,
+				264CD4C92810480E009FFF29 /* NavigationBarPrompt.storyboard */,
+			);
+			path = Prompt;
 			sourceTree = "<group>";
 		};
 		2658054F27AEE3F6002255F7 /* ButtonClicksCounter */ = {
@@ -782,8 +951,8 @@
 		26D631FC279C12AC0029AE96 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
-				26D631FD279C12AC0029AE96 /* ButtonMenuViewController.swift */,
 				26D631FF279C12AC0029AE96 /* ButtonMenuItems.swift */,
+				26D631FD279C12AC0029AE96 /* ButtonMenuViewController.swift */,
 				26D631FE279C12AC0029AE96 /* ButtonMenu.storyboard */,
 			);
 			path = Menu;
@@ -836,6 +1005,7 @@
 		26D6320B279C7C220029AE96 /* Main Menu ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				264CD4AE281045FE009FFF29 /* Bars */,
 				267400B527836A4A00BCA6D3 /* AllElements */,
 				2696D002279B20E0004521F0 /* Button */,
 				267C89B327B57DBE0061FC2F /* CollectionView */,
@@ -1325,6 +1495,7 @@
 				807FE365275E0B8800E60A6D /* ScrollViewVertical.storyboard in Resources */,
 				267C89BD27B57DBE0061FC2F /* CollectionViewGrid.storyboard in Resources */,
 				261F781C27AC4EC800B12235 /* TableViewSectionHeaderView.xib in Resources */,
+				264CD4C0281047A4009FFF29 /* NavigationBarMenu.storyboard in Resources */,
 				267C89D327B5AB9F0061FC2F /* CollectionViewSections.storyboard in Resources */,
 				8050A3EB275A386500CE2BD4 /* MainMenu.storyboard in Resources */,
 				26D816BF27A45759005F8135 /* TableView.storyboard in Resources */,
@@ -1333,6 +1504,7 @@
 				26A3C65127A310030029020F /* TextViewNonEditable.storyboard in Resources */,
 				261F782427AC72B500B12235 /* personData.json in Resources */,
 				26A3C64B27A310030029020F /* TextViewNonEditableNonSelectable.storyboard in Resources */,
+				264CD4EA28104952009FFF29 /* BaseNavigationBarCell.xib in Resources */,
 				2696D024279B3037004521F0 /* OtherButtons.storyboard in Resources */,
 				807FE374275E1D1D00E60A6D /* ScrollViewWithNoContentLayoutGuides.storyboard in Resources */,
 				26A3C65527A310030029020F /* TextViewMenu.storyboard in Resources */,
@@ -1348,27 +1520,35 @@
 				807FE35E275E0AA900E60A6D /* ScrollViewMenu.storyboard in Resources */,
 				807FE378275E1D1D00E60A6D /* ScrollViewWithKeyboard.storyboard in Resources */,
 				26A3C65027A310030029020F /* TextViewDataDetectors.storyboard in Resources */,
+				264CD4D428104852009FFF29 /* NavigationBarCustomTitleView.storyboard in Resources */,
 				267C89D527B5AB9F0061FC2F /* CollectionViewBadge.storyboard in Resources */,
+				264CD4B42810469C009FFF29 /* BarsMenu.storyboard in Resources */,
 				26D63227279C7E170029AE96 /* TextFieldReturnKeyType.storyboard in Resources */,
 				26D631FB279C08230029AE96 /* ButtonImagePlacement.storyboard in Resources */,
 				807FE377275E1D1D00E60A6D /* ScrollViewHorizontal.storyboard in Resources */,
+				264CD4D72810487A009FFF29 /* NavigationBarButtons.storyboard in Resources */,
 				2696CFED279B0183004521F0 /* LabelTextStyles.storyboard in Resources */,
 				26A3C64D27A310030029020F /* TextViewEditable.storyboard in Resources */,
 				2696D00A279B2D2A004521F0 /* ButtonStyles.storyboard in Resources */,
 				8050A3D9275A329E00CE2BD4 /* Assets.xcassets in Resources */,
 				267C89BE27B57DBE0061FC2F /* CollectionViewMenu.storyboard in Resources */,
 				26D6322C279C7E170029AE96 /* TextFieldClearButton.storyboard in Resources */,
+				264CD4CA2810480E009FFF29 /* NavigationBarPrompt.storyboard in Resources */,
 				2696CFF4279B0324004521F0 /* LabelMenu.storyboard in Resources */,
 				2631537A2803341800939451 /* TextFieldAlignment.storyboard in Resources */,
 				2695795A27B24E5D00F47C11 /* Transitions.storyboard in Resources */,
+				264CD4CE28104825009FFF29 /* NavigationBarLargeTitle.storyboard in Resources */,
 				26D63236279C81130029AE96 /* TextFieldPassword.storyboard in Resources */,
 				267400B727836A5C00BCA6D3 /* AllControls.storyboard in Resources */,
 				26D63231279C7E170029AE96 /* TextFieldKeyboardType.storyboard in Resources */,
+				264CD4CC28104817009FFF29 /* NavigationBarSmallTitle.storyboard in Resources */,
 				26D63224279C7E170029AE96 /* TextFieldMenu.storyboard in Resources */,
 				26F3843627A84D94005E2588 /* SimpleTableViewCell.xib in Resources */,
 				2696CFFB279B05A1004521F0 /* LabelFontWeights.storyboard in Resources */,
 				267C89C627B57DFF0061FC2F /* BigNumberCollectionViewCell.xib in Resources */,
 				2696D01A279B2F10004521F0 /* ButtonCornerStyle.storyboard in Resources */,
+				264CD4D02810483B009FFF29 /* NavigationBarGroupedSmallTitle.storyboard in Resources */,
+				264CD4D228104847009FFF29 /* NavigationBarGroupedLargeTitle.storyboard in Resources */,
 				267C89D127B5AB9F0061FC2F /* CollectionViewPaging.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1400,6 +1580,7 @@
 				2695796227B2563A00F47C11 /* FullScreenCoverVerticalTransitionViewController.swift in Sources */,
 				26D816FE27A459E5005F8135 /* TableViewStylePlainViewController.swift in Sources */,
 				26D816F327A459E5005F8135 /* TableViewSelectionMenuItems.swift in Sources */,
+				264CD4BE2810479A009FFF29 /* NavigationBarMenuViewController.swift in Sources */,
 				26A3C65627A310030029020F /* TextViewMenuViewController.swift in Sources */,
 				26D6322A279C7E170029AE96 /* TextFieldBorderStyleViewController.swift in Sources */,
 				26D816FF27A459E5005F8135 /* TableViewStyleMenuItems.swift in Sources */,
@@ -1410,9 +1591,11 @@
 				26D816F827A459E5005F8135 /* TableViewSeparatorStyleMenuViewController.swift in Sources */,
 				2696D00E279B2D43004521F0 /* ButtonSystemSizesViewController.swift in Sources */,
 				26A3C65927A31B900029020F /* BaseViewController.swift in Sources */,
+				264CD4E0281048DE009FFF29 /* NavigationBarGroupedLargeTitleViewController.swift in Sources */,
 				267C89BC27B57DBE0061FC2F /* CollectionViewGridViewController.swift in Sources */,
 				26D816F527A459E5005F8135 /* TableViewSeparatorStyleNoneViewController.swift in Sources */,
 				26D816F727A459E5005F8135 /* TableViewSeparatorStyleMenuItems.swift in Sources */,
+				264CD4E428104901009FFF29 /* NavigationBarLargeTitleViewController.swift in Sources */,
 				2695796027B24E9000F47C11 /* TransitionsMenuItems.swift in Sources */,
 				26D63225279C7E170029AE96 /* TextFieldMenuItems.swift in Sources */,
 				807FE375275E1D1D00E60A6D /* ScrollViewWithNoContentLayoutGuidesViewController.swift in Sources */,
@@ -1423,6 +1606,7 @@
 				26D816F127A459E5005F8135 /* TableViewSelectionMultipleViewController.swift in Sources */,
 				2695795C27B24E6900F47C11 /* TransitionsMenuViewController.swift in Sources */,
 				261F780E27AB9D1E00B12235 /* CellStyleDefaultFontViewController.swift in Sources */,
+				264CD4E828104942009FFF29 /* BaseNavigationBarViewController.swift in Sources */,
 				807FE373275E1D1D00E60A6D /* ScrollViewTwoDirectionsViewController.swift in Sources */,
 				2696D018279B2F0B004521F0 /* ButtonCornerStyleViewController.swift in Sources */,
 				8050A3E9275A385C00CE2BD4 /* MainMenuViewController.swift in Sources */,
@@ -1430,11 +1614,14 @@
 				8050A3D2275A329D00CE2BD4 /* SceneDelegate.swift in Sources */,
 				26BBDB0F2801F557009647A3 /* KeyboardHelper.swift in Sources */,
 				267C89DD27B5B7B10061FC2F /* CollectionBadgeView.swift in Sources */,
+				264CD4E2281048F5009FFF29 /* NavigationBarGroupedSmallTitleViewController.swift in Sources */,
 				807FE363275E0B7500E60A6D /* ScrollViewVerticalViewController.swift in Sources */,
+				264CD4BC28104793009FFF29 /* NavigationBarMenuItems.swift in Sources */,
 				267C89D227B5AB9F0061FC2F /* CollectionViewSectionsViewController.swift in Sources */,
 				26D816F627A459E5005F8135 /* TableViewSeparatorStyleLineViewController.swift in Sources */,
 				26D6322F279C7E170029AE96 /* TextFieldDisabledViewController.swift in Sources */,
 				26D8170027A459E5005F8135 /* TableViewStyleMenuViewController.swift in Sources */,
+				264CD4B228104688009FFF29 /* BarsMenuItems.swift in Sources */,
 				26A3C64C27A310030029020F /* TextViewNonEditableNonSelectableViewController.swift in Sources */,
 				2695796A27B2CF3D00F47C11 /* PageSheetCoverVerticalTransitionViewController.swift in Sources */,
 				2695796627B257CA00F47C11 /* FullScreenCrossDisolveTransitionViewController.swift in Sources */,
@@ -1453,9 +1640,11 @@
 				2696D015279B2D94004521F0 /* ButtonToggleViewController.swift in Sources */,
 				260E2DC6280D48D000C2CA16 /* MenuItem.swift in Sources */,
 				26F3843C27A87979005E2588 /* CellAccessoryTypeItem.swift in Sources */,
+				264CD4B8281046BB009FFF29 /* BarsMenuViewController.swift in Sources */,
 				2695796C27B2CF4300F47C11 /* PageSheetCrossDisolveTransitionViewController.swift in Sources */,
 				807FE379275E1D1D00E60A6D /* ScrollViewWithKeyboardViewController.swift in Sources */,
 				2696D022279B3031004521F0 /* OtherButtonsViewController.swift in Sources */,
+				264CD4DE281048CE009FFF29 /* NavigationBarCustomTitleViewController.swift in Sources */,
 				26D8170227A459E5005F8135 /* CellAccessoryTypeViewController.swift in Sources */,
 				261F782127AC700000B12235 /* TableViewSectionIndexViewController.swift in Sources */,
 				2696CFF0279B030F004521F0 /* LabelMenuViewController.swift in Sources */,
@@ -1470,6 +1659,7 @@
 				267C89E127B5BC530061FC2F /* CollectionViewPagingSectionType.swift in Sources */,
 				267C89BF27B57DBE0061FC2F /* CollectionViewMenuItems.swift in Sources */,
 				807FE354275E02D700E60A6D /* MenuViewController.swift in Sources */,
+				264CD4DC281048BE009FFF29 /* NavigationBarButtonsViewController.swift in Sources */,
 				261F780A27AB9D1E00B12235 /* CellStyleMenuViewController.swift in Sources */,
 				26D63226279C7E170029AE96 /* TextFieldReturnKeyTypeViewController.swift in Sources */,
 				807FE35C275E0AA100E60A6D /* ScrollViewMenuViewController.swift in Sources */,
@@ -1478,7 +1668,9 @@
 				8050A3FC275A5AFB00CE2BD4 /* MainMenuItems.swift in Sources */,
 				2696CFF2279B0316004521F0 /* LabelMenuItems.swift in Sources */,
 				267C89C027B57DBE0061FC2F /* CollectionViewMenuViewController.swift in Sources */,
+				264CD4DA281048B5009FFF29 /* NavigationBarPromptViewController.swift in Sources */,
 				26D816C127A4576A005F8135 /* TableViewMenuViewController.swift in Sources */,
+				264CD4E62810490F009FFF29 /* NavigationBarSmallTitleViewController.swift in Sources */,
 				261F780C27AB9D1E00B12235 /* CellStyleBodyViewController.swift in Sources */,
 				807FE360275E0ADF00E60A6D /* ScrollViewMenuItems.swift in Sources */,
 				26F3843E27A87C99005E2588 /* CellSeparatorInsetsItem.swift in Sources */,
