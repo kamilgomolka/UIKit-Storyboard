@@ -1,5 +1,5 @@
 //
-//  FontSizesViewController.swift
+//  LabelTextStylesViewController.swift
 //  UIKit-Storyboard
 //
 //  Created by Kamil Gomółka on 21/01/2022.
@@ -7,6 +7,6 @@
 
 import UIKit
 
-class FontSizesViewController: UIViewController {
+class LabelTextStylesViewController: UIViewController {
     
 }

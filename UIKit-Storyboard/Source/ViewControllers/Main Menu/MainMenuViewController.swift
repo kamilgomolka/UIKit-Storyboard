@@ -7,11 +7,15 @@
 
 import UIKit
 
-class MainMenuViewController: MenuViewController<MainMenuItem> {
-    
-    @IBOutlet weak var tableViewOutlet: UITableView!
+class MainMenuViewController: MenuViewController {
+	
+	@IBOutlet weak var tableViewOutlet: UITableView!
     
     override var tableView: UITableView {
         return tableViewOutlet
     }
+	
+	override func createItems() -> [MenuItem] {
+		return MainMenuItems.all
+	}
 }

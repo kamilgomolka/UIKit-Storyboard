@@ -1,33 +1,42 @@
 //
-//  TransitionsMenuViewController.swift
+//  MenuViewController.swift
 //  UIKit-Storyboard
 //
-//  Created by Kamil Gomółka on 08/02/2022.
+//  Created by Kamil Gomółka on 06/12/2021.
 //
 
 import UIKit
 
-class TransitionsMenuViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     // MARK: - Properties
     
     let cellNibName = "MenuCell"
-	let items = TransitionsMenuItems.all
-    
-    @IBOutlet weak var tableView: UITableView!
+	var items: [MenuItem] = []
+	
+	var tableView: UITableView {
+		fatalError("Please override 'var tableView' in subclass!")
+	}
     
     // MARK: - Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+		items = createItems()
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(UINib(nibName: cellNibName, bundle: nil), forCellReuseIdentifier: cellNibName)
     }
+	
+	// MARK: - Create items
+	
+	func createItems() -> [MenuItem] {
+		fatalError("Please override 'func createItems()' in subclass!")
+	}
     
-    // MARK: - UITableViewDataSource
-    
+	// MARK: - UITableViewDataSource
+	
 	func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 		return items.count
 	}
@@ -38,13 +47,13 @@ class TransitionsMenuViewController: UIViewController, UITableViewDataSource, UI
 		cell.textLabel?.text = item.name
 		return cell
 	}
-    
-    // MARK: - UITableViewDelegate
+	
+	// MARK: - UITableViewDelegate
 	
 	func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 		tableView.deselectRow(at: indexPath, animated: true)
 		
 		let item = items[indexPath.row]
-		performSegue(withIdentifier: item.segueName, sender: nil)
+		item.clickHandler(self)
 	}
 }

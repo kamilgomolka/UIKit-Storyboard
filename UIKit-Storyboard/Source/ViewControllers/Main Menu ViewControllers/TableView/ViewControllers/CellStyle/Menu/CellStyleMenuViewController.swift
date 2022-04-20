@@ -7,11 +7,15 @@
 
 import UIKit
 
-class CellStyleMenuViewController: MenuViewController<CellStyleMenuItem> {
-    
-    @IBOutlet weak var tableViewOutlet: UITableView!
-    
-    override var tableView: UITableView {
-        return tableViewOutlet
-    }
+class CellStyleMenuViewController: MenuViewController {
+	
+	@IBOutlet weak var tableViewOutlet: UITableView!
+	
+	override var tableView: UITableView {
+		return tableViewOutlet
+	}
+	
+	override func createItems() -> [MenuItem] {
+		return CellStyleMenuItems.all
+	}
 }

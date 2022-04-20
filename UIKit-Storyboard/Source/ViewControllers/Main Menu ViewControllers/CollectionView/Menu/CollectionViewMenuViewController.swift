@@ -7,11 +7,15 @@
 
 import UIKit
 
-class CollectionViewMenuViewController: MenuViewController<CollectionViewMenuItem> {
-    
-    @IBOutlet weak var tableViewOutlet: UITableView!
-    
-    override var tableView: UITableView {
-        return tableViewOutlet
-    }
+class CollectionViewMenuViewController: MenuViewController {
+	
+	@IBOutlet weak var tableViewOutlet: UITableView!
+	
+	override var tableView: UITableView {
+		return tableViewOutlet
+	}
+	
+	override func createItems() -> [MenuItem] {
+		return CollectionViewMenuItems.all
+	}
 }

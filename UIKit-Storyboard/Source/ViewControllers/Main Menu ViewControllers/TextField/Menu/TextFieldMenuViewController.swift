@@ -7,11 +7,15 @@
 
 import UIKit
 
-class TextFieldMenuViewController: MenuViewController<TextFieldMenuItem> {
-    
-    @IBOutlet weak var tableViewOutlet: UITableView!
-    
-    override var tableView: UITableView {
-        return tableViewOutlet
-    }
+class TextFieldMenuViewController: MenuViewController {
+	
+	@IBOutlet weak var tableViewOutlet: UITableView!
+	
+	override var tableView: UITableView {
+		return tableViewOutlet
+	}
+	
+	override func createItems() -> [MenuItem] {
+		return TextFieldMenuItems.all
+	}
 }

@@ -7,11 +7,15 @@
 
 import UIKit
 
-class TableViewSeparatorStyleMenuViewController: MenuViewController<TableViewSeparatorStyleMenuItem> {
-    
-    @IBOutlet weak var tableViewOutlet: UITableView!
-    
-    override var tableView: UITableView {
-        return tableViewOutlet
-    }
+class TableViewSeparatorStyleMenuViewController: MenuViewController {
+	
+	@IBOutlet weak var tableViewOutlet: UITableView!
+	
+	override var tableView: UITableView {
+		return tableViewOutlet
+	}
+	
+	override func createItems() -> [MenuItem] {
+		return TableViewSeparatorStyleMenuItems.all
+	}
 }
