@@ -16,31 +16,43 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add, Edit, Done, Cancel, Save" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d3k-2r-bwM">
+                                <rect key="frame" x="16" y="8" width="359" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KIl-hb-4tN">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="29" width="375" height="44"/>
                                 <items>
                                     <barButtonItem style="plain" systemItem="add" id="QXb-nA-kuf"/>
                                     <barButtonItem systemItem="edit" id="2Zv-O1-Elw"/>
-                                    <barButtonItem systemItem="done" id="hFO-gf-Gkq"/>
+                                    <barButtonItem style="done" systemItem="done" id="hFO-gf-Gkq"/>
                                     <barButtonItem systemItem="cancel" id="eUb-cz-vS4"/>
                                     <barButtonItem systemItem="save" id="KCb-UQ-NY8"/>
                                 </items>
                             </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Undo, Redo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z5Z-Az-5yl">
+                                <rect key="frame" x="16" y="81" width="359" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YT3-RA-4gK">
-                                <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="102" width="375" height="44"/>
                                 <items>
                                     <barButtonItem systemItem="undo" id="9ov-Si-LD3"/>
                                     <barButtonItem systemItem="redo" id="2gz-T3-BpB"/>
                                 </items>
                             </toolbar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="compose, reply, action, organize, trash" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SKD-pB-nyJ">
-                                <rect key="frame" x="16" y="96" width="359" height="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Compose, Reply, Action, Organize, Trash" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SKD-pB-nyJ">
+                                <rect key="frame" x="16" y="154" width="359" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OF8-yU-2Cb">
-                                <rect key="frame" x="0.0" y="117" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="175" width="375" height="44"/>
                                 <items>
                                     <barButtonItem systemItem="compose" id="9Br-c7-CHf"/>
                                     <barButtonItem systemItem="reply" id="XO6-qM-hUN"/>
@@ -49,14 +61,14 @@
                                     <barButtonItem systemItem="trash" id="i0M-CQ-wxP"/>
                                 </items>
                             </toolbar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="bookmarks, search, refresh, stop, camera" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="89W-YN-a0N">
-                                <rect key="frame" x="16" y="169" width="359" height="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bookmarks, Search, Refresh, Stop, Camera" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="89W-YN-a0N">
+                                <rect key="frame" x="16" y="227" width="359" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uqj-up-dwr">
-                                <rect key="frame" x="0.0" y="190" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="248" width="375" height="44"/>
                                 <items>
                                     <barButtonItem systemItem="bookmarks" id="do1-Lu-hPs"/>
                                     <barButtonItem systemItem="search" id="VFm-5W-8Sd"/>
@@ -65,14 +77,14 @@
                                     <barButtonItem systemItem="camera" id="1dp-rw-F3H"/>
                                 </items>
                             </toolbar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="play, pause, rewind, fast forward" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8z0-La-MX9">
-                                <rect key="frame" x="16" y="242" width="359" height="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Play, Pause, Rewind, Fast forward" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8z0-La-MX9">
+                                <rect key="frame" x="16" y="300" width="359" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e8T-Bh-gcq">
-                                <rect key="frame" x="0.0" y="263" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="321" width="375" height="44"/>
                                 <items>
                                     <barButtonItem systemItem="play" id="SEB-oA-ZZL"/>
                                     <barButtonItem systemItem="pause" id="3o9-fh-Pd1"/>
@@ -85,26 +97,32 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="uqj-up-dwr" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="0ZK-9O-8fe"/>
-                            <constraint firstItem="KIl-hb-4tN" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="9Tr-AS-Eop"/>
+                            <constraint firstItem="YT3-RA-4gK" firstAttribute="top" secondItem="z5Z-Az-5yl" secondAttribute="bottom" constant="4" id="9Ff-A7-9ub"/>
                             <constraint firstItem="e8T-Bh-gcq" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="AxF-iS-dAY"/>
                             <constraint firstItem="YT3-RA-4gK" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="DBa-Hy-h3v"/>
                             <constraint firstItem="89W-YN-a0N" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="Eac-WV-jUM"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="8z0-La-MX9" secondAttribute="trailing" id="KdR-hd-tiz"/>
                             <constraint firstItem="uqj-up-dwr" firstAttribute="top" secondItem="89W-YN-a0N" secondAttribute="bottom" constant="4" id="Kr0-Ma-ubX"/>
                             <constraint firstItem="8z0-La-MX9" firstAttribute="top" secondItem="uqj-up-dwr" secondAttribute="bottom" constant="8" id="Lc1-ao-6WA"/>
+                            <constraint firstItem="z5Z-Az-5yl" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="OIF-ER-rq0"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="89W-YN-a0N" secondAttribute="trailing" id="PfT-xb-UQR"/>
-                            <constraint firstItem="YT3-RA-4gK" firstAttribute="top" secondItem="KIl-hb-4tN" secondAttribute="bottom" id="R1o-x4-QA0"/>
                             <constraint firstItem="uqj-up-dwr" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="RT5-hD-odL"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="SKD-pB-nyJ" secondAttribute="trailing" id="RUZ-65-TOS"/>
                             <constraint firstItem="OF8-yU-2Cb" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="TrL-en-Syo"/>
                             <constraint firstItem="e8T-Bh-gcq" firstAttribute="top" secondItem="8z0-La-MX9" secondAttribute="bottom" constant="4" id="ZZu-li-8zo"/>
                             <constraint firstItem="YT3-RA-4gK" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="c20-Ik-Y2l"/>
+                            <constraint firstItem="z5Z-Az-5yl" firstAttribute="top" secondItem="KIl-hb-4tN" secondAttribute="bottom" constant="8" id="d5Q-TZ-J93"/>
+                            <constraint firstItem="d3k-2r-bwM" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="dqf-R8-hwQ"/>
                             <constraint firstItem="OF8-yU-2Cb" firstAttribute="top" secondItem="SKD-pB-nyJ" secondAttribute="bottom" constant="4" id="eHf-72-gHx"/>
+                            <constraint firstItem="z5Z-Az-5yl" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="eIM-kS-VfH"/>
+                            <constraint firstItem="d3k-2r-bwM" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="8" id="f2u-1u-nKs"/>
                             <constraint firstItem="e8T-Bh-gcq" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="hCx-FU-cHX"/>
                             <constraint firstItem="SKD-pB-nyJ" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="he1-9Y-PQ1"/>
                             <constraint firstItem="SKD-pB-nyJ" firstAttribute="top" secondItem="YT3-RA-4gK" secondAttribute="bottom" constant="8" id="iOf-LL-1mW"/>
                             <constraint firstItem="8z0-La-MX9" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" constant="16" id="l8V-0X-bEe"/>
                             <constraint firstItem="KIl-hb-4tN" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="pAG-QW-F8b"/>
+                            <constraint firstItem="d3k-2r-bwM" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="pSU-Vx-AW4"/>
+                            <constraint firstItem="KIl-hb-4tN" firstAttribute="top" secondItem="d3k-2r-bwM" secondAttribute="bottom" constant="4" id="pjB-4f-eBF"/>
                             <constraint firstItem="89W-YN-a0N" firstAttribute="top" secondItem="OF8-yU-2Cb" secondAttribute="bottom" constant="8" id="qum-LY-l4v"/>
                             <constraint firstItem="OF8-yU-2Cb" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="vES-JS-R6e"/>
                             <constraint firstItem="KIl-hb-4tN" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="w9E-6W-TDU"/>

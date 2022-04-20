@@ -19,6 +19,10 @@ class SimpleToolbarViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
+		updateContentInsets()
+	}
+	
+	func updateContentInsets() {
 		let insets = UIEdgeInsets(
 			top: 0.0,
 			left: 0.0,
