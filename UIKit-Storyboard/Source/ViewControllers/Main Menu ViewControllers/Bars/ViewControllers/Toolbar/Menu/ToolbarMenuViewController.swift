@@ -1,5 +1,5 @@
 //
-//  NavigationBarMenuViewController.swift
+//  ToolbarMenuViewController.swift
 //  UIKit-Storyboard
 //
 //  Created by Kamil Gomółka on 20/04/2022.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class NavigationBarMenuViewController: MenuViewController {
+class ToolbarMenuViewController: MenuViewController {
 	
 	@IBOutlet weak var tableViewOutlet: UITableView!
 	
@@ -16,7 +16,6 @@ class NavigationBarMenuViewController: MenuViewController {
 	}
 	
 	override func createItems() -> [MenuItem] {
-		return NavigationBarMenuItems.all
+		return ToolbarMenuItems.all
 	}
 }
-
