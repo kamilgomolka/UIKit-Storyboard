@@ -16,6 +16,10 @@ struct BarsMenuItems {
 				storyboardName: "NavigationBarMenu"
 			),
 			MenuItem(
+				name: "Tabbar",
+				storyboardName: "TabbarMenu"
+			),
+			MenuItem(
 				name: "Toolbar",
 				storyboardName: "ToolbarMenu"
 			)

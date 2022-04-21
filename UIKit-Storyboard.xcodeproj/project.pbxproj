@@ -176,6 +176,17 @@
 		26F3843A27A85C1F005E2588 /* CellSelectionStyleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F3843927A85C1F005E2588 /* CellSelectionStyleItem.swift */; };
 		26F3843C27A87979005E2588 /* CellAccessoryTypeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F3843B27A87979005E2588 /* CellAccessoryTypeItem.swift */; };
 		26F3843E27A87C99005E2588 /* CellSeparatorInsetsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F3843D27A87C99005E2588 /* CellSeparatorInsetsItem.swift */; };
+		26FA7DCA2811322B00406B85 /* TabbarMenuItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA7DC92811322B00406B85 /* TabbarMenuItems.swift */; };
+		26FA7DCC2811323400406B85 /* TabbarMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA7DCB2811323400406B85 /* TabbarMenuViewController.swift */; };
+		26FA7DCE2811323C00406B85 /* TabbarMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26FA7DCD2811323C00406B85 /* TabbarMenu.storyboard */; };
+		26FA7DD1281132CB00406B85 /* SimpleTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA7DD0281132CB00406B85 /* SimpleTabbarViewController.swift */; };
+		26FA7DD3281132FE00406B85 /* SimpleTabbar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26FA7DD2281132FE00406B85 /* SimpleTabbar.storyboard */; };
+		26FA7DD62811335800406B85 /* SimpleTabbarChild1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA7DD52811335800406B85 /* SimpleTabbarChild1.swift */; };
+		26FA7DD82811335D00406B85 /* SimpleTabbarChild2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA7DD72811335D00406B85 /* SimpleTabbarChild2.swift */; };
+		26FA7DDA2811336000406B85 /* SimpleTabbarChild3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA7DD92811336000406B85 /* SimpleTabbarChild3.swift */; };
+		26FA7DDC2811336400406B85 /* SimpleTabbarChild4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA7DDB2811336400406B85 /* SimpleTabbarChild4.swift */; };
+		26FA7DDF281139C300406B85 /* ManyItemsTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA7DDE281139C300406B85 /* ManyItemsTabbarViewController.swift */; };
+		26FA7DE1281139C900406B85 /* ManyItemsTabbar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26FA7DE0281139C900406B85 /* ManyItemsTabbar.storyboard */; };
 		8050A3D0275A329D00CE2BD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8050A3CF275A329D00CE2BD4 /* AppDelegate.swift */; };
 		8050A3D2275A329D00CE2BD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8050A3D1275A329D00CE2BD4 /* SceneDelegate.swift */; };
 		8050A3D9275A329E00CE2BD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8050A3D8275A329E00CE2BD4 /* Assets.xcassets */; };
@@ -371,6 +382,17 @@
 		26F3843927A85C1F005E2588 /* CellSelectionStyleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellSelectionStyleItem.swift; sourceTree = "<group>"; };
 		26F3843B27A87979005E2588 /* CellAccessoryTypeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellAccessoryTypeItem.swift; sourceTree = "<group>"; };
 		26F3843D27A87C99005E2588 /* CellSeparatorInsetsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellSeparatorInsetsItem.swift; sourceTree = "<group>"; };
+		26FA7DC92811322B00406B85 /* TabbarMenuItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarMenuItems.swift; sourceTree = "<group>"; };
+		26FA7DCB2811323400406B85 /* TabbarMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarMenuViewController.swift; sourceTree = "<group>"; };
+		26FA7DCD2811323C00406B85 /* TabbarMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabbarMenu.storyboard; sourceTree = "<group>"; };
+		26FA7DD0281132CB00406B85 /* SimpleTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTabbarViewController.swift; sourceTree = "<group>"; };
+		26FA7DD2281132FE00406B85 /* SimpleTabbar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SimpleTabbar.storyboard; sourceTree = "<group>"; };
+		26FA7DD52811335800406B85 /* SimpleTabbarChild1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTabbarChild1.swift; sourceTree = "<group>"; };
+		26FA7DD72811335D00406B85 /* SimpleTabbarChild2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTabbarChild2.swift; sourceTree = "<group>"; };
+		26FA7DD92811336000406B85 /* SimpleTabbarChild3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTabbarChild3.swift; sourceTree = "<group>"; };
+		26FA7DDB2811336400406B85 /* SimpleTabbarChild4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTabbarChild4.swift; sourceTree = "<group>"; };
+		26FA7DDE281139C300406B85 /* ManyItemsTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManyItemsTabbarViewController.swift; sourceTree = "<group>"; };
+		26FA7DE0281139C900406B85 /* ManyItemsTabbar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ManyItemsTabbar.storyboard; sourceTree = "<group>"; };
 		8050A3CC275A329D00CE2BD4 /* UIKit-Storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit-Storyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8050A3CF275A329D00CE2BD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8050A3D1275A329D00CE2BD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -641,6 +663,7 @@
 			isa = PBXGroup;
 			children = (
 				264CD4AF28104602009FFF29 /* NavigationBar */,
+				26FA7DC62811320200406B85 /* Tabbar */,
 				264CD4EB28104FA8009FFF29 /* Toolbar */,
 			);
 			path = ViewControllers;
@@ -1377,6 +1400,64 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
+		26FA7DC62811320200406B85 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				26FA7DC72811320F00406B85 /* Menu */,
+				26FA7DC82811321200406B85 /* ViewControllers */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		26FA7DC72811320F00406B85 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				26FA7DC92811322B00406B85 /* TabbarMenuItems.swift */,
+				26FA7DCB2811323400406B85 /* TabbarMenuViewController.swift */,
+				26FA7DCD2811323C00406B85 /* TabbarMenu.storyboard */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		26FA7DC82811321200406B85 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				26FA7DDD2811399E00406B85 /* Many Items */,
+				26FA7DCF281132B000406B85 /* Simple Tabbar */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		26FA7DCF281132B000406B85 /* Simple Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				26FA7DD42811333E00406B85 /* Childrren */,
+				26FA7DD0281132CB00406B85 /* SimpleTabbarViewController.swift */,
+				26FA7DD2281132FE00406B85 /* SimpleTabbar.storyboard */,
+			);
+			path = "Simple Tabbar";
+			sourceTree = "<group>";
+		};
+		26FA7DD42811333E00406B85 /* Childrren */ = {
+			isa = PBXGroup;
+			children = (
+				26FA7DD52811335800406B85 /* SimpleTabbarChild1.swift */,
+				26FA7DD72811335D00406B85 /* SimpleTabbarChild2.swift */,
+				26FA7DD92811336000406B85 /* SimpleTabbarChild3.swift */,
+				26FA7DDB2811336400406B85 /* SimpleTabbarChild4.swift */,
+			);
+			path = Childrren;
+			sourceTree = "<group>";
+		};
+		26FA7DDD2811399E00406B85 /* Many Items */ = {
+			isa = PBXGroup;
+			children = (
+				26FA7DDE281139C300406B85 /* ManyItemsTabbarViewController.swift */,
+				26FA7DE0281139C900406B85 /* ManyItemsTabbar.storyboard */,
+			);
+			path = "Many Items";
+			sourceTree = "<group>";
+		};
 		8050A3C3275A329D00CE2BD4 = {
 			isa = PBXGroup;
 			children = (
@@ -1595,6 +1676,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26FA7DE1281139C900406B85 /* ManyItemsTabbar.storyboard in Resources */,
 				2696D013279B2D8A004521F0 /* ButtonToggle.storyboard in Resources */,
 				807FE358275E06B500E60A6D /* MenuCell.xib in Resources */,
 				807FE365275E0B8800E60A6D /* ScrollViewVertical.storyboard in Resources */,
@@ -1622,6 +1704,7 @@
 				807FE372275E1D1D00E60A6D /* ScrollViewTwoDirections.storyboard in Resources */,
 				2696CFF9279B0598004521F0 /* LabelFontSizes.storyboard in Resources */,
 				267C89DF27B5B7B70061FC2F /* CollectionBadgeView.xib in Resources */,
+				26FA7DCE2811323C00406B85 /* TabbarMenu.storyboard in Resources */,
 				2696D010279B2D5E004521F0 /* ButtonSystemSizes.storyboard in Resources */,
 				807FE35E275E0AA900E60A6D /* ScrollViewMenu.storyboard in Resources */,
 				807FE378275E1D1D00E60A6D /* ScrollViewWithKeyboard.storyboard in Resources */,
@@ -1634,6 +1717,7 @@
 				26D63227279C7E170029AE96 /* TextFieldReturnKeyType.storyboard in Resources */,
 				26D631FB279C08230029AE96 /* ButtonImagePlacement.storyboard in Resources */,
 				807FE377275E1D1D00E60A6D /* ScrollViewHorizontal.storyboard in Resources */,
+				26FA7DD3281132FE00406B85 /* SimpleTabbar.storyboard in Resources */,
 				264CD4D72810487A009FFF29 /* NavigationBarButtons.storyboard in Resources */,
 				2696CFED279B0183004521F0 /* LabelTextStyles.storyboard in Resources */,
 				26A3C64D27A310030029020F /* TextViewEditable.storyboard in Resources */,
@@ -1696,7 +1780,9 @@
 				26A3C65627A310030029020F /* TextViewMenuViewController.swift in Sources */,
 				26D6322A279C7E170029AE96 /* TextFieldBorderStyleViewController.swift in Sources */,
 				26D816FF27A459E5005F8135 /* TableViewStyleMenuItems.swift in Sources */,
+				26FA7DCC2811323400406B85 /* TabbarMenuViewController.swift in Sources */,
 				26D816F027A459E5005F8135 /* TableViewSelectionWithDeselectViewController.swift in Sources */,
+				26FA7DD1281132CB00406B85 /* SimpleTabbarViewController.swift in Sources */,
 				26D63223279C7E170029AE96 /* TextFieldMenuViewController.swift in Sources */,
 				26D6322D279C7E170029AE96 /* TextFieldClearButtonViewController.swift in Sources */,
 				264CD4F028104FDC009FFF29 /* ToolbarMenuItems.swift in Sources */,
@@ -1739,6 +1825,7 @@
 				264CD4FB2810556B009FFF29 /* SimpleToolbarViewController.swift in Sources */,
 				26A3C64C27A310030029020F /* TextViewNonEditableNonSelectableViewController.swift in Sources */,
 				2695796A27B2CF3D00F47C11 /* PageSheetCoverVerticalTransitionViewController.swift in Sources */,
+				26FA7DD82811335D00406B85 /* SimpleTabbarChild2.swift in Sources */,
 				2695796627B257CA00F47C11 /* FullScreenCrossDisolveTransitionViewController.swift in Sources */,
 				2695797027B2D56B00F47C11 /* PageSheetFlipHorizontalTransitionViewController.swift in Sources */,
 				26D816FD27A459E5005F8135 /* TableViewStyleGroupedViewController.swift in Sources */,
@@ -1749,11 +1836,14 @@
 				261F781E27AC4EDD00B12235 /* TableViewSectionHeaderView.swift in Sources */,
 				261F781A27ABA49700B12235 /* TableViewHeaderFooterView.swift in Sources */,
 				26F3843A27A85C1F005E2588 /* CellSelectionStyleItem.swift in Sources */,
+				26FA7DD62811335800406B85 /* SimpleTabbarChild1.swift in Sources */,
 				26D816F927A459E5005F8135 /* CellSeparatorInsetsViewController.swift in Sources */,
 				26D63230279C7E170029AE96 /* TextFieldKeyboardTypeViewController.swift in Sources */,
 				807FE376275E1D1D00E60A6D /* ScrollViewHorizontalViewController.swift in Sources */,
 				2696D015279B2D94004521F0 /* ButtonToggleViewController.swift in Sources */,
 				260E2DC6280D48D000C2CA16 /* MenuItem.swift in Sources */,
+				26FA7DCA2811322B00406B85 /* TabbarMenuItems.swift in Sources */,
+				26FA7DDA2811336000406B85 /* SimpleTabbarChild3.swift in Sources */,
 				26F3843C27A87979005E2588 /* CellAccessoryTypeItem.swift in Sources */,
 				264CD4B8281046BB009FFF29 /* BarsMenuViewController.swift in Sources */,
 				264CD50028105FCE009FFF29 /* BaseToolbarViewController.swift in Sources */,
@@ -1783,6 +1873,7 @@
 				26D8170427A459E5005F8135 /* CellSelectionStyleViewController.swift in Sources */,
 				8050A3FC275A5AFB00CE2BD4 /* MainMenuItems.swift in Sources */,
 				2696CFF2279B0316004521F0 /* LabelMenuItems.swift in Sources */,
+				26FA7DDF281139C300406B85 /* ManyItemsTabbarViewController.swift in Sources */,
 				267C89C027B57DBE0061FC2F /* CollectionViewMenuViewController.swift in Sources */,
 				264CD4DA281048B5009FFF29 /* NavigationBarPromptViewController.swift in Sources */,
 				26D816C127A4576A005F8135 /* TableViewMenuViewController.swift in Sources */,
@@ -1795,6 +1886,7 @@
 				267C89D427B5AB9F0061FC2F /* CollectionViewBadgeViewController.swift in Sources */,
 				26D631FA279C08230029AE96 /* ButtonImagePlacementViewController.swift in Sources */,
 				267C89D027B5AB9F0061FC2F /* CollectionViewPagingViewController.swift in Sources */,
+				26FA7DDC2811336400406B85 /* SimpleTabbarChild4.swift in Sources */,
 				261F780B27AB9D1E00B12235 /* CellStyleMenuItems.swift in Sources */,
 				26D816FC27A459E5005F8135 /* TableViewStyleInsetGroupedViewController.swift in Sources */,
 			);

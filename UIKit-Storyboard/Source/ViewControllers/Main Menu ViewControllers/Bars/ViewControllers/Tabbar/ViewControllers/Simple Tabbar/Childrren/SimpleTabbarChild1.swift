@@ -1,40 +1,52 @@
 //
-//  BaseNavigationBarViewController.swift
+//  SimpleTabbarChild1.swift
 //  UIKit-Storyboard
 //
-//  Created by Kamil Gomółka on 20/04/2022.
+//  Created by Kamil Gomółka on 21/04/2022.
 //
 
 import UIKit
 
-class BaseNavigationBarViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class SimpleTabbarChild1: UIViewController, UITableViewDataSource, UITableViewDelegate {
 	
 	// MARK: - Properties
 	
 	let cellNibName = "BaseNavigationBarCell"
 	
-	var tableView: UITableView {
-		fatalError("Please override 'var tableView' in subclass!")
-	}
+	@IBOutlet weak var tableView: UITableView!
 	
 	// MARK: - Lifecycle
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
+		print("SimpleTabbarChild1 - viewDidLoad")
+		
 		tableView.delegate = self
 		tableView.dataSource = self
 		tableView.register(UINib(nibName: cellNibName, bundle: nil), forCellReuseIdentifier: cellNibName)
 	}
 	
-	// MARK: - UITableViewDataSource
-	
-	func numberOfSections(in tableView: UITableView) -> Int {
-		return 1
+	deinit {
+		print("SimpleTabbarChild1 - deinit")
 	}
 	
+	override func viewWillAppear(_ animated: Bool) {
+		super.viewWillAppear(animated)
+		
+		print("SimpleTabbarChild1 - viewWillAppear")
+	}
+	
+	override func viewWillDisappear(_ animated: Bool) {
+		super.viewWillDisappear(animated)
+		
+		print("SimpleTabbarChild1 - viewWillDisappear")
+	}
+	
+	// MARK: - UITableViewDataSource
+	
 	func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-		return 40
+		return 30
 	}
 	
 	func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
