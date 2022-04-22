@@ -1461,7 +1461,8 @@
 		8050A3C3275A329D00CE2BD4 = {
 			isa = PBXGroup;
 			children = (
-				8050A3CE275A329D00CE2BD4 /* UIKit-Storyboard */,
+				8050A3E7275A379400CE2BD4 /* Source */,
+				8050A3E6275A36FE00CE2BD4 /* Supporting files */,
 				8050A3CD275A329D00CE2BD4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1472,15 +1473,6 @@
 				8050A3CC275A329D00CE2BD4 /* UIKit-Storyboard.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		8050A3CE275A329D00CE2BD4 /* UIKit-Storyboard */ = {
-			isa = PBXGroup;
-			children = (
-				8050A3E7275A379400CE2BD4 /* Source */,
-				8050A3E6275A36FE00CE2BD4 /* Supporting files */,
-			);
-			path = "UIKit-Storyboard";
 			sourceTree = "<group>";
 		};
 		8050A3E3275A369800CE2BD4 /* AppDelegate */ = {
@@ -2032,7 +2024,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9G3V3Z24HF;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "UIKit-Storyboard/Supporting files/Info.plist";
+				INFOPLIST_FILE = "Supporting files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = MainMenu;
@@ -2062,7 +2054,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9G3V3Z24HF;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "UIKit-Storyboard/Supporting files/Info.plist";
+				INFOPLIST_FILE = "Supporting files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = MainMenu;
