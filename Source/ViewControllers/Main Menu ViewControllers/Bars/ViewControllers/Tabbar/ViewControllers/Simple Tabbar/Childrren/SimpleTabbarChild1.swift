@@ -15,6 +15,20 @@ class SimpleTabbarChild1: UIViewController, UITableViewDataSource, UITableViewDe
 	
 	@IBOutlet weak var tableView: UITableView!
 	
+	// MARK: - Init
+	
+	override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
+		print("SimpleTabbarChild1 - init(nibName:bundle:)")
+		
+		super.init(nibName: nil, bundle: nil)
+	}
+	
+	required init?(coder: NSCoder) {
+		print("SimpleTabbarChild1 - init(coder:)")
+		
+		super.init(coder: coder)
+	}
+	
 	// MARK: - Lifecycle
 	
 	override func viewDidLoad() {

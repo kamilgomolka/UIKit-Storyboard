@@ -18,6 +18,10 @@ struct TabbarMenuItems {
 			MenuItem(
 				name: "Many Items",
 				storyboardName: "ManyItemsTabbar"
+			),
+			MenuItem(
+				name: "Badge",
+				storyboardName: "BadgeTabbar"
 			)
 		]
 	}

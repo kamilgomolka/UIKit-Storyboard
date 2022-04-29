@@ -9,6 +9,22 @@ import UIKit
 
 class SimpleTabbarChild3: UIViewController {
 	
+	// MARK: - Init
+	
+	override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
+		print("SimpleTabbarChild3 - init(nibName:bundle:)")
+		
+		super.init(nibName: nil, bundle: nil)
+	}
+	
+	required init?(coder: NSCoder) {
+		print("SimpleTabbarChild3 - init(coder:)")
+		
+		super.init(coder: coder)
+	}
+	
+	// MARK: - Lifecycle
+
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
@@ -31,4 +47,3 @@ class SimpleTabbarChild3: UIViewController {
 		print("SimpleTabbarChild3 - viewWillDisappear")
 	}
 }
-

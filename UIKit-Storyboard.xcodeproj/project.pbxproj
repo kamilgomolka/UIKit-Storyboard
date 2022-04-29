@@ -176,16 +176,15 @@
 		26F3843A27A85C1F005E2588 /* CellSelectionStyleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F3843927A85C1F005E2588 /* CellSelectionStyleItem.swift */; };
 		26F3843C27A87979005E2588 /* CellAccessoryTypeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F3843B27A87979005E2588 /* CellAccessoryTypeItem.swift */; };
 		26F3843E27A87C99005E2588 /* CellSeparatorInsetsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F3843D27A87C99005E2588 /* CellSeparatorInsetsItem.swift */; };
+		26F626F8281911CF00F384DD /* BadgeTabbar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F626F7281911CF00F384DD /* BadgeTabbar.storyboard */; };
 		26FA7DCA2811322B00406B85 /* TabbarMenuItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA7DC92811322B00406B85 /* TabbarMenuItems.swift */; };
 		26FA7DCC2811323400406B85 /* TabbarMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA7DCB2811323400406B85 /* TabbarMenuViewController.swift */; };
 		26FA7DCE2811323C00406B85 /* TabbarMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26FA7DCD2811323C00406B85 /* TabbarMenu.storyboard */; };
-		26FA7DD1281132CB00406B85 /* SimpleTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA7DD0281132CB00406B85 /* SimpleTabbarViewController.swift */; };
 		26FA7DD3281132FE00406B85 /* SimpleTabbar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26FA7DD2281132FE00406B85 /* SimpleTabbar.storyboard */; };
 		26FA7DD62811335800406B85 /* SimpleTabbarChild1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA7DD52811335800406B85 /* SimpleTabbarChild1.swift */; };
 		26FA7DD82811335D00406B85 /* SimpleTabbarChild2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA7DD72811335D00406B85 /* SimpleTabbarChild2.swift */; };
 		26FA7DDA2811336000406B85 /* SimpleTabbarChild3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA7DD92811336000406B85 /* SimpleTabbarChild3.swift */; };
 		26FA7DDC2811336400406B85 /* SimpleTabbarChild4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA7DDB2811336400406B85 /* SimpleTabbarChild4.swift */; };
-		26FA7DDF281139C300406B85 /* ManyItemsTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA7DDE281139C300406B85 /* ManyItemsTabbarViewController.swift */; };
 		26FA7DE1281139C900406B85 /* ManyItemsTabbar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26FA7DE0281139C900406B85 /* ManyItemsTabbar.storyboard */; };
 		8050A3D0275A329D00CE2BD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8050A3CF275A329D00CE2BD4 /* AppDelegate.swift */; };
 		8050A3D2275A329D00CE2BD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8050A3D1275A329D00CE2BD4 /* SceneDelegate.swift */; };
@@ -382,16 +381,15 @@
 		26F3843927A85C1F005E2588 /* CellSelectionStyleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellSelectionStyleItem.swift; sourceTree = "<group>"; };
 		26F3843B27A87979005E2588 /* CellAccessoryTypeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellAccessoryTypeItem.swift; sourceTree = "<group>"; };
 		26F3843D27A87C99005E2588 /* CellSeparatorInsetsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellSeparatorInsetsItem.swift; sourceTree = "<group>"; };
+		26F626F7281911CF00F384DD /* BadgeTabbar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BadgeTabbar.storyboard; sourceTree = "<group>"; };
 		26FA7DC92811322B00406B85 /* TabbarMenuItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarMenuItems.swift; sourceTree = "<group>"; };
 		26FA7DCB2811323400406B85 /* TabbarMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarMenuViewController.swift; sourceTree = "<group>"; };
 		26FA7DCD2811323C00406B85 /* TabbarMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabbarMenu.storyboard; sourceTree = "<group>"; };
-		26FA7DD0281132CB00406B85 /* SimpleTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTabbarViewController.swift; sourceTree = "<group>"; };
 		26FA7DD2281132FE00406B85 /* SimpleTabbar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SimpleTabbar.storyboard; sourceTree = "<group>"; };
 		26FA7DD52811335800406B85 /* SimpleTabbarChild1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTabbarChild1.swift; sourceTree = "<group>"; };
 		26FA7DD72811335D00406B85 /* SimpleTabbarChild2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTabbarChild2.swift; sourceTree = "<group>"; };
 		26FA7DD92811336000406B85 /* SimpleTabbarChild3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTabbarChild3.swift; sourceTree = "<group>"; };
 		26FA7DDB2811336400406B85 /* SimpleTabbarChild4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTabbarChild4.swift; sourceTree = "<group>"; };
-		26FA7DDE281139C300406B85 /* ManyItemsTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManyItemsTabbarViewController.swift; sourceTree = "<group>"; };
 		26FA7DE0281139C900406B85 /* ManyItemsTabbar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ManyItemsTabbar.storyboard; sourceTree = "<group>"; };
 		8050A3CC275A329D00CE2BD4 /* UIKit-Storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit-Storyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8050A3CF275A329D00CE2BD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -1400,6 +1398,14 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
+		26F626F62819117100F384DD /* Badge */ = {
+			isa = PBXGroup;
+			children = (
+				26F626F7281911CF00F384DD /* BadgeTabbar.storyboard */,
+			);
+			path = Badge;
+			sourceTree = "<group>";
+		};
 		26FA7DC62811320200406B85 /* Tabbar */ = {
 			isa = PBXGroup;
 			children = (
@@ -1422,6 +1428,7 @@
 		26FA7DC82811321200406B85 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				26F626F62819117100F384DD /* Badge */,
 				26FA7DDD2811399E00406B85 /* Many Items */,
 				26FA7DCF281132B000406B85 /* Simple Tabbar */,
 			);
@@ -1432,7 +1439,6 @@
 			isa = PBXGroup;
 			children = (
 				26FA7DD42811333E00406B85 /* Childrren */,
-				26FA7DD0281132CB00406B85 /* SimpleTabbarViewController.swift */,
 				26FA7DD2281132FE00406B85 /* SimpleTabbar.storyboard */,
 			);
 			path = "Simple Tabbar";
@@ -1452,7 +1458,6 @@
 		26FA7DDD2811399E00406B85 /* Many Items */ = {
 			isa = PBXGroup;
 			children = (
-				26FA7DDE281139C300406B85 /* ManyItemsTabbarViewController.swift */,
 				26FA7DE0281139C900406B85 /* ManyItemsTabbar.storyboard */,
 			);
 			path = "Many Items";
@@ -1720,6 +1725,7 @@
 				26D6322C279C7E170029AE96 /* TextFieldClearButton.storyboard in Resources */,
 				264CD4CA2810480E009FFF29 /* NavigationBarPrompt.storyboard in Resources */,
 				2696CFF4279B0324004521F0 /* LabelMenu.storyboard in Resources */,
+				26F626F8281911CF00F384DD /* BadgeTabbar.storyboard in Resources */,
 				2631537A2803341800939451 /* TextFieldAlignment.storyboard in Resources */,
 				2695795A27B24E5D00F47C11 /* Transitions.storyboard in Resources */,
 				264CD4CE28104825009FFF29 /* NavigationBarLargeTitle.storyboard in Resources */,
@@ -1774,7 +1780,6 @@
 				26D816FF27A459E5005F8135 /* TableViewStyleMenuItems.swift in Sources */,
 				26FA7DCC2811323400406B85 /* TabbarMenuViewController.swift in Sources */,
 				26D816F027A459E5005F8135 /* TableViewSelectionWithDeselectViewController.swift in Sources */,
-				26FA7DD1281132CB00406B85 /* SimpleTabbarViewController.swift in Sources */,
 				26D63223279C7E170029AE96 /* TextFieldMenuViewController.swift in Sources */,
 				26D6322D279C7E170029AE96 /* TextFieldClearButtonViewController.swift in Sources */,
 				264CD4F028104FDC009FFF29 /* ToolbarMenuItems.swift in Sources */,
@@ -1865,7 +1870,6 @@
 				26D8170427A459E5005F8135 /* CellSelectionStyleViewController.swift in Sources */,
 				8050A3FC275A5AFB00CE2BD4 /* MainMenuItems.swift in Sources */,
 				2696CFF2279B0316004521F0 /* LabelMenuItems.swift in Sources */,
-				26FA7DDF281139C300406B85 /* ManyItemsTabbarViewController.swift in Sources */,
 				267C89C027B57DBE0061FC2F /* CollectionViewMenuViewController.swift in Sources */,
 				264CD4DA281048B5009FFF29 /* NavigationBarPromptViewController.swift in Sources */,
 				26D816C127A4576A005F8135 /* TableViewMenuViewController.swift in Sources */,
