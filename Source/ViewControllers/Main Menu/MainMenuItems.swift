@@ -12,24 +12,16 @@ struct MainMenuItems {
 	static var all: [MenuItem] {
 		return [
 			MenuItem(
-				name: "All controls",
-				storyboardName: "AllControls"
+				name: "Bars",
+				storyboardName: "BarsMenu"
 			),
 			MenuItem(
-				name: "Label",
-				storyboardName: "LabelMenu"
+				name: "CollectionView",
+				storyboardName: "CollectionViewMenu"
 			),
 			MenuItem(
-				name: "Button",
-				storyboardName: "ButtonMenu"
-			),
-			MenuItem(
-				name: "TextField",
-				storyboardName: "TextFieldMenu"
-			),
-			MenuItem(
-				name: "TextView",
-				storyboardName: "TextViewMenu"
+				name: "Controls",
+				storyboardName: "ControlsMenu"
 			),
 			MenuItem(
 				name: "ScrollView",
@@ -40,17 +32,9 @@ struct MainMenuItems {
 				storyboardName: "TableView"
 			),
 			MenuItem(
-				name: "CollectionView",
-				storyboardName: "CollectionViewMenu"
-			),
-			MenuItem(
 				name: "ViewController transitions",
 				storyboardName: "Transitions"
 			),
-			MenuItem(
-				name: "Bars",
-				storyboardName: "BarsMenu"
-			)
 		]
 	}
 }

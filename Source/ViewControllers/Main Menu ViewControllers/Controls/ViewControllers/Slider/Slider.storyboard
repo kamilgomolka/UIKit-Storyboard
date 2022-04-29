@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dTy-1t-UcE">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Slider View Controller-->
+        <scene sceneID="qcD-1J-0eP">
+            <objects>
+                <viewController id="dTy-1t-UcE" customClass="SliderViewController" customModule="UIKit_Storyboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ljt-76-bX7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selected value:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zig-4O-gTS">
+                                <rect key="frame" x="24" y="60" width="366" height="16"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tCh-1J-DFp">
+                                <rect key="frame" x="24" y="80" width="366" height="30"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="b1r-aU-nH8">
+                                <rect key="frame" x="14" y="126" width="386" height="31"/>
+                                <connections>
+                                    <action selector="sliderValueChanged" destination="dTy-1t-UcE" eventType="valueChanged" id="igp-Cz-Ztk"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="OkB-7N-p0J"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Zig-4O-gTS" firstAttribute="leading" secondItem="OkB-7N-p0J" secondAttribute="leading" constant="24" id="96Y-bG-UdG"/>
+                            <constraint firstItem="tCh-1J-DFp" firstAttribute="top" secondItem="Zig-4O-gTS" secondAttribute="bottom" constant="4" id="9hS-tY-5eY"/>
+                            <constraint firstItem="Zig-4O-gTS" firstAttribute="top" secondItem="OkB-7N-p0J" secondAttribute="top" constant="16" id="Qmx-Dy-01E"/>
+                            <constraint firstItem="OkB-7N-p0J" firstAttribute="trailing" secondItem="tCh-1J-DFp" secondAttribute="trailing" constant="24" id="VMx-J6-zHV"/>
+                            <constraint firstItem="OkB-7N-p0J" firstAttribute="trailing" secondItem="b1r-aU-nH8" secondAttribute="trailing" constant="16" id="YK4-V1-Zk8"/>
+                            <constraint firstItem="b1r-aU-nH8" firstAttribute="top" secondItem="tCh-1J-DFp" secondAttribute="bottom" constant="16" id="fvZ-2T-9qL"/>
+                            <constraint firstItem="OkB-7N-p0J" firstAttribute="trailing" secondItem="Zig-4O-gTS" secondAttribute="trailing" constant="24" id="ltW-sU-RLa"/>
+                            <constraint firstItem="tCh-1J-DFp" firstAttribute="leading" secondItem="OkB-7N-p0J" secondAttribute="leading" constant="24" id="wpb-pm-279"/>
+                            <constraint firstItem="tCh-1J-DFp" firstAttribute="top" secondItem="Zig-4O-gTS" secondAttribute="bottom" constant="4" id="y4g-tU-ol1"/>
+                            <constraint firstItem="b1r-aU-nH8" firstAttribute="leading" secondItem="OkB-7N-p0J" secondAttribute="leading" constant="16" id="yMT-rt-uoM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="slider" destination="b1r-aU-nH8" id="1NT-8h-I11"/>
+                        <outlet property="sliderValueLabel" destination="tCh-1J-DFp" id="mqy-tk-Y86"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ula-Ry-igt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="77" y="89"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

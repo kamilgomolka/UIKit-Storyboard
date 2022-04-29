@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aXP-m4-2v3">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Page Control View Controller-->
+        <scene sceneID="QDF-pV-5y4">
+            <objects>
+                <viewController id="aXP-m4-2v3" customClass="PageControlViewController" customModule="UIKit_Storyboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jl4-BQ-TWT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="LZ9-pB-NCJ">
+                                <rect key="frame" x="8" y="52" width="398" height="169"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3 pages" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQY-BX-PYA">
+                                        <rect key="frame" x="173" y="0.0" width="52" height="17"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="Ken-TF-g4b">
+                                        <rect key="frame" x="141.5" y="25" width="115.5" height="26"/>
+                                        <color key="pageIndicatorTintColor" systemColor="systemGray3Color"/>
+                                        <color key="currentPageIndicatorTintColor" systemColor="systemGrayColor"/>
+                                        <connections>
+                                            <action selector="pageControlValueChanged:" destination="aXP-m4-2v3" eventType="valueChanged" id="2OC-Fc-Gt6"/>
+                                        </connections>
+                                    </pageControl>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100 pages" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JIT-BF-mqG">
+                                        <rect key="frame" x="165.5" y="59" width="67" height="17"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="100" translatesAutoresizingMaskIntoConstraints="NO" id="asn-8R-xKR">
+                                        <rect key="frame" x="98" y="84" width="202.5" height="26"/>
+                                        <color key="pageIndicatorTintColor" systemColor="systemGray3Color"/>
+                                        <color key="currentPageIndicatorTintColor" systemColor="systemGrayColor"/>
+                                        <connections>
+                                            <action selector="pageControlValueChanged:" destination="aXP-m4-2v3" eventType="valueChanged" id="X3w-dd-P46"/>
+                                        </connections>
+                                    </pageControl>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prominent" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gnk-Tb-Z1I">
+                                        <rect key="frame" x="166" y="118" width="66.5" height="17"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" defersCurrentPageDisplay="YES" numberOfPages="100" translatesAutoresizingMaskIntoConstraints="NO" id="MgB-hN-AOr">
+                                        <rect key="frame" x="98" y="143" width="202.5" height="26"/>
+                                        <connections>
+                                            <action selector="pageControlValueChanged:" destination="aXP-m4-2v3" eventType="valueChanged" id="vVK-BM-3oS"/>
+                                        </connections>
+                                    </pageControl>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3aV-je-SEp"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="LZ9-pB-NCJ" firstAttribute="leading" secondItem="3aV-je-SEp" secondAttribute="leading" constant="8" id="4HX-TO-jdw"/>
+                            <constraint firstItem="LZ9-pB-NCJ" firstAttribute="top" secondItem="3aV-je-SEp" secondAttribute="top" constant="8" id="4hz-pV-cVR"/>
+                            <constraint firstItem="3aV-je-SEp" firstAttribute="trailing" secondItem="LZ9-pB-NCJ" secondAttribute="trailing" constant="8" id="71B-bN-H0G"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="prominentPageControl" destination="MgB-hN-AOr" id="6GL-W5-faK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xSa-Cy-oFZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="84" y="94"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

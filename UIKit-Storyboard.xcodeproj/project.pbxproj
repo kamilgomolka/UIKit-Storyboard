@@ -62,8 +62,21 @@
 		264CD512281095FA009FFF29 /* ToolbarSystemItems.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264CD511281095FA009FFF29 /* ToolbarSystemItems.storyboard */; };
 		2658055127AEE408002255F7 /* ButtonClicksCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2658055027AEE408002255F7 /* ButtonClicksCounter.swift */; };
 		2658055427AFB705002255F7 /* BaseTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2658055327AFB705002255F7 /* BaseTextFieldViewController.swift */; };
-		267400B727836A5C00BCA6D3 /* AllControls.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267400B627836A5C00BCA6D3 /* AllControls.storyboard */; };
-		267400B927836A7200BCA6D3 /* AllControlsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267400B827836A7200BCA6D3 /* AllControlsViewController.swift */; };
+		266EF029281C32A3000E7742 /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266EF028281C32A3000E7742 /* SwitchViewController.swift */; };
+		266EF02B281C32AA000E7742 /* Switch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 266EF02A281C32AA000E7742 /* Switch.storyboard */; };
+		266EF02E281C374B000E7742 /* PageControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266EF02D281C374B000E7742 /* PageControlViewController.swift */; };
+		266EF030281C3750000E7742 /* PageControl.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 266EF02F281C3750000E7742 /* PageControl.storyboard */; };
+		266EF035281C3765000E7742 /* ProgressView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 266EF034281C3765000E7742 /* ProgressView.storyboard */; };
+		266EF03A281C3778000E7742 /* ActivityIndicator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 266EF039281C3778000E7742 /* ActivityIndicator.storyboard */; };
+		266EF03D281C3789000E7742 /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266EF03C281C3789000E7742 /* SliderViewController.swift */; };
+		266EF03F281C378E000E7742 /* Slider.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 266EF03E281C378E000E7742 /* Slider.storyboard */; };
+		266EF042281C379B000E7742 /* StepperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266EF041281C379B000E7742 /* StepperViewController.swift */; };
+		266EF044281C37A1000E7742 /* Stepper.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 266EF043281C37A1000E7742 /* Stepper.storyboard */; };
+		266EF047281C37B0000E7742 /* SegmentedControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266EF046281C37B0000E7742 /* SegmentedControlViewController.swift */; };
+		266EF049281C37BC000E7742 /* SegmentedControl.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 266EF048281C37BC000E7742 /* SegmentedControl.storyboard */; };
+		266EF06B281CABCD000E7742 /* ControlsMenuItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266EF06A281CABCD000E7742 /* ControlsMenuItems.swift */; };
+		266EF06D281CABD4000E7742 /* ControlsMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266EF06C281CABD4000E7742 /* ControlsMenuViewController.swift */; };
+		266EF06F281CABDD000E7742 /* ControlsMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 266EF06E281CABDD000E7742 /* ControlsMenu.storyboard */; };
 		267C89BC27B57DBE0061FC2F /* CollectionViewGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C89B627B57DBE0061FC2F /* CollectionViewGridViewController.swift */; };
 		267C89BD27B57DBE0061FC2F /* CollectionViewGrid.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267C89B727B57DBE0061FC2F /* CollectionViewGrid.storyboard */; };
 		267C89BE27B57DBE0061FC2F /* CollectionViewMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267C89B927B57DBE0061FC2F /* CollectionViewMenu.storyboard */; };
@@ -267,8 +280,21 @@
 		264CD511281095FA009FFF29 /* ToolbarSystemItems.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ToolbarSystemItems.storyboard; sourceTree = "<group>"; };
 		2658055027AEE408002255F7 /* ButtonClicksCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonClicksCounter.swift; sourceTree = "<group>"; };
 		2658055327AFB705002255F7 /* BaseTextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTextFieldViewController.swift; sourceTree = "<group>"; };
-		267400B627836A5C00BCA6D3 /* AllControls.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AllControls.storyboard; sourceTree = "<group>"; };
-		267400B827836A7200BCA6D3 /* AllControlsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllControlsViewController.swift; sourceTree = "<group>"; };
+		266EF028281C32A3000E7742 /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
+		266EF02A281C32AA000E7742 /* Switch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Switch.storyboard; sourceTree = "<group>"; };
+		266EF02D281C374B000E7742 /* PageControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlViewController.swift; sourceTree = "<group>"; };
+		266EF02F281C3750000E7742 /* PageControl.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PageControl.storyboard; sourceTree = "<group>"; };
+		266EF034281C3765000E7742 /* ProgressView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProgressView.storyboard; sourceTree = "<group>"; };
+		266EF039281C3778000E7742 /* ActivityIndicator.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ActivityIndicator.storyboard; sourceTree = "<group>"; };
+		266EF03C281C3789000E7742 /* SliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
+		266EF03E281C378E000E7742 /* Slider.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Slider.storyboard; sourceTree = "<group>"; };
+		266EF041281C379B000E7742 /* StepperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperViewController.swift; sourceTree = "<group>"; };
+		266EF043281C37A1000E7742 /* Stepper.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Stepper.storyboard; sourceTree = "<group>"; };
+		266EF046281C37B0000E7742 /* SegmentedControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlViewController.swift; sourceTree = "<group>"; };
+		266EF048281C37BC000E7742 /* SegmentedControl.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SegmentedControl.storyboard; sourceTree = "<group>"; };
+		266EF06A281CABCD000E7742 /* ControlsMenuItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsMenuItems.swift; sourceTree = "<group>"; };
+		266EF06C281CABD4000E7742 /* ControlsMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsMenuViewController.swift; sourceTree = "<group>"; };
+		266EF06E281CABDD000E7742 /* ControlsMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ControlsMenu.storyboard; sourceTree = "<group>"; };
 		267C89B627B57DBE0061FC2F /* CollectionViewGridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewGridViewController.swift; sourceTree = "<group>"; };
 		267C89B727B57DBE0061FC2F /* CollectionViewGrid.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CollectionViewGrid.storyboard; sourceTree = "<group>"; };
 		267C89B927B57DBE0061FC2F /* CollectionViewMenu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CollectionViewMenu.storyboard; sourceTree = "<group>"; };
@@ -738,13 +764,102 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
-		267400B527836A4A00BCA6D3 /* AllElements */ = {
+		266EF027281C3295000E7742 /* Switch */ = {
 			isa = PBXGroup;
 			children = (
-				267400B627836A5C00BCA6D3 /* AllControls.storyboard */,
-				267400B827836A7200BCA6D3 /* AllControlsViewController.swift */,
+				266EF028281C32A3000E7742 /* SwitchViewController.swift */,
+				266EF02A281C32AA000E7742 /* Switch.storyboard */,
 			);
-			path = AllElements;
+			path = Switch;
+			sourceTree = "<group>";
+		};
+		266EF02C281C3741000E7742 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				266EF02D281C374B000E7742 /* PageControlViewController.swift */,
+				266EF02F281C3750000E7742 /* PageControl.storyboard */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
+		266EF031281C3759000E7742 /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				266EF034281C3765000E7742 /* ProgressView.storyboard */,
+			);
+			path = ProgressView;
+			sourceTree = "<group>";
+		};
+		266EF036281C376B000E7742 /* ActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				266EF039281C3778000E7742 /* ActivityIndicator.storyboard */,
+			);
+			path = ActivityIndicator;
+			sourceTree = "<group>";
+		};
+		266EF03B281C3781000E7742 /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				266EF03C281C3789000E7742 /* SliderViewController.swift */,
+				266EF03E281C378E000E7742 /* Slider.storyboard */,
+			);
+			path = Slider;
+			sourceTree = "<group>";
+		};
+		266EF040281C3794000E7742 /* Stepper */ = {
+			isa = PBXGroup;
+			children = (
+				266EF041281C379B000E7742 /* StepperViewController.swift */,
+				266EF043281C37A1000E7742 /* Stepper.storyboard */,
+			);
+			path = Stepper;
+			sourceTree = "<group>";
+		};
+		266EF045281C37A8000E7742 /* SegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				266EF046281C37B0000E7742 /* SegmentedControlViewController.swift */,
+				266EF048281C37BC000E7742 /* SegmentedControl.storyboard */,
+			);
+			path = SegmentedControl;
+			sourceTree = "<group>";
+		};
+		266EF067281CABB0000E7742 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				266EF068281CABB4000E7742 /* Menu */,
+				266EF069281CABB6000E7742 /* ViewControllers */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		266EF068281CABB4000E7742 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				266EF06A281CABCD000E7742 /* ControlsMenuItems.swift */,
+				266EF06C281CABD4000E7742 /* ControlsMenuViewController.swift */,
+				266EF06E281CABDD000E7742 /* ControlsMenu.storyboard */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		266EF069281CABB6000E7742 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				266EF036281C376B000E7742 /* ActivityIndicator */,
+				2696D002279B20E0004521F0 /* Button */,
+				2696CFEB279B0174004521F0 /* Label */,
+				266EF02C281C3741000E7742 /* PageControl */,
+				266EF031281C3759000E7742 /* ProgressView */,
+				266EF045281C37A8000E7742 /* SegmentedControl */,
+				266EF03B281C3781000E7742 /* Slider */,
+				266EF040281C3794000E7742 /* Stepper */,
+				266EF027281C3295000E7742 /* Switch */,
+				26D63203279C72D40029AE96 /* TextField */,
+				26A3C63727A310030029020F /* TextView */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		267C89B327B57DBE0061FC2F /* CollectionView */ = {
@@ -1132,14 +1247,10 @@
 			isa = PBXGroup;
 			children = (
 				264CD4AE281045FE009FFF29 /* Bars */,
-				267400B527836A4A00BCA6D3 /* AllElements */,
-				2696D002279B20E0004521F0 /* Button */,
 				267C89B327B57DBE0061FC2F /* CollectionView */,
-				2696CFEB279B0174004521F0 /* Label */,
+				266EF067281CABB0000E7742 /* Controls */,
 				807FE359275E0A8D00E60A6D /* ScrollView */,
 				26D816BC27A45745005F8135 /* TableView */,
-				26D63203279C72D40029AE96 /* TextField */,
-				26A3C63727A310030029020F /* TextView */,
 				2695795827B24E5200F47C11 /* Transitions */,
 			);
 			path = "Main Menu ViewControllers";
@@ -1686,11 +1797,13 @@
 				26D63201279C12AC0029AE96 /* ButtonMenu.storyboard in Resources */,
 				26D6322E279C7E170029AE96 /* TextFieldDisabled.storyboard in Resources */,
 				26A3C65127A310030029020F /* TextViewNonEditable.storyboard in Resources */,
+				266EF02B281C32AA000E7742 /* Switch.storyboard in Resources */,
 				264CD50C281093DD009FFF29 /* ToolbarItemStyle.storyboard in Resources */,
 				261F782427AC72B500B12235 /* personData.json in Resources */,
 				26A3C64B27A310030029020F /* TextViewNonEditableNonSelectable.storyboard in Resources */,
 				264CD4EA28104952009FFF29 /* BaseNavigationBarCell.xib in Resources */,
 				2696D024279B3037004521F0 /* OtherButtons.storyboard in Resources */,
+				266EF030281C3750000E7742 /* PageControl.storyboard in Resources */,
 				807FE374275E1D1D00E60A6D /* ScrollViewWithNoContentLayoutGuides.storyboard in Resources */,
 				26A3C65527A310030029020F /* TextViewMenu.storyboard in Resources */,
 				8050A3DC275A329E00CE2BD4 /* LaunchScreen.storyboard in Resources */,
@@ -1714,6 +1827,7 @@
 				26D63227279C7E170029AE96 /* TextFieldReturnKeyType.storyboard in Resources */,
 				26D631FB279C08230029AE96 /* ButtonImagePlacement.storyboard in Resources */,
 				807FE377275E1D1D00E60A6D /* ScrollViewHorizontal.storyboard in Resources */,
+				266EF035281C3765000E7742 /* ProgressView.storyboard in Resources */,
 				26FA7DD3281132FE00406B85 /* SimpleTabbar.storyboard in Resources */,
 				264CD4D72810487A009FFF29 /* NavigationBarButtons.storyboard in Resources */,
 				2696CFED279B0183004521F0 /* LabelTextStyles.storyboard in Resources */,
@@ -1722,21 +1836,25 @@
 				8050A3D9275A329E00CE2BD4 /* Assets.xcassets in Resources */,
 				267C89BE27B57DBE0061FC2F /* CollectionViewMenu.storyboard in Resources */,
 				264CD4FD28105574009FFF29 /* SimpleToolbar.storyboard in Resources */,
+				266EF049281C37BC000E7742 /* SegmentedControl.storyboard in Resources */,
 				26D6322C279C7E170029AE96 /* TextFieldClearButton.storyboard in Resources */,
 				264CD4CA2810480E009FFF29 /* NavigationBarPrompt.storyboard in Resources */,
 				2696CFF4279B0324004521F0 /* LabelMenu.storyboard in Resources */,
+				266EF03A281C3778000E7742 /* ActivityIndicator.storyboard in Resources */,
 				26F626F8281911CF00F384DD /* BadgeTabbar.storyboard in Resources */,
 				2631537A2803341800939451 /* TextFieldAlignment.storyboard in Resources */,
 				2695795A27B24E5D00F47C11 /* Transitions.storyboard in Resources */,
+				266EF03F281C378E000E7742 /* Slider.storyboard in Resources */,
+				266EF044281C37A1000E7742 /* Stepper.storyboard in Resources */,
 				264CD4CE28104825009FFF29 /* NavigationBarLargeTitle.storyboard in Resources */,
 				26D63236279C81130029AE96 /* TextFieldPassword.storyboard in Resources */,
-				267400B727836A5C00BCA6D3 /* AllControls.storyboard in Resources */,
 				26D63231279C7E170029AE96 /* TextFieldKeyboardType.storyboard in Resources */,
 				264CD4CC28104817009FFF29 /* NavigationBarSmallTitle.storyboard in Resources */,
 				26D63224279C7E170029AE96 /* TextFieldMenu.storyboard in Resources */,
 				26F3843627A84D94005E2588 /* SimpleTableViewCell.xib in Resources */,
 				2696CFFB279B05A1004521F0 /* LabelFontWeights.storyboard in Resources */,
 				267C89C627B57DFF0061FC2F /* BigNumberCollectionViewCell.xib in Resources */,
+				266EF06F281CABDD000E7742 /* ControlsMenu.storyboard in Resources */,
 				264CD4F428104FF6009FFF29 /* ToolbarMenu.storyboard in Resources */,
 				2696D01A279B2F10004521F0 /* ButtonCornerStyle.storyboard in Resources */,
 				264CD4D02810483B009FFF29 /* NavigationBarGroupedSmallTitle.storyboard in Resources */,
@@ -1771,6 +1889,7 @@
 				26859E5A280818DB00E233BB /* MockDataLoader.swift in Sources */,
 				2695796827B257D000F47C11 /* FullScreenPartialCurlTransitionViewController.swift in Sources */,
 				261F782C27AC73AE00B12235 /* TableViewSectionIndexViewModel.swift in Sources */,
+				266EF03D281C3789000E7742 /* SliderViewController.swift in Sources */,
 				2695796227B2563A00F47C11 /* FullScreenCoverVerticalTransitionViewController.swift in Sources */,
 				26D816FE27A459E5005F8135 /* TableViewStylePlainViewController.swift in Sources */,
 				26D816F327A459E5005F8135 /* TableViewSelectionMenuItems.swift in Sources */,
@@ -1780,6 +1899,7 @@
 				26D816FF27A459E5005F8135 /* TableViewStyleMenuItems.swift in Sources */,
 				26FA7DCC2811323400406B85 /* TabbarMenuViewController.swift in Sources */,
 				26D816F027A459E5005F8135 /* TableViewSelectionWithDeselectViewController.swift in Sources */,
+				266EF029281C32A3000E7742 /* SwitchViewController.swift in Sources */,
 				26D63223279C7E170029AE96 /* TextFieldMenuViewController.swift in Sources */,
 				26D6322D279C7E170029AE96 /* TextFieldClearButtonViewController.swift in Sources */,
 				264CD4F028104FDC009FFF29 /* ToolbarMenuItems.swift in Sources */,
@@ -1839,12 +1959,14 @@
 				807FE376275E1D1D00E60A6D /* ScrollViewHorizontalViewController.swift in Sources */,
 				2696D015279B2D94004521F0 /* ButtonToggleViewController.swift in Sources */,
 				260E2DC6280D48D000C2CA16 /* MenuItem.swift in Sources */,
+				266EF06D281CABD4000E7742 /* ControlsMenuViewController.swift in Sources */,
 				26FA7DCA2811322B00406B85 /* TabbarMenuItems.swift in Sources */,
 				26FA7DDA2811336000406B85 /* SimpleTabbarChild3.swift in Sources */,
 				26F3843C27A87979005E2588 /* CellAccessoryTypeItem.swift in Sources */,
 				264CD4B8281046BB009FFF29 /* BarsMenuViewController.swift in Sources */,
 				264CD50028105FCE009FFF29 /* BaseToolbarViewController.swift in Sources */,
 				2695796C27B2CF4300F47C11 /* PageSheetCrossDisolveTransitionViewController.swift in Sources */,
+				266EF06B281CABCD000E7742 /* ControlsMenuItems.swift in Sources */,
 				807FE379275E1D1D00E60A6D /* ScrollViewWithKeyboardViewController.swift in Sources */,
 				2696D022279B3031004521F0 /* OtherButtonsViewController.swift in Sources */,
 				264CD4DE281048CE009FFF29 /* NavigationBarCustomTitleViewController.swift in Sources */,
@@ -1852,6 +1974,7 @@
 				261F782127AC700000B12235 /* TableViewSectionIndexViewController.swift in Sources */,
 				2696CFF0279B030F004521F0 /* LabelMenuViewController.swift in Sources */,
 				2696D001279B0D15004521F0 /* LabelTextStylesViewController.swift in Sources */,
+				266EF042281C379B000E7742 /* StepperViewController.swift in Sources */,
 				26A3C65227A310030029020F /* TextViewNonEditableViewController.swift in Sources */,
 				8050A3FA275A5A0100CE2BD4 /* UIViewControllerExtensions.swift in Sources */,
 				2695796427B257C500F47C11 /* FullScreenFlipHorizontalTransitionViewController.swift in Sources */,
@@ -1869,8 +1992,10 @@
 				263153792803341800939451 /* TextFieldAlignmentViewController.swift in Sources */,
 				26D8170427A459E5005F8135 /* CellSelectionStyleViewController.swift in Sources */,
 				8050A3FC275A5AFB00CE2BD4 /* MainMenuItems.swift in Sources */,
+				266EF047281C37B0000E7742 /* SegmentedControlViewController.swift in Sources */,
 				2696CFF2279B0316004521F0 /* LabelMenuItems.swift in Sources */,
 				267C89C027B57DBE0061FC2F /* CollectionViewMenuViewController.swift in Sources */,
+				266EF02E281C374B000E7742 /* PageControlViewController.swift in Sources */,
 				264CD4DA281048B5009FFF29 /* NavigationBarPromptViewController.swift in Sources */,
 				26D816C127A4576A005F8135 /* TableViewMenuViewController.swift in Sources */,
 				264CD4E62810490F009FFF29 /* NavigationBarSmallTitleViewController.swift in Sources */,
@@ -1878,7 +2003,6 @@
 				807FE360275E0ADF00E60A6D /* ScrollViewMenuItems.swift in Sources */,
 				26F3843E27A87C99005E2588 /* CellSeparatorInsetsItem.swift in Sources */,
 				261F781127AB9EB900B12235 /* CellStyleBaseViewController.swift in Sources */,
-				267400B927836A7200BCA6D3 /* AllControlsViewController.swift in Sources */,
 				267C89D427B5AB9F0061FC2F /* CollectionViewBadgeViewController.swift in Sources */,
 				26D631FA279C08230029AE96 /* ButtonImagePlacementViewController.swift in Sources */,
 				267C89D027B5AB9F0061FC2F /* CollectionViewPagingViewController.swift in Sources */,
