@@ -401,6 +401,7 @@
 		26D816E327A459E5005F8135 /* TableViewStyleMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewStyleMenuViewController.swift; sourceTree = "<group>"; };
 		26D816E727A459E5005F8135 /* CellAccessoryTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellAccessoryTypeViewController.swift; sourceTree = "<group>"; };
 		26D816EB27A459E5005F8135 /* CellSelectionStyleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellSelectionStyleViewController.swift; sourceTree = "<group>"; };
+		26E43F1E281EEF1500C1616C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		26F3843327A84B1C005E2588 /* SimpleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewController.swift; sourceTree = "<group>"; };
 		26F3843527A84D94005E2588 /* SimpleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleTableViewCell.xib; sourceTree = "<group>"; };
 		26F3843727A85C0B005E2588 /* CellStyleSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellStyleSection.swift; sourceTree = "<group>"; };
@@ -1579,6 +1580,7 @@
 			children = (
 				8050A3E7275A379400CE2BD4 /* Source */,
 				8050A3E6275A36FE00CE2BD4 /* Supporting files */,
+				26E43F1E281EEF1500C1616C /* README.md */,
 				8050A3CD275A329D00CE2BD4 /* Products */,
 			);
 			sourceTree = "<group>";
