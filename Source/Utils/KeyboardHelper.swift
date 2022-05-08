@@ -115,4 +115,3 @@ extension KeyboardHelper: UIGestureRecognizerDelegate {
 		}
 	}
 }
-

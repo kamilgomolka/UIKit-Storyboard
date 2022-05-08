@@ -24,8 +24,7 @@ struct MenuItem {
 		self.clickHandler = clickHandler
 	}
 	
-	init(name: String,
-				storyboardName: String, viewControllerIdentifier: String? = nil) {
+	init(name: String, storyboardName: String, viewControllerIdentifier: String? = nil) {
 		self.name = name
 		
 		clickHandler = { parentViewController in
@@ -40,30 +39,4 @@ struct MenuItem {
 			parentViewController.navigationController?.pushViewController(viewController, animated: true)
 		}
 	}
-	
-//	init(name: String, nestedItems: [MenuItem]) {
-//		self.name = name
-//
-//		clickHandler = { parentViewController in
-//			guard let viewController = UIViewController.newInstance(storyboardName: "Menu") as? MenuViewController else {
-//				return
-//			}
-//
-//			viewController.title = name
-//			viewController.items = nestedItems
-//			parentViewController.navigationController?.pushViewController(viewController, animated: true)
-//		}
-//	}
-//
-//	init(name: String, viewControllerProvider: @escaping ViewControllerProviderClosure) {
-//		self.name = name
-//
-//		clickHandler = { parentViewController in
-//			guard let viewController = viewControllerProvider() else {
-//				return
-//			}
-//			viewController.title = name
-//			parentViewController.navigationController?.pushViewController(viewController, animated: true)
-//		}
-//	}
 }
