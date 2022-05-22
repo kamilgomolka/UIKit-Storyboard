@@ -24,6 +24,10 @@ struct MainMenuItems {
 				storyboardName: "ControlsMenu"
 			),
 			MenuItem(
+				name: "Pickers",
+				storyboardName: "PickersMenu"
+			),
+			MenuItem(
 				name: "ScrollView",
 				storyboardName: "ScrollViewMenu"
 			),

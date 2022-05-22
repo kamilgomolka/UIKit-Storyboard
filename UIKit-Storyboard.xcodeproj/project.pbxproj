@@ -26,6 +26,15 @@
 		261F782C27AC73AE00B12235 /* TableViewSectionIndexViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261F782B27AC73AE00B12235 /* TableViewSectionIndexViewModel.swift */; };
 		263153792803341800939451 /* TextFieldAlignmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263153772803341800939451 /* TextFieldAlignmentViewController.swift */; };
 		2631537A2803341800939451 /* TextFieldAlignment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 263153782803341800939451 /* TextFieldAlignment.storyboard */; };
+		264C7BC8283A9F9C00E22782 /* PickersMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264C7BC7283A9F9C00E22782 /* PickersMenuItem.swift */; };
+		264C7BCA283A9FA800E22782 /* PickersMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264C7BC9283A9FA800E22782 /* PickersMenuViewController.swift */; };
+		264C7BCC283A9FBF00E22782 /* PickersMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264C7BCB283A9FBF00E22782 /* PickersMenu.storyboard */; };
+		264C7BD3283AA15F00E22782 /* DatePicker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264C7BD0283AA15F00E22782 /* DatePicker.storyboard */; };
+		264C7BD4283AA15F00E22782 /* DatePickerMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264C7BD1283AA15F00E22782 /* DatePickerMenuItem.swift */; };
+		264C7BD5283AA15F00E22782 /* DatePickerMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264C7BD2283AA15F00E22782 /* DatePickerMenuViewController.swift */; };
+		264C7BDA283AA16600E22782 /* PickerViewMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264C7BD7283AA16600E22782 /* PickerViewMenu.storyboard */; };
+		264C7BDB283AA16600E22782 /* PickerViewMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264C7BD8283AA16600E22782 /* PickerViewMenuItem.swift */; };
+		264C7BDC283AA16600E22782 /* PickerViewMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264C7BD9283AA16600E22782 /* PickerViewMenuViewController.swift */; };
 		264CD4AD28101195009FFF29 /* TransitionsMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264CD4AC28101195009FFF29 /* TransitionsMenuItem.swift */; };
 		264CD4B228104688009FFF29 /* BarsMenuItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264CD4B128104688009FFF29 /* BarsMenuItems.swift */; };
 		264CD4B42810469C009FFF29 /* BarsMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264CD4B32810469C009FFF29 /* BarsMenu.storyboard */; };
@@ -244,6 +253,15 @@
 		261F782B27AC73AE00B12235 /* TableViewSectionIndexViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSectionIndexViewModel.swift; sourceTree = "<group>"; };
 		263153772803341800939451 /* TextFieldAlignmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldAlignmentViewController.swift; sourceTree = "<group>"; };
 		263153782803341800939451 /* TextFieldAlignment.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TextFieldAlignment.storyboard; sourceTree = "<group>"; };
+		264C7BC7283A9F9C00E22782 /* PickersMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickersMenuItem.swift; sourceTree = "<group>"; };
+		264C7BC9283A9FA800E22782 /* PickersMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickersMenuViewController.swift; sourceTree = "<group>"; };
+		264C7BCB283A9FBF00E22782 /* PickersMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PickersMenu.storyboard; sourceTree = "<group>"; };
+		264C7BD0283AA15F00E22782 /* DatePicker.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DatePicker.storyboard; sourceTree = "<group>"; };
+		264C7BD1283AA15F00E22782 /* DatePickerMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerMenuItem.swift; sourceTree = "<group>"; };
+		264C7BD2283AA15F00E22782 /* DatePickerMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerMenuViewController.swift; sourceTree = "<group>"; };
+		264C7BD7283AA16600E22782 /* PickerViewMenu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PickerViewMenu.storyboard; sourceTree = "<group>"; };
+		264C7BD8283AA16600E22782 /* PickerViewMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewMenuItem.swift; sourceTree = "<group>"; };
+		264C7BD9283AA16600E22782 /* PickerViewMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewMenuViewController.swift; sourceTree = "<group>"; };
 		264CD4AC28101195009FFF29 /* TransitionsMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionsMenuItem.swift; sourceTree = "<group>"; };
 		264CD4B128104688009FFF29 /* BarsMenuItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarsMenuItems.swift; sourceTree = "<group>"; };
 		264CD4B32810469C009FFF29 /* BarsMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BarsMenu.storyboard; sourceTree = "<group>"; };
@@ -538,6 +556,78 @@
 				263153782803341800939451 /* TextFieldAlignment.storyboard */,
 			);
 			path = Alignment;
+			sourceTree = "<group>";
+		};
+		264C7BC4283A9F7200E22782 /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				264C7BC5283A9F8500E22782 /* Menu */,
+				264C7BC6283A9F8700E22782 /* ViewControllers */,
+			);
+			path = Pickers;
+			sourceTree = "<group>";
+		};
+		264C7BC5283A9F8500E22782 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				264C7BC7283A9F9C00E22782 /* PickersMenuItem.swift */,
+				264C7BC9283A9FA800E22782 /* PickersMenuViewController.swift */,
+				264C7BCB283A9FBF00E22782 /* PickersMenu.storyboard */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		264C7BC6283A9F8700E22782 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				264C7BCD283AA06F00E22782 /* DatePicker */,
+				264C7BCE283AA07200E22782 /* PickerView */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		264C7BCD283AA06F00E22782 /* DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				264C7BCF283AA15F00E22782 /* Menu */,
+				264C7BD0283AA15F00E22782 /* DatePicker.storyboard */,
+			);
+			path = DatePicker;
+			sourceTree = "<group>";
+		};
+		264C7BCE283AA07200E22782 /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				264C7BD6283AA16600E22782 /* Menu */,
+				264C7BDD283AA1B600E22782 /* ViewControllers */,
+			);
+			path = PickerView;
+			sourceTree = "<group>";
+		};
+		264C7BCF283AA15F00E22782 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				264C7BD1283AA15F00E22782 /* DatePickerMenuItem.swift */,
+				264C7BD2283AA15F00E22782 /* DatePickerMenuViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		264C7BD6283AA16600E22782 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				264C7BD7283AA16600E22782 /* PickerViewMenu.storyboard */,
+				264C7BD8283AA16600E22782 /* PickerViewMenuItem.swift */,
+				264C7BD9283AA16600E22782 /* PickerViewMenuViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		264C7BDD283AA1B600E22782 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		264CD4AE281045FE009FFF29 /* Bars */ = {
@@ -1250,6 +1340,7 @@
 				264CD4AE281045FE009FFF29 /* Bars */,
 				267C89B327B57DBE0061FC2F /* CollectionView */,
 				266EF067281CABB0000E7742 /* Controls */,
+				264C7BC4283A9F7200E22782 /* Pickers */,
 				807FE359275E0A8D00E60A6D /* ScrollView */,
 				26D816BC27A45745005F8135 /* TableView */,
 				2695795827B24E5200F47C11 /* Transitions */,
@@ -1831,6 +1922,7 @@
 				807FE377275E1D1D00E60A6D /* ScrollViewHorizontal.storyboard in Resources */,
 				266EF035281C3765000E7742 /* ProgressView.storyboard in Resources */,
 				26FA7DD3281132FE00406B85 /* SimpleTabbar.storyboard in Resources */,
+				264C7BD3283AA15F00E22782 /* DatePicker.storyboard in Resources */,
 				264CD4D72810487A009FFF29 /* NavigationBarButtons.storyboard in Resources */,
 				2696CFED279B0183004521F0 /* LabelTextStyles.storyboard in Resources */,
 				26A3C64D27A310030029020F /* TextViewEditable.storyboard in Resources */,
@@ -1847,10 +1939,12 @@
 				2631537A2803341800939451 /* TextFieldAlignment.storyboard in Resources */,
 				2695795A27B24E5D00F47C11 /* Transitions.storyboard in Resources */,
 				266EF03F281C378E000E7742 /* Slider.storyboard in Resources */,
+				264C7BDA283AA16600E22782 /* PickerViewMenu.storyboard in Resources */,
 				266EF044281C37A1000E7742 /* Stepper.storyboard in Resources */,
 				264CD4CE28104825009FFF29 /* NavigationBarLargeTitle.storyboard in Resources */,
 				26D63236279C81130029AE96 /* TextFieldPassword.storyboard in Resources */,
 				26D63231279C7E170029AE96 /* TextFieldKeyboardType.storyboard in Resources */,
+				264C7BCC283A9FBF00E22782 /* PickersMenu.storyboard in Resources */,
 				264CD4CC28104817009FFF29 /* NavigationBarSmallTitle.storyboard in Resources */,
 				26D63224279C7E170029AE96 /* TextFieldMenu.storyboard in Resources */,
 				26F3843627A84D94005E2588 /* SimpleTableViewCell.xib in Resources */,
@@ -1899,6 +1993,7 @@
 				26A3C65627A310030029020F /* TextViewMenuViewController.swift in Sources */,
 				26D6322A279C7E170029AE96 /* TextFieldBorderStyleViewController.swift in Sources */,
 				26D816FF27A459E5005F8135 /* TableViewStyleMenuItems.swift in Sources */,
+				264C7BD4283AA15F00E22782 /* DatePickerMenuItem.swift in Sources */,
 				26FA7DCC2811323400406B85 /* TabbarMenuViewController.swift in Sources */,
 				26D816F027A459E5005F8135 /* TableViewSelectionWithDeselectViewController.swift in Sources */,
 				266EF029281C32A3000E7742 /* SwitchViewController.swift in Sources */,
@@ -1917,13 +2012,16 @@
 				264CD4E428104901009FFF29 /* NavigationBarLargeTitleViewController.swift in Sources */,
 				2695796027B24E9000F47C11 /* TransitionsMenuItems.swift in Sources */,
 				26D63225279C7E170029AE96 /* TextFieldMenuItems.swift in Sources */,
+				264C7BC8283A9F9C00E22782 /* PickersMenuItem.swift in Sources */,
 				807FE375275E1D1D00E60A6D /* ScrollViewWithNoContentLayoutGuidesViewController.swift in Sources */,
 				8050A3D0275A329D00CE2BD4 /* AppDelegate.swift in Sources */,
 				26D816C327A45772005F8135 /* TableViewMenuItems.swift in Sources */,
 				26D816EF27A459E5005F8135 /* TableViewSelectionSingleViewController.swift in Sources */,
+				264C7BDC283AA16600E22782 /* PickerViewMenuViewController.swift in Sources */,
 				267C89C427B57DF50061FC2F /* BigNumberCollectionViewCell.swift in Sources */,
 				26D816F127A459E5005F8135 /* TableViewSelectionMultipleViewController.swift in Sources */,
 				2695795C27B24E6900F47C11 /* TransitionsMenuViewController.swift in Sources */,
+				264C7BD5283AA15F00E22782 /* DatePickerMenuViewController.swift in Sources */,
 				261F780E27AB9D1E00B12235 /* CellStyleDefaultFontViewController.swift in Sources */,
 				264CD4E828104942009FFF29 /* BaseNavigationBarViewController.swift in Sources */,
 				807FE373275E1D1D00E60A6D /* ScrollViewTwoDirectionsViewController.swift in Sources */,
@@ -1991,6 +2089,8 @@
 				261F780A27AB9D1E00B12235 /* CellStyleMenuViewController.swift in Sources */,
 				26D63226279C7E170029AE96 /* TextFieldReturnKeyTypeViewController.swift in Sources */,
 				807FE35C275E0AA100E60A6D /* ScrollViewMenuViewController.swift in Sources */,
+				264C7BCA283A9FA800E22782 /* PickersMenuViewController.swift in Sources */,
+				264C7BDB283AA16600E22782 /* PickerViewMenuItem.swift in Sources */,
 				263153792803341800939451 /* TextFieldAlignmentViewController.swift in Sources */,
 				26D8170427A459E5005F8135 /* CellSelectionStyleViewController.swift in Sources */,
 				8050A3FC275A5AFB00CE2BD4 /* MainMenuItems.swift in Sources */,

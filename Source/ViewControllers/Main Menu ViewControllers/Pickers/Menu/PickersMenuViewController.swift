@@ -1,13 +1,13 @@
 //
-//  ControlsMenuViewController.swift
+//  PickersMenuViewController.swift
 //  UIKit-Storyboard
 //
-//  Created by Kamil Gomółka on 30/04/2022.
+//  Created by Kamil Gomółka on 22/05/2022.
 //
 
 import UIKit
 
-class ControlsMenuViewController: MenuViewController {
+class PickersMenuViewController: MenuViewController {
 	
 	@IBOutlet weak var tableViewOutlet: UITableView!
 	
@@ -16,6 +16,6 @@ class ControlsMenuViewController: MenuViewController {
 	}
 	
 	override func createItems() -> [MenuItem] {
-		return ControlsMenuItems.all
+		return PickersMenuItem.all
 	}
 }
